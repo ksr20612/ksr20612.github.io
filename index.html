@@ -102,6 +102,36 @@
             top: 0;
             left: 0;
         }
+        
+        .section-link {
+            text-decoration: none;
+            color: inherit;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: color 0.3s ease;
+        }
+        
+        .section-link:hover {
+            color: #2563EB;
+        }
+        
+        .section-link:focus {
+            outline: 2px solid #2563EB;
+            outline-offset: 2px;
+            border-radius: 4px;
+        }
+        
+        .section-marker {
+            color: #2563EB;
+            font-weight: bold;
+            font-size: 1em;
+            opacity: 0.8;
+        }
+        
+        .section-link:hover .section-marker {
+            opacity: 1;
+        }
     </style>
 </head>
 <body class="bg-white text-gray-800 font-sans">
@@ -140,7 +170,11 @@
                 <div class="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-primary to-purple-600 flex items-center justify-center">
                     <img src="https://ca.slack-edge.com/T8SDTKA3B-U067HTB6QF4-cb9dada65cc7-512" alt="유동연" class="w-full h-full object-cover rounded-full">
                 </div>
-                <h2 class="text-4xl font-bold mb-4">유동연</h2>
+                <h2 class="text-4xl font-bold mb-4">
+                    <a href="#profile" class="section-link">
+                        유동연
+                    </a>
+                </h2>
                 <p class="text-xl text-gray-600 mb-6 break-keep">사회적 프론트엔드(Frontier) 개발자</p>
                 <dl class="flex justify-center flex-wrap gap-2 space-x-2 text-sm text-gray-500">
                     <div class="flex items-center flex-wrap gap-1">
@@ -198,7 +232,12 @@
         <hr class="section-divider my-16"></hr>
 
         <section id="experience" class="mb-16">
-            <h2 class="text-3xl font-bold mb-8">경력</h2>
+            <h2 class="text-3xl font-bold mb-8">
+                <a href="#experience" class="section-link" aria-label="경력 퍼머링크">
+                    <span class="section-marker">§</span>
+                </a>
+                경력
+            </h2>
             
             <ul class="space-y-8">
                 <li class="border-l-4 border-primary pl-6">
@@ -269,7 +308,12 @@
         <hr class="section-divider my-16"></hr>
 
         <section id="education" class="mb-16">
-            <h2 class="text-3xl font-bold mb-8">학력</h2>
+            <h2 class="text-3xl font-bold mb-8">
+                <a href="#education" class="section-link" aria-label="학력 퍼머링크">
+                    <span class="section-marker">§</span>
+                </a>
+                학력
+            </h2>
             
             <div class="space-y-8">
                 <div class="border-l-4 border-primary pl-6">
@@ -294,7 +338,12 @@
         <hr class="section-divider my-16"></hr>
 
         <section id="skills" class="mb-16">
-            <h2 class="text-3xl font-bold mb-8">기술</h2>
+            <h2 class="text-3xl font-bold mb-8">
+                <a href="#skills" class="section-link" aria-label="기술 퍼머링크">
+                    <span class="section-marker">§</span>
+                </a>
+                기술
+            </h2>
             
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="bg-gray-50 rounded-lg p-6">
@@ -353,7 +402,12 @@
         <hr class="section-divider my-16"></hr>
 
         <section id="projects" class="mb-16">
-            <h2 class="text-3xl font-bold mb-8">프로젝트</h2>
+            <h2 class="text-3xl font-bold mb-8">
+                <a href="#projects" class="section-link" aria-label="프로젝트 퍼머링크">
+                    <span class="section-marker">§</span>        
+                </a>
+                프로젝트
+            </h2>
             
             <div class="space-y-8">
                 <div class="border border-gray-200 rounded-lg p-6">
@@ -563,7 +617,12 @@
         <hr class="section-divider my-16"></hr>
 
         <section id="miscellaneous" class="mb-16">
-            <h2 class="text-3xl font-bold mb-8">기타</h2>
+            <h2 class="text-3xl font-bold mb-8">
+                <a href="#miscellaneous" class="section-link" aria-label="기타 퍼머링크">
+                    <span class="section-marker">§</span>
+                </a>
+                기타
+            </h2>
             
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="bg-gray-50 rounded-lg p-6">
@@ -627,11 +686,16 @@
         <hr class="section-divider my-16"></hr>
 
         <section id="contact" class="mb-16">
-            <h2 class="text-3xl font-bold mb-8">연락처</h2>
+            <h2 class="text-3xl font-bold mb-8">
+                <a href="#contact" class="section-link" aria-label="연락처 퍼머링크">
+                    <span class="section-marker">§</span>       
+                </a>
+                연락처
+            </h2>
             
             <div class="grid md:grid-cols-2 gap-8">
                 <div>
-                    <h3 class="text-xl font-semibold mb-4">조금더 궁금해지셨나요?</h3>
+                    <h3 class="text-xl font-semibold mb-4">조금 더 궁금해지셨나요?</h3>
                     <p class="text-gray-600 mb-6 break-keep">
                         새로운 프로젝트나 협업에 관심이 있으시다면 언제든 연락해주세요. 
                         같이 멋진 것들 만들어봐요! 🌈

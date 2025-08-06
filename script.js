@@ -16,6 +16,7 @@ const domCache = {
     navLinks: null,
     anchors: null,
     header: null,
+    skipLinks: null,
     getSections() {
         if (!this.sections) {
             this.sections = document.querySelectorAll('section[id]');
@@ -34,6 +35,12 @@ const domCache = {
         }
         return this.anchors;
     },
+    getSkipLinks() {
+        if (!this.skipLinks) {
+            this.skipLinks = document.querySelectorAll('.visually-hidden[href^="#"]');
+        }
+        return this.skipLinks;
+    },
     getHeader() {
         if(!this.header) {
             this.header = document.querySelector('header');
@@ -44,6 +51,7 @@ const domCache = {
         this.sections = null;
         this.navLinks = null;
         this.anchors = null;
+        this.skipLinks = null;
     }
 };
 
@@ -84,21 +92,47 @@ const handleScroll = throttle(() => {
     updateActiveNavLink(current);
 }, 100);
 
+const scrollToSection = (target, isSkipLink = false) => {
+    if (target) {
+        const headerHeight = domCache.getHeader()?.offsetHeight || 0;
+        const targetPosition = target.offsetTop - headerHeight - 20;
+        
+        window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+        });
+
+        if (isSkipLink) {
+            setTimeout(() => {
+                const sectionLink = target.querySelector('.section-link');
+                if (sectionLink) {
+                    sectionLink.focus();
+                }
+            }, 500);
+        }
+    }
+};
+
 const initPortfolio = () => {
     const anchors = domCache.getAnchors();
+    const skipLinks = domCache.getSkipLinks();
     
     anchors.forEach(anchor => {
         anchor.addEventListener('click', function (e) {
-            e.preventDefault();
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
-                const headerHeight = domCache.getHeader()?.offsetHeight || 0;
-                const targetPosition = target.offsetTop - headerHeight - 20;
-                
-                window.scrollTo({
-                    top: targetPosition,
-                    behavior: 'smooth'
-                });
+                e.preventDefault();
+                scrollToSection(target, false);
+            }
+        });
+    });
+
+    skipLinks.forEach(skipLink => {
+        skipLink.addEventListener('click', function (e) {
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                e.preventDefault();
+                scrollToSection(target, true);
             }
         });
     });
