@@ -148,7 +148,7 @@
         <div class="max-w-4xl mx-auto px-6 py-4">
             <div class="flex justify-between items-center">
                 <h1 class="text-2xl font-bold gradient-text">유동연</h1>
-                <nav class="hidden md:flex space-x-8">
+                <nav class="hidden md:flex space-x-8" aria-label="주요 섹션">
                     <a href="#profile" class="text-gray-600 hover:text-primary transition-colors duration-300">프로필</a>
                     <a href="#experience" class="text-gray-600 hover:text-primary transition-colors duration-300">경력</a>
                     <a href="#projects" class="text-gray-600 hover:text-primary transition-colors duration-300">프로젝트</a>
@@ -156,8 +156,8 @@
                     <a href="#education" class="text-gray-600 hover:text-primary transition-colors duration-300">학력</a>
                     <a href="#miscellaneous" class="text-gray-600 hover:text-primary transition-colors duration-300">기타</a>
                     <a href="#contact" class="text-gray-600 hover:text-primary transition-colors duration-300">연락처</a>
-                    <a href="https://github.com/ksr20612" class="flex items-center text-gray-700 hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-github mr-4 text-l" role="presentation"></i>
+                    <a href="https://github.com/ksr20612" class="flex items-center text-gray-700 hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github mr-4 text-l" aria-hidden="true"></i>
                     </a>
                 </nav>
             </div>
@@ -190,15 +190,15 @@
                 <dl class="flex justify-center flex-wrap gap-2 space-x-2 text-sm text-gray-500">
                     <div class="flex items-center flex-wrap gap-1">
                         <dt class="visually-hidden">이메일</dt>
-                        <dd><i class="fas fa-envelope mr-2" role="presentation"></i>ksr20612@gmail.com</dd>
+                        <dd><i class="fas fa-envelope mr-2" aria-hidden="true"></i>ksr20612@gmail.com</dd>
                     </div>
                     <div class="flex items-center flex-wrap gap-1">
                         <dt class="visually-hidden">전화번호</dt>
-                        <dd><i class="fas fa-phone mr-2" role="presentation"></i>010-2637-2779</dd>
+                        <dd><i class="fas fa-phone mr-2" aria-hidden="true"></i>010-2637-2779</dd>
                     </div>
                     <div class="flex items-center flex-wrap gap-1">
                         <dt class="visually-hidden">거주지</dt>
-                        <dd><i class="fas fa-map-marker-alt mr-2" role="presentation"></i>서울 강서구</dd>
+                        <dd><i class="fas fa-map-marker-alt mr-2" aria-hidden="true"></i>서울 강서구</dd>
                     </div>
                 </dl>
             </div>
@@ -212,32 +212,34 @@
                 <p class="text-gray-700 leading-relaxed break-keep">
                     기술의 사회적 가치 실현, 웹 접근성, 인클루시브 디자인에 관심이 많습니다. <br />
                     배리어프리 서비스, 접근성 강화된 디자인 시스템의 구체적인 구축 경험이 있습니다. <br />
-                    특허 출원한 <a href="https://yd-icbt.co.kr" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-blue-600 underline"><i class="fas fa-external-link-alt mr-1" role="presentation"></i>디지털 치료제(퍼펙트케어)</a>의 개발자이면서, <a href="https://github.com/ksr20612/uturi" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-blue-600 underline"><i class="fab fa-github mr-1" role="presentation"></i>접근성 라이브러리(@uturi/sonification)</a>의 메인테이너이기도 합니다.
+                    특허 출원한 <a href="https://yd-icbt.co.kr" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-blue-600 underline"><i class="fas fa-external-link-alt mr-1" aria-hidden="true"></i>디지털 치료제(퍼펙트케어)</a>의 개발자이면서, <a href="https://github.com/ksr20612/uturi" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-blue-600 underline"><i class="fab fa-github mr-1" aria-hidden="true"></i>접근성 라이브러리(@uturi/sonification)</a>의 메인테이너이기도 합니다.
                 </p>
                 <br/>
                 <p class="text-gray-700 leading-relaxed break-keep">
-                    현재는 <a href="https://thedotscorp.com" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-blue-600 underline"><i class="fas fa-external-link-alt mr-1" role="presentation"></i>째깍악어</a>에서 프론트엔드 팀을 리딩하며 누적 회원 80만+의 작은 하이브리드 앱을 운영하고 있습니다. 
+                    현재는 <a href="https://thedotscorp.com" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-blue-600 underline"><i class="fas fa-external-link-alt mr-1" aria-hidden="true"></i>째깍악어</a>에서 프론트엔드 팀을 리딩하며 누적 회원 80만+의 작은 하이브리드 앱을 운영하고 있습니다. 
                 </p>
             </div>
 
-            <div class="grid md:grid-cols-4 gap-6">
+            <div class="w-full">
                 <h3 class="visually-hidden">숫자로 보는 소개</h3>
-                <div class="flex flex-col justify-center bg-white border border-gray-200 rounded-lg p-6 text-center">
-                    <div class="text-3xl font-bold text-primary mb-2">5</div>
-                    <div class="text-gray-600">년 개발 경력</div>
-                </div>
-                <div class="flex flex-col justify-center bg-white border border-gray-200 rounded-lg p-6 text-center">
-                    <div class="text-3xl font-bold text-primary mb-2">1.5+</div>
-                    <div class="text-gray-600">년 팀 리딩</div>
-                </div>
-                <div class="flex flex-col justify-center bg-white border border-gray-200 rounded-lg p-6 text-center">
-                    <div class="text-3xl font-bold text-primary mb-2">1+</div>
-                    <div class="text-gray-600">특허 출원과 <br/> 오픈소스</div>
-                </div>
-                <div class="flex flex-col justify-center bg-white border border-gray-200 rounded-lg p-6 text-center">
-                    <div class="text-3xl font-bold text-primary mb-2">80만+</div>
-                    <div class="text-gray-600">누적 회원</div>
-                </div>
+                <ul class="grid md:grid-cols-4 gap-6">
+                    <li class="flex flex-col justify-center bg-white border border-gray-200 rounded-lg p-6 text-center" aria-label="5년 개발 경력">
+                        <strong class="text-3xl font-bold text-primary mb-2">5</strong>
+                        <span class="text-gray-600">년 개발 경력</span>
+                    </li>
+                    <li class="flex flex-col justify-center bg-white border border-gray-200 rounded-lg p-6 text-center" aria-label="1.5년 이상 팀 리딩">
+                        <strong class="text-3xl font-bold text-primary mb-2">1.5+</strong>
+                        <span class="text-gray-600">년 팀 리딩</span>
+                    </li>
+                    <li class="flex flex-col justify-center bg-white border border-gray-200 rounded-lg p-6 text-center" aria-label="1개 이상의 특허 출원과 오픈 소스">
+                        <strong class="text-3xl font-bold text-primary mb-2">1+</strong>
+                        <span class="text-gray-600">특허 출원과 <br/> 오픈소스</span>
+                    </li>
+                    <li class="flex flex-col justify-center bg-white border border-gray-200 rounded-lg p-6 text-center" aria-label="80만 이상의 누적 회원 수의 앱 운영">
+                        <strong class="text-3xl font-bold text-primary mb-2">80만+</strong>
+                        <span class="text-gray-600">누적 회원</span>
+                    </li>
+                </ul>
             </div>
         </section>
 
@@ -258,19 +260,19 @@
                             <h3 class="text-xl font-semibold">프론트엔드 개발자</h3>
                             <p class="text-primary font-medium">
                                 커넥팅더닷츠(째깍악어)
-                                <a href="https://thedotscorp.com" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 underline"><i class="fa fa-home mr-1" role="presentation"></i><span class="visually-hidden">홈페이지</span></a>
+                                <a href="https://thedotscorp.com" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 underline"><i class="fa fa-home mr-1" aria-hidden="true"></i><span class="visually-hidden">홈페이지</span></a>
                             </p>
                         </div>
                         <span class="text-gray-500 text-sm" aria-label="2023년 11월부터 현재까지">2023.11 - 현재</span>
                     </div>
                     <p class="text-gray-600 mb-4">
                         육아 매칭 앱 [째깍악어]의 부모님, 선생님 하이브리드 앱을 개발했습니다. 
-                        <a href="https://apps.apple.com/kw/app/%EC%A7%B8%EA%B9%8D%EC%95%85%EC%96%B4/id1189495776?l=ko" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 underline"><i class="fab fa-apple mr-1" role="presentation"></i><span class="visually-hidden">앱스토어</span></a>
-                        <a href="https://play.google.com/store/apps/details?id=com.tictoccroc.teacher&hl=ko&pli=1" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 underline"><i class="fab fa-google-play mr-1" role="presentation"></i><span class="visually-hidden">구글 플레이스토어</span></a>
+                        <a href="https://apps.apple.com/kw/app/%EC%A7%B8%EA%B9%8D%EC%95%85%EC%96%B4/id1189495776?l=ko" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 underline"><i class="fab fa-apple mr-1" aria-hidden="true"></i><span class="visually-hidden">앱스토어</span></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.tictoccroc.teacher&hl=ko&pli=1" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 underline"><i class="fab fa-google-play mr-1" aria-hidden="true"></i><span class="visually-hidden">구글 플레이스토어</span></a>
                     </p>
                     <div class="mb-4">
                         <h4 id="main-skills-1" class="visually-hidden">째깍악어에서 사용한 주요 기술</h4>
-                        <ul class="flex flex-wrap gap-2" aria-labelledBy="main-skills-1">
+                        <ul class="flex flex-wrap gap-2" aria-labelledby="main-skills-1">
                             <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">React.js + Express(SSR)</li>
                             <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">Next.js</li>
                             <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">zustand</li>
@@ -278,16 +280,18 @@
                             <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">Flutter</li>
                         </ul>
                     </div>
-                    <h4 id="project-list-1" class="visually-hidden">째깍악어에서의 주요 프로젝트 목록</h4>
-                    <ul class="text-gray-600 space-y-2 text-sm list-disc list-inside" aria-labelledBy="project-list-1">
-                        <li>2024년 최우수 사원(1위) 선정</li>
-                        <li>접근성 강화 디자인 시스템 구축 <a href="https://velog.io/@ksr20612/%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%A0%91%EA%B7%BC%EC%84%B1-%EA%B0%9C%EC%84%A0%EA%B8%B0-1" target="_blank" rel="noopener noreferrer" class="text-grey-400 hover:text-blue-600 underline text-xs ml-1" aria-label="접근성 강화 디자인 시스템 구축 자세히 보기"><i class="fas fa-external-link-alt mr-1"></i></a></li>
-                        <li>모바일 사용자 경험 개선을 위해 Stackflow 기반 화면 전환 플러그인 개발</li>
-                        <li>FE 라이브러리 모노레포 구축</li>
-                        <li>DX 개선을 위한 자동화 도구 개발</li>
-                        <li>팀내 API 서버 개발 <a href="https://velog.io/@ksr20612/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-Next.js-API-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C%EA%B8%B0" target="_blank" rel="noopener noreferrer" class="text-grey-400 hover:text-blue-600 underline text-xs ml-1" aria-label="팀내 API 서버 개발 자세히 보기"><i class="fas fa-external-link-alt mr-1" role="presentation"></i></a></li>
-                        <li>오프라인 매장(째깍섬) 운영 시스템 개발<a href="https://tabby-henley-bfa.notion.site/24ac19873aee8087b363d114580832ce?source=copy_link" target="_blank" rel="noopener noreferrer" class="text-grey-400 hover:text-blue-600 underline text-xs ml-1" aria-label="오프라인 매장(째깍섬) 운영 시스템 개발 자세히 보기"><i class="fas fa-external-link-alt mr-1" role="presentation"></i></a></li>
-                    </ul>
+                    <div class="w-full">
+                        <h4 id="project-list-1" class="visually-hidden">째깍악어에서의 주요 프로젝트 목록</h4>
+                        <ul class="text-gray-600 space-y-2 text-sm list-disc list-inside" aria-labelledby="project-list-1">
+                            <li>2024년 최우수 사원(1위) 선정</li>
+                            <li>접근성 강화 디자인 시스템 구축 <a href="https://velog.io/@ksr20612/%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%A0%91%EA%B7%BC%EC%84%B1-%EA%B0%9C%EC%84%A0%EA%B8%B0-1" target="_blank" rel="noopener noreferrer" class="text-grey-400 hover:text-blue-600 underline text-xs ml-1" aria-label="접근성 강화 디자인 시스템 구축 자세히 보기"><i class="fas fa-external-link-alt mr-1"></i></a></li>
+                            <li>모바일 사용자 경험 개선을 위해 Stackflow 기반 화면 전환 플러그인 개발</li>
+                            <li>FE 라이브러리 모노레포 구축</li>
+                            <li>DX 개선을 위한 자동화 도구 개발</li>
+                            <li>팀내 API 서버 개발 <a href="https://velog.io/@ksr20612/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-Next.js-API-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C%EA%B8%B0" target="_blank" rel="noopener noreferrer" class="text-grey-400 hover:text-blue-600 underline text-xs ml-1" aria-label="팀내 API 서버 개발 자세히 보기"><i class="fas fa-external-link-alt mr-1" aria-hidden="true"></i></a></li>
+                            <li>오프라인 매장(째깍섬) 운영 시스템 개발<a href="https://tabby-henley-bfa.notion.site/24ac19873aee8087b363d114580832ce?source=copy_link" target="_blank" rel="noopener noreferrer" class="text-grey-400 hover:text-blue-600 underline text-xs ml-1" aria-label="오프라인 매장(째깍섬) 운영 시스템 개발 자세히 보기"><i class="fas fa-external-link-alt mr-1" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
                 </li>
 
                 <li class="border-l-4 border-gray-300 pl-6">
@@ -301,11 +305,11 @@
                     <p class="text-gray-600 mb-4">
                         연구소에서 음성 데이터 수집/분석 플랫폼과 원내 STT, TTS 모델을 활용한 선행 개발을 담당했습니다. <br/>
                         이후 팀을 옮겨 AI 기반 아동 영어 학습 서비스 [RockieTalkie]를 개발했습니다.
-                        <a href="https://www.rockie-talkie.com/" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 underline"><i class="fa fa-home mr-1" role="presentation"></i><span class="visually-hidden">홈페이지</span></a>
+                        <a href="https://www.rockie-talkie.com/" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 underline"><i class="fa fa-home mr-1" aria-hidden="true"></i><span class="visually-hidden">홈페이지</span></a>
                     </p>
                     <div class="mb-4">
                         <h4 id="main-skills-2" class="visually-hidden">미디어젠에서 사용한 주요 기술</h4>
-                        <ul class="flex flex-wrap gap-2" aria-labelledBy="main-skills-2">
+                        <ul class="flex flex-wrap gap-2" aria-labelledby="main-skills-2">
                             <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">React.js</li>
                             <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">Node.js</li>
                             <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">Playwright</li>
@@ -313,18 +317,20 @@
                             <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">GoLang</li>
                         </ul>
                     </div>
-                    <h4 id="project-list-2" class="visually-hidden">미디어젠에서의 주요 프로젝트 목록</h4>
-                    <ul class="text-gray-600 space-y-2 text-sm list-disc list-inside" aria-labelledBy="project-list-2">
-                        <li>RockieTalkie 개발<a href="https://tabby-henley-bfa.notion.site/RockieTalkie-24ac19873aee806e86d8e3032cc3199a?source=copy_link" target="_blank" rel="noopener noreferrer" class="text-grey-400 hover:text-blue-600 underline text-xs ml-1" aria-label="RockieTalkie 자세히 보기"><i class="fas fa-external-link-alt mr-1" role="presentation"></i></a></li>
-                        <li>음성인식 기반 배리어프리 키오스크 서비스 개발<a href="https://tabby-henley-bfa.notion.site/24ac19873aee8030a377de1d759194dd" target="_blank" rel="noopener noreferrer" class="text-grey-400 hover:text-blue-600 underline text-xs ml-1" aria-label="음성인식 기반 배리어프리 키오스크 개발 자세히 보기"><i class="fas fa-external-link-alt mr-1" role="presentation"></i></a></li>
-                        <li>음성 수집/분석 플랫폼 개발 및 운영</li>
-                        <li>자바스크립트 음성 처리 라이브러리 개발 및 운영</li>
-                    </ul>
+                    <div class="w-full">
+                        <h4 id="project-list-2" class="visually-hidden">미디어젠에서의 주요 프로젝트 목록</h4>  
+                        <ul class="text-gray-600 space-y-2 text-sm list-disc list-inside" aria-labelledby="project-list-2">
+                            <li>RockieTalkie 개발<a href="https://tabby-henley-bfa.notion.site/RockieTalkie-24ac19873aee806e86d8e3032cc3199a?source=copy_link" target="_blank" rel="noopener noreferrer" class="text-grey-400 hover:text-blue-600 underline text-xs ml-1" aria-label="RockieTalkie 자세히 보기"><i class="fas fa-external-link-alt mr-1" aria-hidden="true"></i></a></li>
+                            <li>음성인식 기반 배리어프리 키오스크 서비스 개발<a href="https://tabby-henley-bfa.notion.site/24ac19873aee8030a377de1d759194dd" target="_blank" rel="noopener noreferrer" class="text-grey-400 hover:text-blue-600 underline text-xs ml-1" aria-label="음성인식 기반 배리어프리 키오스크 개발 자세히 보기"><i class="fas fa-external-link-alt mr-1" aria-hidden="true"></i></a></li>
+                            <li>음성 수집/분석 플랫폼 개발 및 운영</li>
+                            <li>자바스크립트 음성 처리 라이브러리 개발 및 운영</li>
+                        </ul>
+                    </div>
                 </li>
-            </div>
+            </ul>
         </section>
 
-        <hr class="section-divider my-16"></hr>
+        <hr class="section-divider my-16">
 
         <section id="projects" class="mb-16">
             <h2 class="text-3xl font-bold mb-8">
@@ -335,7 +341,7 @@
             </h2>
             
             <div class="space-y-8">
-                <!-- <div class="border border-gray-200 rounded-lg p-6">
+                <!-- <article class="border border-gray-200 rounded-lg p-6">
                     <div class="flex justify-between items-start mb-4 flex-wrap gap-2">
                         <div>
                             <h3 class="text-xl font-semibold">earth-matters 물리엔진 라이브러리</h3>
@@ -347,7 +353,7 @@
                         p5.js, [The Nature Of Code]를 참고하여 개발하고 있습니다.
                     </p>
                     <h4 id="main-skills-3" class="visually-hidden">earth-matters 물리엔진 라이브러리에서 사용한 주요 기술</h4>
-                    <ul class="flex flex-wrap gap-2 mb-4" aria-labelledBy="main-skills-3">
+                    <ul class="flex flex-wrap gap-2 mb-4" aria-labelledby="main-skills-3">
                         <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">React.js</li>
                         <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">Typescript</li>
                         <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">Vite</li>
@@ -355,15 +361,15 @@
                     </ul>
                     <div class="flex space-x-4">
                         <a href="https://github.com/ksr20612/earth-matters" class="text-primary hover:text-blue-600 text-sm">
-                            <i class="fab fa-github mr-1" role="presentation"></i>GitHub
+                            <i class="fab fa-github mr-1" aria-hidden="true"></i>GitHub
                         </a>
                         <a href="https://tabby-henley-bfa.notion.site/earth-matters-24bc19873aee80daa3cdd965913d8a20?source=copy_link" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-blue-600 text-sm">
-                            <i class="fas fa-external-link-alt mr-1" role="presentation"></i>Notes
+                            <i class="fas fa-external-link-alt mr-1" aria-hidden="true"></i>Notes
                         </a>
                     </div>
-                </div> -->
+                </article> -->
 
-                <div class="border border-gray-200 rounded-lg p-6">
+                <article class="border border-gray-200 rounded-lg p-6">
                     <div class="flex justify-between items-start mb-4 flex-wrap gap-2">
                         <div>
                             <h3 class="text-xl font-semibold">@ubuntu 접근성 라이브러리</h3>
@@ -407,7 +413,7 @@
                         </div>
                     </div>
                     <h4 id="main-skills-4" class="visually-hidden">@ubuntu 접근성 라이브러리에서 사용한 주요 기술</h4>
-                    <ul class="flex flex-wrap gap-2 mb-4" aria-labelledBy="main-skills-4">
+                    <ul class="flex flex-wrap gap-2 mb-4" aria-labelledby="main-skills-4">
                         <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">React.js</li>
                         <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">Typescript</li>
                         <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">Turborepo</li>
@@ -417,15 +423,15 @@
                     </ul>
                     <div class="flex space-x-4">
                         <a href="https://github.com/ksr20612/uturi" class="text-primary hover:text-blue-600 text-sm">
-                            <i class="fab fa-github mr-1" role="presentation"></i>GitHub
+                            <i class="fab fa-github mr-1" aria-hidden="true"></i>GitHub
                         </a>
                         <!-- <a href="#" class="text-primary hover:text-blue-600 text-sm">
-                            <i class="fas fa-external-link-alt mr-1" role="presentation"></i>Notes
+                            <i class="fas fa-external-link-alt mr-1" aria-hidden="true"></i>Notes
                         </a> -->
                     </div>
-                </div>
+                </article>
 
-                <div class="border border-gray-200 rounded-lg p-6">
+                <article class="border border-gray-200 rounded-lg p-6">
                     <div class="flex justify-between items-start mb-4 flex-wrap gap-2">
                         <div>
                             <h3 class="text-xl font-semibold">온라인 강박장애 치료제 [퍼펙트케어]</h3>
@@ -438,7 +444,7 @@
                         효과성 검증 검사 후 2024년 6월 특허 출원하였습니다.
                     </p>
                     <h4 id="main-skills-5" class="visually-hidden">퍼펙트케어에서 사용한 주요 기술</h4>
-                    <ul class="flex flex-wrap gap-2 mb-4" aria-labelledBy="main-skills-5">
+                    <ul class="flex flex-wrap gap-2 mb-4" aria-labelledby="main-skills-5">
                         <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">Next.js</li>
                         <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">Tanstack Query</li>
                         <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">RTK</li>
@@ -448,15 +454,15 @@
                     </ul>
                     <div class="flex space-x-4">
                         <a href="https://yd-icbt.co.kr" class="text-primary hover:text-blue-600 text-sm" target="_blank" rel="noopener noreferrer">
-                            <i class="fas fa-external-link-alt mr-1" role="presentation"></i>Live
+                            <i class="fas fa-external-link-alt mr-1" aria-hidden="true"></i>Live
                         </a>
                         <a href="https://tabby-henley-bfa.notion.site/24bc19873aee8030b9d7c4b3896891d7?source=copy_link" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-blue-600 text-sm">
-                            <i class="fas fa-external-link-alt mr-1" role="presentation"></i>Notes
+                            <i class="fas fa-external-link-alt mr-1" aria-hidden="true"></i>Notes
                         </a>
                     </div>
-                </div>
+                </article>
 
-                <div class="border border-gray-200 rounded-lg p-6">
+                <article class="border border-gray-200 rounded-lg p-6">
                     <div class="flex justify-between items-start mb-4 flex-wrap gap-2">
                         <div>
                             <h3 class="text-xl font-semibold">인터넷 기반 인지행동 치료(iCBT) 관련 웹 서비스</h3>
@@ -495,7 +501,7 @@
                         </ul>
                     </p>
                     <h4 id="main-skills-6" class="visually-hidden">iCBT 관련 웹 서비스에서 사용한 주요 기술</h4>
-                    <ul class="flex flex-wrap gap-2 mb-4" aria-labelledBy="main-skills-6">
+                    <ul class="flex flex-wrap gap-2 mb-4" aria-labelledby="main-skills-6">
                         <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">React.js</li>
                         <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">Electron</li>
                         <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">Express</li>
@@ -503,15 +509,15 @@
                     </ul>
                     <div class="flex space-x-4">
                         <a href="https://github.com/ksr20612?tab=repositories&q=&type=public" class="text-primary hover:text-blue-600 text-sm">
-                            <i class="fab fa-github mr-1" role="presentation"></i>GitHub
+                            <i class="fab fa-github mr-1" aria-hidden="true"></i>GitHub
                         </a>
                         <a href="https://blog.naver.com/naivethan/222660111009" class="text-primary hover:text-blue-600 text-sm" target="_blank" rel="noopener noreferrer">
-                            <i class="fas fa-external-link-alt mr-1" role="presentation"></i>Blog
+                            <i class="fas fa-external-link-alt mr-1" aria-hidden="true"></i>Blog
                         </a>
                     </div>
-                </div>
+                </article>
 
-                <div class="border border-gray-200 rounded-lg p-6">
+                <article class="border border-gray-200 rounded-lg p-6">
                     <div class="flex justify-between items-start mb-4 flex-wrap gap-2">
                         <div>
                             <h3 class="text-xl font-semibold">NLP 기반 대학수학능력시험 문항 생성 서비스</h3>
@@ -523,7 +529,7 @@
                         전반적인 웹 개발을 담당하였고, django를 이용하여 모델과 통신하는 API를 구축하였습니다. 
                     </p>
                     <h4 id="main-skills-7" class="visually-hidden">CSAT 문항 생성 서비스에서 사용한 주요 기술</h4>
-                    <ul class="flex flex-wrap gap-2 mb-4" aria-labelledBy="main-skills-7">
+                    <ul class="flex flex-wrap gap-2 mb-4" aria-labelledby="main-skills-7">
                         <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">Vanilla JS</li>
                         <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">jQuery</li>
                         <li class="bg-gray-200 px-3 py-1 rounded-full text-sm">Spring</li>
@@ -532,17 +538,17 @@
                     </ul>
                     <div class="flex space-x-4">
                         <a href="https://www.youtube.com/watch?v=afvwKcdT8Tg" class="text-primary hover:text-blue-600 text-sm" target="_blank" rel="noopener noreferrer">
-                            <i class="fab fa-youtube mr-1" role="presentation"></i>Youtube
+                            <i class="fab fa-youtube mr-1" aria-hidden="true"></i>Youtube
                         </a>
                         <a href="https://github.com/J-Seo/CSAT_Text_Generation" class="text-primary hover:text-blue-600 text-sm" target="_blank" rel="noopener noreferrer">
-                            <i class="fab fa-github mr-1" role="presentation"></i>GitHub
+                            <i class="fab fa-github mr-1" aria-hidden="true"></i>GitHub
                         </a>
                     </div>
-                </div>
+                </article>
             </div>
         </section>
 
-        <hr class="section-divider my-16"></hr>
+        <hr class="section-divider my-16">
 
         <section id="skills" class="mb-16">
             <h2 class="text-3xl font-bold mb-8">
@@ -555,10 +561,10 @@
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="bg-gray-50 rounded-lg p-6">
                     <h3 id="tech-web-frontend" class="text-xl font-semibold mb-4 flex items-center">
-                        <i class="fas fa-desktop mr-3" role="presentation"></i>
+                        <i class="fas fa-desktop mr-3" aria-hidden="true"></i>
                         Web Frontend
                     </h3>
-                    <ul class="flex flex-wrap gap-2" aria-labelledBy="tech-web-frontend">
+                    <ul class="flex flex-wrap gap-2" aria-labelledby="tech-web-frontend">
                         <li class="border border-blue-500 text-blue-600 px-3 py-1 rounded-full text-sm">Typescript</li>
                         <li class="border border-blue-500 text-blue-600 px-3 py-1 rounded-full text-sm">React.js</li>
                         <li class="border border-blue-500 text-blue-600 px-3 py-1 rounded-full text-sm">Next.js</li>
@@ -577,10 +583,10 @@
 
                 <div class="bg-gray-50 rounded-lg p-6">
                     <h3 id="tech-backend" class="text-xl font-semibold mb-4 flex items-center">
-                        <i class="fas fa-server mr-3" role="presentation"></i>
+                        <i class="fas fa-server mr-3" aria-hidden="true"></i>
                         Backend
                     </h3>
-                    <ul class="flex flex-wrap gap-2" aria-labelledBy="tech-backend">
+                    <ul class="flex flex-wrap gap-2" aria-labelledby="tech-backend">
                         <li class="border border-blue-500 text-blue-600 px-3 py-1 rounded-full text-sm">Nest.js</li>
                         <li class="border border-blue-500 text-blue-600 px-3 py-1 rounded-full text-sm">Express(Node.js)</li>
                         <li class="border border-blue-500 text-blue-600 px-3 py-1 rounded-full text-sm">TypeORM</li>
@@ -591,10 +597,10 @@
 
                 <div class="bg-gray-50 rounded-lg p-6">
                     <h3 id="tech-etc" class="text-xl font-semibold mb-4 flex items-center">
-                        <i class="fas fa-code mr-3" role="presentation"></i>
+                        <i class="fas fa-code mr-3" aria-hidden="true"></i>
                         기타
                     </h3>
-                    <ul class="flex flex-wrap gap-2" aria-labelledBy="tech-etc">
+                    <ul class="flex flex-wrap gap-2" aria-labelledby="tech-etc">
                         <li class="border border-blue-500 text-blue-600 px-3 py-1 rounded-full text-sm">Electron</li>
                         <li class="border border-blue-500 text-blue-600 px-3 py-1 rounded-full text-sm">Flutter</li>
                         <li class="border border-blue-500 text-blue-600 px-3 py-1 rounded-full text-sm">Vercel</li>
@@ -650,7 +656,7 @@
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="bg-gray-50 rounded-lg p-6">
                     <h3 class="text-xl font-semibold mb-4 flex items-center">
-                        <i class="fas fa-certificate mr-3" role="presentation"></i>
+                        <i class="fas fa-certificate mr-3" aria-hidden="true"></i>
                         자격증
                     </h3>
                     <div class="space-y-4">
@@ -680,14 +686,14 @@
 
                 <div class="bg-gray-50 rounded-lg p-6">
                     <h3 class="text-xl font-semibold mb-4 flex items-center">
-                        <i class="fas fa-trophy mr-3" role="presentation"></i>
+                        <i class="fas fa-trophy mr-3" aria-hidden="true"></i>
                         수상 및 활동
                     </h3>
                     <div class="space-y-4">
                         <div class="border-l-4 border-yellow-500 pl-4">
                             <h4 class="font-semibold text-gray-800">
                                 [퍼펙트케어] 특허 등록
-                                <a href="https://yd-icbt.co.kr" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 underline"><i class="fas fa-home mr-1" role="presentation"></i><span class="visually-hidden">홈페이지</span></a>
+                                <a href="https://yd-icbt.co.kr" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 underline"><i class="fas fa-home mr-1" aria-hidden="true"></i><span class="visually-hidden">홈페이지</span></a>
                             </h4>
                             <p class="text-sm text-gray-600">YD정신건강의학과 협업</p>
                             <p class="text-xs text-gray-500" aria-label="2024년 6월">2024.06</p>
@@ -695,7 +701,7 @@
                         <div class="border-l-4 border-yellow-500 pl-4">
                             <h4 class="font-semibold text-gray-800">
                                 창업 동아리 [딥문학도]
-                                <a href="https://github.com/J-Seo/CSAT_Text_Generation" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 underline"><i class="fas fa-home mr-1" role="presentation"></i><span class="visually-hidden">홈페이지</span></a>
+                                <a href="https://github.com/J-Seo/CSAT_Text_Generation" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 underline"><i class="fas fa-home mr-1" aria-hidden="true"></i><span class="visually-hidden">홈페이지</span></a>
                             </h4>
                             <p class="text-sm text-gray-600">NLP 기반 수능 영어 지문 및 문항 생성 서비스</p>
                             <p class="text-sm text-gray-600">서비스 개발 담당(Java, Spring, Vanilla js)</p>
@@ -728,19 +734,19 @@
                         <ul class="space-y-4">
                             <li class="flex">
                                 <a href="mailto:ksr20612@gmail.com" class="flex items-center">
-                                    <i class="fas fa-envelope text-primary mr-4 text-xl" role="presentation"></i>
+                                    <i class="fas fa-envelope text-primary mr-4 text-xl" aria-hidden="true"></i>
                                     <span class="text-gray-700">ksr20612@gmail.com</span>
                                 </a>
                             </li>
                             <li class="flex">
                                 <a href="tel:01026372779" class="flex items-center">
-                                    <i class="fas fa-phone text-primary mr-4 text-xl" role="presentation"></i>
+                                    <i class="fas fa-phone text-primary mr-4 text-xl" aria-hidden="true"></i>
                                     <span class="text-gray-700">010-2637-2779</span>
                                 </a>
                             </li>
                             <li class="flex">    
                                 <a href="https://open.kakao.com/o/s1zUXMLf" class="flex items-center" target="_blank" rel="noopener noreferrer">
-                                    <i class="fas fa-comment-dots text-primary mr-4 text-xl" role="presentation"></i>
+                                    <i class="fas fa-comment-dots text-primary mr-4 text-xl" aria-hidden="true"></i>
                                     <span class="text-gray-700">
                                         카카오톡 오픈채팅
                                     </span>
@@ -755,23 +761,23 @@
                     <ul class="space-y-4">
                         <li class="flex">
                             <a href="https://github.com/ksr20612" class="flex items-center text-gray-700 hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer">
-                                <i class="fab fa-github mr-4 text-xl" role="presentation"></i>
+                                <i class="fab fa-github mr-4 text-xl" aria-hidden="true"></i>
                                 <span>GitHub</span>
                             </a>
                         </li>
                         <li class="flex">
                             <a href="https://velog.io/@ksr20612" class="flex items-center text-gray-700 hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer">
-                                <i class="fas fa-code mr-4 text-l" role="presentation"></i>
+                                <i class="fas fa-code mr-4 text-l" aria-hidden="true"></i>
                                 <span>Blog: Tech</span>
                             </a>
                         </li>
                         <li class="flex">
                             <a href="https://blog.naver.com/naivethan" class="flex items-center text-gray-700 hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer">
-                                <i class="fas fa-brain mr-4 text-xl" role="presentation"></i>
+                                <i class="fas fa-brain mr-4 text-xl" aria-hidden="true"></i>
                                 <span>Blog: Psychology with Tech</span>
                             </a>
                         </li>
-                    </div>
+                    </ul>
                 </div>
             </div>
         </section>
