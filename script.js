@@ -1,3 +1,96 @@
+class DarkModeManager {
+    constructor() {
+        this.DARK_CLASS = 'dark';
+        this.toggleButton = null;
+        this.init();
+    }
+
+    init() {
+        this.toggleButton = document.getElementById('dark-mode-toggle');
+        
+        if (this.toggleButton) {
+            this.toggleButton.addEventListener('click', () => this.toggleTheme());
+        }
+
+        this.initializeTheme();
+        
+        this.watchSystemTheme();
+    }
+
+    initializeTheme() {
+        const systemPrefersDark = this.getSystemTheme() === 'dark';
+        this.setTheme(systemPrefersDark ? 'dark' : 'light');
+    }
+
+    getSystemTheme() {
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+
+    setTheme(theme) {
+        const html = document.documentElement;
+        
+        if (theme === 'dark') {
+            html.classList.add(this.DARK_CLASS);
+        } else {
+            html.classList.remove(this.DARK_CLASS);
+        }
+
+        this.updateToggleButton(theme);
+        
+        this.animateThemeTransition();
+    }
+
+    updateToggleButton(theme) {
+        if (!this.toggleButton) return;
+
+        const moonIcon = this.toggleButton.querySelector('.fa-moon');
+        const sunIcon = this.toggleButton.querySelector('.fa-sun');
+
+        if (theme === 'dark') {
+            moonIcon?.classList.add('hidden');
+            sunIcon?.classList.remove('hidden');
+            this.toggleButton.setAttribute('aria-pressed', 'true');
+            this.toggleButton.setAttribute('title', '라이트 모드로 전환');
+        } else {
+            moonIcon?.classList.remove('hidden');
+            sunIcon?.classList.add('hidden');
+            this.toggleButton.setAttribute('aria-pressed', 'false');
+            this.toggleButton.setAttribute('title', '다크 모드로 전환');
+        }
+    }
+
+    animateThemeTransition() {
+        document.body.style.transition = 'background-color 0.25s ease, color 0.25s ease';
+        
+        setTimeout(() => {
+            document.body.style.transition = '';
+        }, 300);
+    }
+
+    toggleTheme() {
+        const isDark = document.documentElement.classList.contains(this.DARK_CLASS);
+        const newTheme = isDark ? 'light' : 'dark';
+        
+        this.setTheme(newTheme);
+    }
+
+    watchSystemTheme() {
+        const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        
+        mediaQuery.addEventListener('change', (e) => {
+            this.setTheme(e.matches ? 'dark' : 'light');
+        });
+    }
+
+    getCurrentTheme() {
+        return document.documentElement.classList.contains(this.DARK_CLASS) ? 'dark' : 'light';
+    }
+
+    setThemeMode(theme) {
+        this.setTheme(theme);
+    }
+}
+
 const throttle = (func, limit) => {
     let inThrottle;
     return function() {
@@ -160,20 +253,21 @@ const funConsoleLogs = () => {
     ╚══════════════════════════════════════════════════════════════╝
     `, 'color: #667eea; font-family: monospace; font-size: 12px;');
     
-    // 개발자 팁
     console.log('%c💡 키보드로, 스크린리더로 이 페이지를 탐색해 보세요!', 'color: #667eea; font-size: 14px; font-weight: bold;');
     
-    // 숨겨진 메시지
-    setTimeout(() => {
-        console.log('%c🎁 와, 정말 보고 계시는 군요! 꼼꼼하게 봐주셔서 감사합니다. ☺️', 'color: #FFB6C1; font-size: 14px; font-style: italic;');
-    }, 5000);
 };
 
+let darkModeManager;
+
 document.addEventListener('DOMContentLoaded', () => {
+    darkModeManager = new DarkModeManager();
+    
     initPortfolio();
     funConsoleLogs();
 });
 
 window.addEventListener('beforeunload', () => {
     domCache.clear();
-}); 
+});
+
+window.darkModeManager = darkModeManager;
