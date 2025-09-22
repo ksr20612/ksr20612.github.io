@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "유동연 | 프론트엔드 개발자 | 포트폴리오",
+    "description": "프론트엔드 개발자. 특허 출원한 디지털 치료제 개발자이자 접근성 라이브러리 메인테이너. 80만+ 회원 앱 운영",
+    "keywords": "프론트엔드 개발자, 포트폴리오, 유동연"
+  },
+  "navigation": {
+    "profile": "프로필",
+    "experience": "경력",
+    "projects": "프로젝트",
+    "skills": "기술",
+    "education": "학력",
+    "miscellaneous": "기타",
+    "contact": "연락처"
+  },
+  "skipLinks": {
+    "profile": "프로필로 바로가기",
+    "experience": "경력으로 바로가기",
+    "projects": "프로젝트로 바로가기",
+    "skills": "기술로 바로가기",
+    "education": "학력으로 바로가기",
+    "miscellaneous": "기타로 바로가기",
+    "contact": "연락처로 바로가기"
+  },
+  "profile": {
+    "name": "유동연",
+    "title": "사회적 프론트엔드(Frontier) 개발자",
+    "email": "이메일",
+    "phone": "전화번호",
+    "location": "거주지",
+    "locationText": "서울 강서구",
+    "introduction": {
+      "paragraph1": "언어학 연구하다 자바스크립트의 매력에 빠져 개발을 시작했습니다.",
+      "paragraph2": "기술의 사회적 가치 실현, 웹 접근성, 인클루시브 디자인에 관심이 많습니다. 보이거나 보이지 않는 UX의 개선에 집착하는 경향이 있어, 주로 디자인 시스템을 손보거나 접근성을 고민합니다. 특허 출원한 <a href='https://yd-icbt.co.kr' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i>디지털 치료제(퍼펙트케어)</a>의 개발자이면서, <a href='https://uturi.vercel.app/' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'><i class='fas fa-external-link mr-1' aria-hidden='true'></i>접근성 라이브러리(@uturi/sonification)</a>의 메인테이너이기도 합니다.",
+      "paragraph3": "AI 기반 아동 영어 학습 서비스를 출시했고, 현재는 <a href='https://thedotscorp.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i>째깍악어</a>에서 프론트엔드 팀을 리딩하며 누적 회원 80만+의 하이브리드 앱을 운영하고 있습니다."
+    },
+    "stats": {
+      "experience": "년 개발 경력",
+      "leadership": "년 팀 리딩",
+      "patents": "특허 출원과 오픈소스",
+      "users": "누적 회원"
+    }
+  },
+  "experience": {
+    "title": "경력",
+    "current": {
+      "position": "프론트엔드 개발자",
+      "company": "커넥팅더닷츠(째깍악어)",
+      "period": "2023.11 - 현재",
+      "description": "육아 매칭 앱 [째깍악어]의 부모님, 선생님 하이브리드 앱(React-Next.js-와 Flutter)을 개발했습니다.",
+      "achievements": [
+        "2024년 최우수 사원 선정",
+        "<strong>접근성 강화 디자인 시스템</strong> 구축, DatePicker, Autocomplete 등 <strong>36종 이상</strong>의 컴포넌트 접근성 개선하여 a11y 인증 기여 <a href='https://main--65f7af68437d3918eba05c9b.chromatic.com/?path=/docs/introduction--docs' target='_blank' rel='noopener noreferrer' aria-label='접근성 강화 디자인 시스템 구축 자세히 보기'><svg aria-hidden='true' viewBox='0 0 24 24' width='14' height='14' class='inline-block mr-1 storybook-icon'><rect x='3' y='2' width='18' height='20' rx='3' ry='3' fill='#FF4785'></rect><rect x='15' y='2' width='3' height='4' fill='#ffffff'></rect><text x='12' y='16' text-anchor='middle' font-family='Arial, Helvetica, sans-serif' font-size='12' font-weight='700' fill='#ffffff'>S</text></svg></a> <a href='https://velog.io/@ksr20612/%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%A0%91%EA%B7%BC%EC%84%B1-%EA%B0%9C%EC%84%A0%EA%B8%B0-1' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='접근성 강화 디자인 시스템 구축 자세히 보기'><i class='fas fa-external-link-alt mr-1'></i></a>",
+        "Stackflow 기반 <strong>화면 전환 플러그인 개발</strong>하여 웹뷰 환경에서도 네이티브 앱과 같은 <strong>향상된 사용자 경험 제공</strong> <a href='https://parent.tictoccroc.com' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='화면 전환 플러그인 자세히 보기'><i class='fas fa-external-link-alt mr-1'></i>직접 체험해보세요</a>",
+        "<strong>8종</strong>의 FE 라이브러리 모노레포를 구축하여 <strong>개발 생산성 및 재사용성 향상</strong>",
+        "<strong>3종</strong>의 레거시 앱(React, PHP, Flutter) 마이그레이션하여 <strong>서비스 안정성 및 개발 효율성 확보</strong>",
+        "팀내 API 서버 환경 구축하고 MVP <strong>2건</strong> 릴리즈하여 방문자수/회원가입수 <strong>20%</strong> 견인 <a href='https://velog.io/@ksr20612/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-Next.js-API-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C%EA%B8%B0' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='팀내 API 서버 개발 자세히 보기'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a> <a href='/checkout-the-numbers.png' target='_blank' rel='noopener noreferrer' class='text-blue-400 hover:text-blue-600 underline text-xs ml-1' aria-label='성과 증거 보기'><i class='fas fa-chart-line mr-1' aria-hidden='true'></i></a>",
+        "오프라인 매장 운영 시스템을 <strong>독자 개발</strong>하여 연간 고정 비용 <strong>1,000만원 이상</strong> 절감 <a href='https://tabby-henley-bfa.notion.site/24ac19873aee8087b363d114580832ce?source=copy_link' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='오프라인 매장(째깍섬) 운영 시스템 개발 자세히 보기'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a>"
+      ]
+    },
+    "previous": {
+      "position": "연구원, 프론트엔드 개발자",
+      "company": "미디어젠",
+      "period": "2020.08 - 2023.11",
+      "description": "연구소의 음성 데이터 수집/분석 플랫폼과 원내 STT, TTS 모델을 활용한 AI 기반 서비스의 선행 개발을 담당했습니다. 이후 팀을 옮겨 AI 아동 영어 학습 서비스 [RockieTalkie]를 개발했습니다.",
+      "achievements": [
+        "STT, 발음 평가 AI 모델 기반의 RockieTalkie <strong>초기 팀 빌딩, 개발부터 릴리즈까지</strong> 주도 <a href='https://tabby-henley-bfa.notion.site/RockieTalkie-24ac19873aee806e86d8e3032cc3199a?source=copy_link' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='RockieTalkie 자세히 보기'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a>",
+        "음성인식 기반 <strong>배리어프리</strong> 키오스크 서비스 개발, <strong>3곳</strong>의 기관에 성공적으로 도입하여 사회적 가치 창출 <a href='https://tabby-henley-bfa.notion.site/24ac19873aee8030a377de1d759194dd' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='음성인식 기반 배리어프리 키오스크 개발 자세히 보기'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a>",
+        "<strong>약 6,000 DAU</strong>의 음성 수집/분석 플랫폼 개발 및 운영하여 매 분기 <strong>1,000시간 이상의 대규모 데이터</strong> 안정적 수집 및 처리",
+        "JS 음성 처리 라이브러리 개발하여 음성 파일 편집 및 태깅 기능 구현"
+      ]
+    }
+  },
+  "projects": {
+    "title": "프로젝트",
+    "uturi": {
+      "title": "@uturi 접근성 라이브러리",
+      "period": "2025.05 - 현재",
+      "description": "장애를 극복하고 영웅이 되는 한국 민담 '아기장수 우투리'에서 영감을 받아 접근성 도구 @uturi 프로젝트를 시작했습니다. 현재 한 건의 라이브러리를 프리릴리즈(alpha)했습니다.",
+      "sonification": {
+        "title": "@uturi/sonification (v0.0.6)",
+        "description": "표나 시계열 차트를 쉽게 이해하지 못하는 스크린 리더 사용자를 위해 수치를 소리로 변환해주는 라이브러리입니다.",
+        "description2": "수치의 변화를 멜로디, 리듬, 음량으로 변환(세부 커스텀 가능)하여 시각 사용자만큼 빠르게 수치 변화를 이해할 수 있게끔 도와줍니다."
+      },
+      "ui": {
+        "title": "@uturi/ui (개발중)",
+        "description": "ChainPicker, BottomSheet 등의 복잡한 컴포넌트를 제공합니다.",
+        "description2": "키보드 인터랙션, 스크린 리딩 등의 접근성을 모두 고려한 컴포넌트입니다."
+      }
+    },
+    "perfectCare": {
+      "title": "온라인 강박장애 치료제 [퍼펙트케어]",
+      "period": "2022.06 - 2023.11",
+      "description": "강박장애 개선을 목적으로 만든 웹 서비스입니다. YD정신건강의학과에서 데이터를 제공받아 기획 및 개발을 진행했습니다. 효과성 검증 검사 후 2024년 6월 특허 출원하였습니다."
+    },
+    "icbt": {
+      "title": "인터넷 기반 인지행동 치료(iCBT) 관련 웹 서비스",
+      "period": "2021.08 - 2022.04",
+      "description": "심리 치료와 연구의 사각지대를 기술로 풀어내 보았습니다. <br /> 관심있는 iCBT 분야에 기술을 녹여내고자 다양한 서비스들을 기획하고 개발했습니다. <br /> 일부 온라인 테스트는 <strong>실제 연구에서 사용</strong>되기도 했습니다.",
+      "services": [
+        "불안장애 사전 상담용 웹 기반 챗봇",
+        "사회불안장애 내담자를 위한 Dot-probe task 기반 온라인 웹 게임",
+        "온라인 emotional stroop test",
+        "온라인 scrambled sentence test",
+        "온라인 논문 메타분석기"
+      ]
+    },
+    "csat": {
+      "title": "NLP 기반 대학수학능력시험 문항 생성 서비스",
+      "period": "2021.12 - 2022.06",
+      "description": "RNN, LSTM 모델을 기반으로 수능 영어 문항 생성 모델을 개발하였습니다. <br/> 전반적인 웹 개발을 담당했고, 모델과 통신하는 django API 서버를 구축하였습니다."
+    }
+  },
+  "skills": {
+    "title": "기술",
+    "webFrontend": "Web Frontend",
+    "etc": "기타"
+  },
+  "education": {
+    "title": "학력",
+    "university": {
+      "name": "고려대학교",
+      "major": "영어영문학과, 심리학과",
+      "period": "2014.03 - 2020.08",
+      "description": "영문학과에서 자연어 처리(음성)를, 심리학과에서 사용자 행동 분석(UX)과 인지심리학, 뇌과학을 공부했습니다. 음성 연구소에서 연구생으로 공부하다 개발을 시작했습니다.",
+      "achievement": "• 평점 4.25 / 4.5로 최우등 졸업"
+    }
+  },
+  "miscellaneous": {
+    "title": "기타",
+    "certifications": {
+      "title": "자격증",
+      "gaiq": "GAIQ",
+      "sqld": "SQLD",
+      "surveyAnalyst": "사회조사분석사 2급",
+      "toeic": "TOEIC",
+      "informationProcessing": "정보처리기사"
+    },
+    "awards": {
+      "title": "수상 및 활동",
+      "perfectCarePatent": "[퍼펙트케어] 특허 등록",
+      "perfectCarePatent.collaboration": "YD정신건강의학과 협업",
+      "perfectCarePatent.period": "2024.06",
+      "deepmunhakdo": "코딩 동아리 [딥문학도]",
+      "deepmunhakdo.description": "NLP 기반 수능 영어 지문 및 문항 생성 서비스",
+      "deepmunhakdo.role": "서비스 개발 담당(Java, Spring, Vanilla js)",
+      "deepmunhakdo.period": "2021.12 ~ 2022.06"
+    }
+  },
+  "contact": {
+    "title": "연락처",
+    "greeting": "조금 더 궁금해지셨나요?",
+    "message": "새로운 프로젝트나 협업에 관심이 있으시다면 언제든 연락해주세요. 같이 멋진 것들 만들어봐요! 🌈",
+    "kakao": "카카오톡 오픈채팅",
+    "otherPages": "그밖의 페이지 이어서 보기",
+    "blogTech": "Blog: Tech",
+    "blogPsychology": "Blog: Psychology with Tech"
+  },
+  "footer": {
+    "copyright": "© 2025 유동연. All rights reserved."
+  },
+  "darkMode": {
+    "toggle": "다크 모드 전환",
+    "switchToLight": "라이트 모드로 전환",
+    "switchToDark": "다크 모드로 전환"
+  },
+  "links": {
+    "homepage": "홈페이지",
+    "appStore": "앱스토어",
+    "googlePlay": "구글 플레이스토어",
+    "github": "GitHub",
+    "live": "Live",
+    "notes": "Notes",
+    "blog": "Blog",
+    "prototype": "프로토타입",
+    "youtube": "Youtube",
+    "image": "사진"
+  },
+  "language": {
+    "current": "en",
+    "toggle": "언어 전환",
+    "switchToEnglish": "영어 전환",
+    "switchToKorean": "한국어 전환"
+  }
+}
