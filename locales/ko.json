@@ -30,9 +30,9 @@
     "location": "거주지",
     "locationText": "서울 강서구",
     "introduction": {
-      "paragraph1": "언어학 연구하다 자바스크립트의 매력에 빠져 개발을 시작했습니다.",
-      "paragraph2": "기술의 사회적 가치 실현, 웹 접근성, 인클루시브 디자인에 관심이 많습니다. 보이거나 보이지 않는 UX의 개선에 집착하는 경향이 있어, 주로 디자인 시스템을 손보거나 접근성을 고민합니다. 특허 출원한 <a href='https://yd-icbt.co.kr' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i>디지털 치료제(퍼펙트케어)</a>의 개발자이면서, <a href='https://uturi.vercel.app/' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'><i class='fas fa-external-link mr-1' aria-hidden='true'></i>접근성 라이브러리(@uturi/sonification)</a>의 메인테이너이기도 합니다.",
-      "paragraph3": "AI 기반 아동 영어 학습 서비스를 출시했고, 현재는 <a href='https://thedotscorp.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i>째깍악어</a>에서 프론트엔드 팀을 리딩하며 누적 회원 80만+의 하이브리드 앱을 운영하고 있습니다."
+      "paragraph1": "언어학을 연구하다 컴퓨터 언어의 매력에 빠져 개발을 시작했습니다.",
+      "paragraph2": "<strong>기술의 사회적 가치 실현, 웹 접근성, 인클루시브 디자인</strong>에 관심이 많습니다. <br /> <strong>보이거나 보이지 않는 UI/UX 개선</strong>에 몰두해, 주로 디자인 시스템을 손보거나 접근성을 고민합니다. <br /> 특허 출원한 <a href='https://yd-icbt.co.kr' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i>디지털 치료제(퍼펙트케어)</a>의 개발자이면서, <a href='https://uturi.vercel.app/' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'><i class='fas fa-external-link mr-1' aria-hidden='true'></i>접근성 라이브러리(@uturi/sonification)</a>의 메인테이너이기도 합니다.",
+      "paragraph3": "LLM 기반 아동 영어 학습 서비스를 출시했고, 현재는 <a href='https://thedotscorp.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i>째깍악어</a>에서 프론트엔드 팀을 리딩하며 누적 회원 80만+의 하이브리드 앱 위에서 사람과 사람을 연결하는 일을 합니다."
     },
     "stats": {
       "experience": "년 개발 경력",
@@ -122,7 +122,7 @@
       "name": "고려대학교",
       "major": "영어영문학과, 심리학과",
       "period": "2014.03 - 2020.08",
-      "description": "영문학과에서 자연어 처리(음성)를, 심리학과에서 사용자 행동 분석(UX)과 인지심리학, 뇌과학을 공부했습니다. 음성 연구소에서 연구생으로 공부하다 개발을 시작했습니다.",
+      "description": "영문학과에서 자연어 처리(음성)를, 심리학과에서 사용자 행동 분석(UX)과 인지심리학, 뇌과학을 공부했습니다. <br /> 음성 연구소에서 연구생으로 공부하다 개발을 시작했습니다.",
       "achievement": "• 평점 4.25 / 4.5로 최우등 졸업"
     }
   },
