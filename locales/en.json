@@ -76,9 +76,9 @@
       "uturi": {
         "title": "@uturi Accessibility Library",
         "period": "2025.05 - Present",
-        "description": "The @uturi accessibility tool project was inspired by the Korean folktale 'Baby Hero Uturi,' who overcame disabilities to become a hero. I have currently pre-released one library (alpha).",
+        "description": "The @uturi accessibility tool project was inspired by the Korean folktale 'Baby Hero Uturi,' who overcame disabilities to become a hero. I have currently pre-released one library (beta).",
         "sonification": {
-          "title": "@uturi/sonification (v0.0.6)",
+          "title": "@uturi/sonification (v0.1.0)",
           "description": "A library that converts numerical data into sound for screen reader users who have difficulty understanding tables or time-series charts.",
           "description2": "It helps users understand changes in data as quickly as visual users by converting numerical changes into melody, rhythm, and volume (with detailed customization options)."
         },
