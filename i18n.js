@@ -72,11 +72,25 @@ function updateNavigationVisibility() {
         const isEnglish = currentLang === 'en';
         
         if (isEnglish) {
-            // 영어일 때 네비게이션 숨김
+            // 영어일 때 네비게이션 완전히 숨김
             navigationMenu.style.display = 'none';
         } else {
-            // 한국어일 때 네비게이션 표시
-            navigationMenu.style.display = 'flex';
+            // 한국어일 때는 화면 크기에 따라 처리
+            if (window.innerWidth >= 768) {
+                // 중간 크기 이상(md)에서는 표시
+                navigationMenu.style.display = 'flex';
+            } else {
+                // 작은 화면에서는 숨김
+                navigationMenu.style.display = 'none';
+            }
         }
     }
 }
+
+// 화면 크기 변경 시 네비게이션 메뉴 표시 상태 업데이트
+function handleResize() {
+    updateNavigationVisibility();
+}
+
+// 리사이즈 이벤트 리스너 등록
+window.addEventListener('resize', handleResize);
