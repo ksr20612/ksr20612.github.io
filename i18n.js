@@ -14,18 +14,19 @@ i18next
 });
 
 function updateContent() {
-    document.querySelectorAll('[data-i18n]').forEach(el => {
-        const key = el.getAttribute('data-i18n');
-        const translation = i18next.t(key);
-        
-        // HTML 태그가 포함된 경우 innerHTML 사용, 그렇지 않으면 textContent 사용
-        if (translation.includes('<') && translation.includes('>')) {
-            el.innerHTML = translation;
-        } else {
-            el.textContent = translation;
-        }
+    requestAnimationFrame(() => {
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+            const key = el.getAttribute('data-i18n');
+            const translation = i18next.t(key);
+            
+            if (translation.includes('<') && translation.includes('>')) {
+                el.innerHTML = translation;
+            } else {
+                el.textContent = translation;
+            }
+        });
+        updateNavigationVisibility();
     });
-    updateNavigationVisibility();
 }
 
 function changeLanguage(lang) {

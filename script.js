@@ -151,13 +151,17 @@ const domCache = {
 const updateActiveNavLink = (current) => {
     const navLinks = domCache.getNavLinks();
     
-    navLinks.forEach(link => {
-        link.classList.remove('text-primary');
-        link.classList.add('text-gray-600');
-        if (link.getAttribute('href') === `#${current}`) {
-            link.classList.remove('text-gray-600');
-            link.classList.add('text-primary');
-        }
+    requestAnimationFrame(() => {
+        navLinks.forEach(link => {
+            const isActive = link.getAttribute('href') === `#${current}`;
+            if (isActive) {
+                link.classList.remove('text-gray-600', 'dark:text-gray-300');
+                link.classList.add('text-primary');
+            } else {
+                link.classList.remove('text-primary');
+                link.classList.add('text-gray-600', 'dark:text-gray-300');
+            }
+        });
     });
 };
 

@@ -62,7 +62,7 @@
       "position": "연구원, 프론트엔드 개발자",
       "company": "미디어젠",
       "period": "2020.08 - 2023.11",
-      "description": "연구소의 음성 데이터 수집/분석 플랫폼과 원내 STT, TTS 모델을 활용한 AI 기반 서비스의 선행 개발을 담당했습니다. 이후 팀을 옮겨 AI 아동 영어 학습 서비스 [RockieTalkie]를 개발했습니다.",
+      "description": "연구소의 음성 데이터 수집/분석 플랫폼과 원내 STT, TTS 모델을 활용한 AI 기반 서비스의 선행 개발을 담당했습니다. <br/> 이후 팀을 옮겨 AI 아동 영어 학습 서비스 [RockieTalkie]를 개발했습니다.",
       "achievements": [
         "STT, 발음 평가 AI 모델 기반의 RockieTalkie <strong>초기 팀 빌딩, 개발부터 릴리즈까지</strong> 주도 <a href='https://tabby-henley-bfa.notion.site/RockieTalkie-24ac19873aee806e86d8e3032cc3199a?source=copy_link' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='RockieTalkie 자세히 보기'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a>",
         "음성인식 기반 <strong>배리어프리</strong> 키오스크 서비스 개발, <strong>3곳</strong>의 기관에 성공적으로 도입하여 사회적 가치 창출 <a href='https://tabby-henley-bfa.notion.site/24ac19873aee8030a377de1d759194dd' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='음성인식 기반 배리어프리 키오스크 개발 자세히 보기'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a>",
@@ -76,7 +76,7 @@
     "uturi": {
       "title": "@uturi 접근성 라이브러리",
       "period": "2025.05 - 현재",
-      "description": "장애를 극복하고 영웅이 되는 한국 민담 '아기장수 우투리'에서 영감을 받아 접근성 도구 @uturi 프로젝트를 시작했습니다. 현재 한 건의 라이브러리를 프리릴리즈(beta)했습니다.",
+      "description": "장애를 극복하고 영웅이 되는 '아기장수 우투리'에서 이름을 딴 접근성 도구 @uturi 입니다.<br /> 현재 한 건의 라이브러리를 프리릴리즈(beta)했습니다.",
       "sonification": {
         "title": "@uturi/sonification (v0.2.1)",
         "description": "표나 시계열 차트를 쉽게 이해하지 못하는 스크린 리더 사용자를 위해 수치를 소리로 변환해주는 라이브러리입니다.",
@@ -91,7 +91,7 @@
     "perfectCare": {
       "title": "온라인 강박장애 치료제 [퍼펙트케어]",
       "period": "2022.06 - 2023.11",
-      "description": "강박장애 개선을 목적으로 만든 웹 서비스입니다. YD정신건강의학과에서 데이터를 제공받아 기획 및 개발을 진행했습니다. 효과성 검증 검사 후 2024년 6월 특허 출원하였습니다."
+      "description": "강박장애 개선을 목적으로 만든 웹 서비스입니다. <br/> YD정신건강의학과에서 데이터를 제공받아 기획 및 개발을 진행했습니다. <br/> 효과 검증 후 <strong>2024년 6월 특허 출원</strong>하였습니다."
     },
     "icbt": {
       "title": "인터넷 기반 인지행동 치료(iCBT) 관련 웹 서비스",
@@ -108,7 +108,7 @@
     "csat": {
       "title": "NLP 기반 대학수학능력시험 문항 생성 서비스",
       "period": "2021.12 - 2022.06",
-      "description": "RNN, LSTM 모델을 기반으로 수능 영어 문항 생성 모델을 개발하였습니다. <br/> 전반적인 웹 개발을 담당했고, 모델과 통신하는 django API 서버를 구축하였습니다."
+      "description": "RNN, LSTM 모델을 기반으로 수능 영어 문항 생성 모델을 개발하였습니다. <br/> 전반적인 웹 개발을 담당했습니다."
     }
   },
   "skills": {
