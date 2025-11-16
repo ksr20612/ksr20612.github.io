@@ -31,7 +31,7 @@
       "locationText": "Gangseo-gu, Seoul, South Korea",
       "introduction": {
           "paragraph1": "I started my journey into software development after discovering my passion for JavaScript while studying linguistics.",
-          "paragraph2": "I am passionate about leveraging technology for social impact, advancing web accessibility, and promoting inclusive design. I usually focus on enhancing both visible and invisible aspects of user experience, primarily through working on design systems and accessibility solutions. I am the developer of the patent-pending <a href='https://yd-icbt.co.kr' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i>digital therapeutic(Perfect Care)</a> and the maintainer of the <a href='https://uturi.vercel.app/' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'><i class='fas fa-external-link mr-1' aria-hidden='true'></i>accessibility library(@uturi/sonification)</a>.",
+          "paragraph2": "I am passionate about leveraging technology for social impact, advancing web accessibility, and promoting inclusive design. I usually focus on enhancing both visible and invisible aspects of user experience, primarily through working on design systems and accessibility solutions. I am the developer of the <strong class='text-orange-500'>patent-pending</strong> <a href='https://yd-icbt.co.kr' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i>digital therapeutic(Perfect Care)</a> and the <strong class='text-orange-500'>maintainer</strong> of the <a href='https://uturi.vercel.app/' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'><i class='fas fa-external-link mr-1' aria-hidden='true'></i>accessibility library(@uturi/sonification)</a>.",
           "paragraph3": "I launched an AI-based ESL web service and currently lead the frontend team at <a href='https://thedotscorp.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i>Tictoccroc</a>, overseeing a hybrid app with over 800K cumulative members."
       },
       "stats": {
@@ -76,16 +76,12 @@
       "uturi": {
         "title": "@uturi Accessibility Library",
         "period": "2025.05 - Present",
-        "description": "The @uturi accessibility tool project was inspired by the Korean folktale 'Baby Hero Uturi,' who overcame disabilities to become a hero. I have currently pre-released one library (beta).",
+        "description": "The @uturi accessibility tool project was inspired by the Korean folktale <strong>'Baby Hero Uturi,'</strong> who overcame disabilities to become a hero.<br /> Currently providing the @uturi/sonification library.",
         "sonification": {
-          "title": "@uturi/sonification (v0.1.0)",
-          "description": "A library that converts numerical data into sound for screen reader users who have difficulty understanding tables or time-series charts.",
-          "description2": "It helps users understand changes in data as quickly as visual users by converting numerical changes into melody, rhythm, and volume (with detailed customization options)."
-        },
-        "ui": {
-          "title": "@uturi/ui (In Development)",
-          "description": "Provides complex components such as ChainPicker and BottomSheet.",
-          "description2": "These components consider all accessibility aspects including keyboard interaction and screen reading."
+          "title": "@uturi/sonification (v1.1.0)",
+          "description": "A library that <strong>converts numerical data into sound</strong> for non-visual users who have difficulty understanding tables or time-series charts.",
+          "description2": "It helps users understand changes in data as quickly as visual users by converting numerical changes into <strong>melody, rhythm, and volume (with detailed customization options)</strong>.",
+          "description3": "<strong>Framework-agnostic</strong>, and also <strong>provides React-specific features</strong> through @uturi/sonification/react."
         }
       },
       "perfectCare": {
