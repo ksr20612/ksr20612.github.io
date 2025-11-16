@@ -81,7 +81,7 @@
         "title": "@uturi/sonification (v1.1.0)",
         "description": "표나 시계열 차트를 쉽게 이해하지 못하는 비시각 사용자들을 위해 <strong>수치를 소리로 변환</strong>해주는 라이브러리입니다.",
         "description2": "수치의 변화를 <strong>멜로디, 리듬, 음량으로 변환(세부 커스텀 가능)</strong>하여 시각 사용자만큼 빠르게 수치 변화를 이해할 수 있게끔 도와줍니다.",
-        "description3": "<strong>Framework-agnostic</strong>하며, @uturi/sonification/react 를 통해 <strong>React 환경에 특화된 기능도 제공</strong>하고 있습니다."
+        "description3": "<strong>Framework-agnostic</strong>하며, @uturi/sonification/react를 통해 <strong>React 환경에 특화된 기능도 제공</strong>하고 있습니다."
       },
       "ui": {
         "title": "@uturi/ui (개발중)",
