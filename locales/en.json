@@ -78,10 +78,16 @@
         "period": "2025.05 - Present",
         "description": "The @uturi accessibility tool project was inspired by the Korean folktale <strong>'Baby Hero Uturi,'</strong> who overcame disabilities to become a hero.<br /> Currently providing the @uturi/sonification library.",
         "sonification": {
-          "title": "@uturi/sonification (v1.1.0)",
+          "title": "@uturi/sonification (v2.0.0)",
           "description": "A library that <strong>converts numerical data into sound</strong> for non-visual users who have difficulty understanding tables or time-series charts.",
-          "description2": "It helps users understand changes in data as quickly as visual users by converting numerical changes into <strong>melody, rhythm, and volume (with detailed customization options)</strong>.",
-          "description3": "<strong>Framework-agnostic</strong>, and also <strong>provides React-specific features</strong> through @uturi/sonification/react."
+          "description2": "It helps users understand changes in data as quickly as visual users by converting numerical changes into <strong>melody, rhythm, and volume</strong>.",
+          "features": {
+            "algorithm": "Support for various audio generation algorithms",
+            "customizable": "Customizable audio properties",
+            "framework": "Framework-Agnostic (Multi-framework support: React, Vue, Svelte, Vanilla.js)",
+            "optimization": "Optimized audio generation for large datasets, Multi-threading (Web Worker) support",
+            "typeSafe": "Fully Type-Safe implementation"
+          }
         }
       },
       "perfectCare": {
