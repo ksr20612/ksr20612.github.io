@@ -80,8 +80,8 @@
       "description": "장애를 극복하고 영웅이 되는<strong>'아기장수 우투리'</strong>에서 이름을 딴 접근성 도구 @uturi 입니다.<br /> 현재 @uturi/sonification 라이브러리를 제공하고 있습니다.",
       "sonification": {
         "title": "@uturi/sonification (v2.0.0)",
-        "description": "표나 시계열 차트를 쉽게 이해하지 못하는 비시각 사용자들을 위해 <strong>수치를 소리로 변환</strong>해주는 라이브러리입니다.",
-        "description2": "수치의 변화를 <strong>멜로디, 리듬, 음량으로 변환</strong>하여 시각 사용자만큼 빠르게 수치 변화를 이해할 수 있게끔 도와줍니다.",
+        "description": "시각 장애인들은 차트나 그래프를 <strong>한 눈에</strong> 이해할 수 있을까요?",
+        "description2": "@uturi/sonification은 수치의 변화를 <strong>멜로디, 리듬, 음량으로 변환</strong>하여 시각 사용자만큼 빠르게 수치 변화를 이해할 수 있게끔 도와줍니다.",
         "features": {
           "algorithm": "다양한 오디오 생성 알고리즘 지원",
           "customizable": "커스텀 가능한 오디오 속성",
