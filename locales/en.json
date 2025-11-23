@@ -38,7 +38,7 @@
       "stats": {
         "experience": "Years of Development Experience",
         "leadership": "Years of Team Leadership",
-        "patents": "Patents and Open Source",
+        "patents": "Patents and <br/> Open Source Maintenance",
         "users": "Members"
       }
     },

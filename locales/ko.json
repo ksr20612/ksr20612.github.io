@@ -38,7 +38,7 @@
     "stats": {
       "experience": "년 개발 경력",
       "leadership": "년 팀 리딩",
-      "patents": "특허 출원과 오픈소스",
+      "patents": "특허 출원과 <br/> 오픈소스 운영",
       "users": "누적 회원"
     }
   },
