@@ -79,7 +79,7 @@
       "period": "2025.05 - 현재",
       "description": "장애를 극복하고 영웅이 되는<strong>'아기장수 우투리'</strong>에서 이름을 딴 접근성 도구 @uturi 입니다.<br /> 현재 @uturi/sonification 라이브러리를 제공하고 있습니다.",
       "sonification": {
-        "title": "@uturi/sonification (v2.0.0)",
+        "title": "@uturi/sonification (v2.1.0)",
         "description": "시각 장애인들은 차트나 그래프를 <strong>한 눈에</strong> 이해할 수 있을까요?",
         "description2": "@uturi/sonification은 수치의 변화를 <strong>멜로디, 리듬, 음량으로 변환</strong>하여 시각 사용자만큼 빠르게 수치 변화를 이해할 수 있게끔 도와줍니다.",
         "features": {
@@ -87,7 +87,7 @@
           "customizable": "커스텀 가능한 오디오 속성",
           "framework": "Framework-Agnostic(멀티 프레임워크-React, Vue, Svelte, Vanilla.js-지원)",
           "optimization": "대용량 데이터의 음성 생성 최적화, 멀티스레딩(Web Worker) 지원",
-          "typeSafe": "완전한 Type-Safe 구현"
+          "typeSafe": "Type-Safe & Zero-Dependencies"
         }
       },
       "ui": {
