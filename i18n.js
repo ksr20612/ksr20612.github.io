@@ -77,7 +77,7 @@ function updateNavigationVisibility() {
             navigationMenu.style.display = 'none';
         } else {
             // 한국어일 때는 화면 크기에 따라 처리
-            if (window.innerWidth >= 768) {
+            if (window.innerWidth >= 820) {
                 // 중간 크기 이상(md)에서는 표시
                 navigationMenu.style.display = 'flex';
             } else {
