@@ -31,9 +31,10 @@
     "locationText": "서울 강서구",
     "introduction": {
       "paragraph1": "언어학을 연구하다 컴퓨터 언어의 매력에 빠져 개발을 시작했습니다.",
-      "paragraph2": "<strong>기술의 사회적 가치 실현, 웹 접근성, 인클루시브 디자인</strong>에 관심이 많습니다. <br /> 보이거나 보이지 않는 UI/UX의 개선에 몰두하며, 주로 디자인 시스템을 손보거나 접근성을 고민합니다. <br /> <br /> <strong class='text-orange-500'>특허 출원</strong>한 <a href='https://yd-icbt.co.kr' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>디지털 치료제(퍼펙트케어)</a>의 개발자이면서 <br/> <a href='https://uturi.vercel.app/' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>접근성 라이브러리(@uturi/sonification)</a>의 <strong class='text-orange-500'>메인테이너</strong>이기도 합니다.",
-      "paragraph3": "LLM 기반 아동 영어 학습 서비스를 출시했고, <br/> 현재는 <a href='https://thedotscorp.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>째깍악어</a>에서 프론트엔드 팀을 리딩하며 누적 회원 80만+의 하이브리드 앱 위에서 사람과 사람을 연결하는 일을 합니다.",
-      "paragraph4": "<a href='https://velog.io/@ksr20612' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>밀도 있는 글쓰기</a>를 지향합니다."
+      "paragraph2": "<strong>기술의 사회적 가치 실현, 웹 접근성, 인클루시브 디자인</strong>에 관심이 많습니다. <br /> 디자인 시스템과 접근성 연구를 기반으로 시각·비시각·비언어적 상호작용 전반을 아우르는 UI/UX를 설계합니다.<br /> 개발과 연구에서 얻은 경험과 인사이트를 <a href='https://velog.io/@ksr20612' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>테크 블로그</a>에 기록하고 공유합니다.",
+      "paragraph3": "<strong class='text-orange-500'>특허 출원</strong>한 <a href='https://yd-icbt.co.kr' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>디지털 치료제(퍼펙트케어)</a>의 개발자이면서 <br/> <a href='https://uturi.vercel.app/' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>접근성 라이브러리(@uturi/sonification)</a>의 <strong class='text-orange-500'>메인테이너</strong>이기도 합니다.",
+      "paragraph4": "현재는 <a href='https://thedotscorp.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>째깍악어</a>에서 프론트엔드 팀을 리딩하며 누적 회원 80만+의 하이브리드 앱을 운영하고 있습니다.",
+      "paragraph5": "<strong>웹 상의 스코럴발트 마을, 호그벡 마을</strong>을 만드는 것이 개발자로서의 목표입니다."
     },
     "stats": {
       "experience": "년 개발 경력",
