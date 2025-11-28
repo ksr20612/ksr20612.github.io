@@ -9,8 +9,14 @@ i18next
   }
 }, function(err, t) {
     if(err) console.error(err);
+    updateHtmlLang();
     updateContent();
     initLanguageToggle();
+    // 다크 모드 토글의 aria-label도 다국어로 업데이트
+    if (window.darkModeManager) {
+        const currentTheme = window.darkModeManager.getCurrentTheme();
+        window.darkModeManager.updateToggleButton(currentTheme);
+    }
 });
 
 function updateContent() {
@@ -31,9 +37,20 @@ function updateContent() {
 
 function changeLanguage(lang) {
     i18next.changeLanguage(lang, () => {
+        updateHtmlLang();
         updateContent();
         updateLanguageToggleState();
+        // 다크 모드 토글의 aria-label도 다국어로 업데이트
+        if (window.darkModeManager) {
+            const currentTheme = window.darkModeManager.getCurrentTheme();
+            window.darkModeManager.updateToggleButton(currentTheme);
+        }
     });
+}
+
+function updateHtmlLang() {
+    const currentLang = i18next.language;
+    document.documentElement.lang = currentLang;
 }
 
 function initLanguageToggle() {
@@ -56,10 +73,14 @@ function updateLanguageToggleState() {
         const currentLang = i18next.language;
         const isEnglish = currentLang === 'en';
         
+        // i18next를 사용하여 다국어 지원
+        const toggleKey = isEnglish ? 'language.switchToKorean' : 'language.switchToEnglish';
+        const translatedLabel = i18next.t('language.toggle');
+        const translatedTarget = i18next.t(toggleKey);
+        
         // 현재 언어와 전환할 언어를 명확히 표시
         const currentLanguage = isEnglish ? 'English' : 'Korean';
-        const targetLanguage = isEnglish ? 'Korean' : 'English';
-        const ariaLabel = `현재 언어: ${currentLanguage}, ${targetLanguage}로 전환`;
+        const ariaLabel = `${translatedLabel}: ${currentLanguage}, ${translatedTarget}`;
         
         languageToggle.setAttribute('aria-label', ariaLabel);
         languageToggle.setAttribute('title', ariaLabel);

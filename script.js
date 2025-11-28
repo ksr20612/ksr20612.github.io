@@ -46,17 +46,39 @@ class DarkModeManager {
         const moonIcon = this.toggleButton.querySelector('.fa-moon');
         const sunIcon = this.toggleButton.querySelector('.fa-sun');
 
+        // i18next를 사용하여 다국어 지원
+        let ariaLabel, title;
+        if (typeof i18next !== 'undefined' && i18next.isInitialized) {
+            if (theme === 'dark') {
+                ariaLabel = i18next.t('darkMode.switchToLight');
+                title = i18next.t('darkMode.switchToLight');
+            } else {
+                ariaLabel = i18next.t('darkMode.switchToDark');
+                title = i18next.t('darkMode.switchToDark');
+            }
+        } else {
+            // i18next가 아직 초기화되지 않은 경우 기본값 사용
+            if (theme === 'dark') {
+                ariaLabel = '라이트 모드로 전환';
+                title = '라이트 모드로 전환';
+            } else {
+                ariaLabel = '다크 모드로 전환';
+                title = '다크 모드로 전환';
+            }
+        }
+
         if (theme === 'dark') {
             moonIcon?.classList.add('hidden');
             sunIcon?.classList.remove('hidden');
             this.toggleButton.setAttribute('aria-pressed', 'true');
-            this.toggleButton.setAttribute('title', '라이트 모드로 전환');
         } else {
             moonIcon?.classList.remove('hidden');
             sunIcon?.classList.add('hidden');
             this.toggleButton.setAttribute('aria-pressed', 'false');
-            this.toggleButton.setAttribute('title', '다크 모드로 전환');
         }
+        
+        this.toggleButton.setAttribute('aria-label', ariaLabel);
+        this.toggleButton.setAttribute('title', title);
     }
 
     animateThemeTransition() {
