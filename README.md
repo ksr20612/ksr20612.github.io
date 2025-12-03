@@ -1,5 +1,5 @@
 # ksr20612.github.io
 
-DongYeon Yu, Portfolio
+DongYeon Yu, Résumé, Portfolio
 
-https://ksr20612.github.io/
+https://ksr20612.github.io
