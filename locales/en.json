@@ -83,6 +83,7 @@
           "title": "@uturi/sonification",
           "description": "Can people with visual impairments understand charts and graphs <strong>at a glance</strong>?",
           "description2": "@uturi/sonification helps non-visual users understand data changes as quickly as visual users by converting numerical changes into <strong>melody, rhythm, and volume</strong>.",
+          "description3": "Over <strong>1k+ downloads</strong> on NPM, open source release and continuous feature improvements in progress",
           "features": {
             "algorithm": "Support for various audio generation algorithms",
             "customizable": "Customizable audio properties",

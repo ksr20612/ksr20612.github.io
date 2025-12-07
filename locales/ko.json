@@ -83,6 +83,7 @@
         "title": "@uturi/sonification",
         "description": "시각 장애인들이 차트나 그래프를 <strong>한 눈에</strong> 이해할 수 있을까요?",
         "description2": "@uturi/sonification은 수치의 변화를 <strong>멜로디, 리듬, 음량으로 변환</strong>하여 비시각 사용자가 시각 사용자만큼 빠르게 수치 변화를 이해할 수 있게끔 도와줍니다.",
+        "description3": "NPM 기준 다운로드 수 <strong>약 1k+</strong>, 오픈소스 공개 및 지속적인 기능 개선 진행 중",
         "features": {
           "algorithm": "다양한 오디오 생성 알고리즘 지원",
           "customizable": "커스텀 가능한 오디오 속성",
