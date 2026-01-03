@@ -30,11 +30,11 @@
       "location": "Location",
       "locationText": "Gangseo-gu, Seoul, South Korea",
       "introduction": {
-          "paragraph1": "I started my journey into software development after discovering my passion for JavaScript while studying linguistics.",
-          "paragraph2": "I am passionate about leveraging technology for social impact, advancing web accessibility, and promoting inclusive design. I design UI/UX that encompasses visual, non-visual, and non-verbal interactions based on design systems and accessibility research.<br /> I document and share experiences and insights gained from development and research on my <a href='https://velog.io/@ksr20612' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>tech blog</a>.",
-          "paragraph3": "I am the developer of the <strong class='text-orange-500'>patent-pending</strong> <a href='https://yd-icbt.co.kr' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>digital therapeutic(Perfect Care)</a> and the <strong class='text-orange-500'>maintainer</strong> of the <a href='https://uturi.vercel.app/' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>accessibility library(@uturi/sonification)</a>.",
+          "paragraph1": "I am a <strong>Human-Centered frontend developer</strong> who translates technology into experiences that people can handle.",
+          "paragraph2": "I have designed accessibility, digital therapeutics, and multimodal UI based on linguistic and psychological perspectives.",
+          "paragraph3": "I am the sole developer of the <strong class='text-orange-500'>patent-pending</strong> <a href='https://yd-icbt.co.kr' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>digital therapeutic(Perfect Care)</a>,<br/> and serve as the <strong class='text-orange-500'>maintainer</strong> of the <a href='https://uturi.vercel.app/' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>accessibility library(@uturi/sonification)</a>.",
           "paragraph4": "Currently, I lead the frontend team at <a href='https://thedotscorp.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>Tictoccroc</a>, overseeing a hybrid app with over 800K cumulative members.",
-          "paragraph5": "My goal as a developer is to create virtual communities like Skovald Village and Hogsback Village on the web."
+          "paragraph5": "My goal is to implement <strong>Skovald Village and Hogsback Village</strong> on the web where no one is excluded."
         },
       "stats": {
         "experience": "Years of Development Experience",
