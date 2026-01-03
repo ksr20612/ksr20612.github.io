@@ -164,6 +164,7 @@
         <a href="#profile" class="visually-hidden" data-i18n="skipLinks.profile">프로필로 바로가기</a>
         <a href="#experience" class="visually-hidden" data-i18n="skipLinks.experience">경력으로 바로가기</a>
         <a href="#projects" class="visually-hidden" data-i18n="skipLinks.projects">프로젝트로 바로가기</a>
+        <a href="#essays" class="visually-hidden" data-i18n="skipLinks.essays">에세이로 바로가기</a>
         <a href="#skills" class="visually-hidden" data-i18n="skipLinks.skills">기술로 바로가기</a>
         <a href="#education" class="visually-hidden" data-i18n="skipLinks.education">학력으로 바로가기</a>
         <a href="#miscellaneous" class="visually-hidden" data-i18n="skipLinks.miscellaneous">기타로 바로가기</a>
@@ -181,6 +182,7 @@
                         <a href="#profile" class="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300" data-i18n="navigation.profile">프로필</a>
                         <a href="#experience" class="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300" data-i18n="navigation.experience">경력</a>
                         <a href="#projects" class="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300" data-i18n="navigation.projects">프로젝트</a>
+                        <a href="#essays" class="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300" data-i18n="navigation.essays">에세이</a>
                         <a href="#skills" class="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300" data-i18n="navigation.skills">기술</a>
                         <a href="#education" class="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300" data-i18n="navigation.education">학력</a>
                         <a href="#miscellaneous" class="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300" data-i18n="navigation.miscellaneous">기타</a>
@@ -669,6 +671,97 @@
 
         <hr class="section-divider my-16">
 
+        <section id="essays" class="mb-16">
+            <h2 class="text-3xl font-bold mb-8">
+                <a href="#essays" class="section-link" aria-label="에세이 퍼머링크">
+                    <span class="section-marker">§</span>
+                </a>
+                <span data-i18n="essays.title">에세이</span>
+            </h2>
+            <p class="text-gray-600 dark:text-gray-300 mb-8 text-lg leading-relaxed break-keep" data-i18n="essays.introduction">
+                개발과 연구에서 얻은 경험을 접근성·인터랙션·런타임 관점에서 구조적으로 기록하고 있습니다.
+            </p>
+            <div class="space-y-8">
+                <!-- Human-Centered & Accessibility -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 flex items-center text-gray-800 dark:text-gray-200">
+                        <span class="text-orange-500 mr-2">🟠</span>
+                        <span data-i18n="essays.category.accessibility.title">Human-Centered & Accessibility</span>
+                    </h3>
+                    <ul class="list-disc pl-6 space-y-3">
+                        <li>
+                            <a href="https://velog.io/@ksr20612/%EA%B3%B5%EA%B0%90%EA%B0%81%EA%B3%BC-%EC%A0%91%EA%B7%BC%EC%84%B1-uturisonification%EC%9D%84-%EB%B2%A0%ED%83%80-%EB%A6%B4%EB%A6%AC%EC%A6%88%ED%95%98%EB%A9%B0" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-blue-700 font-medium" data-i18n="essays.posts.sonification.title">공감각과 접근성: @uturi/sonification</a>
+                            <span class="text-gray-500 dark:text-gray-400 mx-2">—</span>
+                            <span class="text-gray-600 dark:text-gray-300 text-sm" data-i18n="essays.posts.sonification.description">시각 중심 UI를 넘어서: 청각 기반 정보 전달을 실험한 접근성 라이브러리 설계 기록</span>
+                        </li>
+                        <li>
+                            <a href="https://velog.io/@ksr20612/%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%A0%91%EA%B7%BC%EC%84%B1-%EA%B0%9C%EC%84%A0%EA%B8%B0-2" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-blue-700 font-medium" data-i18n="essays.posts.designSystem.title">디자인 시스템 접근성 개선기 (1) · (2)</a>
+                            <span class="text-gray-500 dark:text-gray-400 mx-2">—</span>
+                            <span class="text-gray-600 dark:text-gray-300 text-sm" data-i18n="essays.posts.designSystem.description">WCAG 준수 이상의 실제 사용자 경험을 기준으로 디자인 시스템을 재설계한 사례</span>
+                        </li>
+                        <li>
+                            <a href="https://velog.io/@ksr20612/Disabled-Button-%EA%B3%BC%EC%97%B0-%EC%B5%9C%EC%84%A0%EC%9D%BC%EA%B9%8C" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-blue-700 font-medium" data-i18n="essays.posts.disabledButton.title">Disabled Button, 과연 최선일까?</a>
+                            <span class="text-gray-500 dark:text-gray-400 mx-2">—</span>
+                            <span class="text-gray-600 dark:text-gray-300 text-sm" data-i18n="essays.posts.disabledButton.description">관습적인 UI 패턴을 인지·행동 관점에서 재검토한 글</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Interaction & UI Engineering -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 flex items-center text-gray-800 dark:text-gray-200">
+                        <span class="text-green-500 mr-2">🟢</span>
+                        <span data-i18n="essays.category.interaction.title">Interaction & UI Engineering</span>
+                    </h3>
+                    <ul class="list-disc pl-6 space-y-3">
+                        <li>
+                            <a href="https://velog.io/@ksr20612/%EC%86%8D%EB%8F%84-%EA%B8%B0%EB%B0%98-%EB%AA%A8%EB%A9%98%ED%85%80-%EC%8A%A4%ED%81%AC%EB%A1%A4-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-blue-700 font-medium" data-i18n="essays.posts.momentumScroll.title">속도 기반 모멘텀 스크롤 직접 구현하기</a>
+                            <span class="text-gray-500 dark:text-gray-400 mx-2">—</span>
+                            <span class="text-gray-600 dark:text-gray-300 text-sm" data-i18n="essays.posts.momentumScroll.description">물리 기반 모델을 적용해 스크롤 인터랙션을 설계·구현한 과정</span>
+                        </li>
+                        <li>
+                            <a href="https://velog.io/@ksr20612/JSDOM-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-AudioContext-%ED%86%B5%ED%95%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-blue-700 font-medium" data-i18n="essays.posts.audioContext.title">JSDOM 환경에서 AudioContext 통합 테스트 구축하기</a>
+                            <span class="text-gray-500 dark:text-gray-400 mx-2">—</span>
+                            <span class="text-gray-600 dark:text-gray-300 text-sm" data-i18n="essays.posts.audioContext.description">테스트 환경 제약 속에서 오디오 인터랙션을 검증하기 위한 구조적 접근</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- System & Runtime Understanding -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 flex items-center text-gray-800 dark:text-gray-200">
+                        <span class="text-blue-500 mr-2">🔵</span>
+                        <span data-i18n="essays.category.system.title">System & Runtime Understanding</span>
+                    </h3>
+                    <ul class="list-disc pl-6 space-y-3">
+                        <li>
+                            <a href="https://velog.io/@ksr20612/%EC%97%B0%EB%A7%90-%ED%9A%8C%EA%B3%A0%EB%B3%B4%EB%8B%A4-V8-GC-%EB%94%A5%EB%8B%A4%EC%9D%B4%EB%B8%8C" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-blue-700 font-medium" data-i18n="essays.posts.v8gc.title">연말 회고보다 V8 GC 딥다이브</a>
+                            <span class="text-gray-500 dark:text-gray-400 mx-2">—</span>
+                            <span class="text-gray-600 dark:text-gray-300 text-sm" data-i18n="essays.posts.v8gc.description">프론트엔드 개발자의 시선에서 바라본 V8 메모리 관리와 GC 구조, 그리고 리액트의 전략</span>
+                        </li>
+                        <li>
+                            <a href="https://velog.io/@ksr20612/%EB%84%93%EC%96%B4%EC%A7%84-%EC%A0%9C%EC%8A%A4%EC%B2%98-%EC%98%81%EC%97%AD-%EC%A0%95%EB%A7%90-%ED%8E%B8%EB%A6%AC%ED%95%A0%EA%B9%8C-iOS-26%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%8A%A4%EC%99%80%EC%9D%B4%ED%94%84-%EB%B0%A9%EC%8B%9D%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-blue-700 font-medium" data-i18n="essays.posts.gesture.title">유니버셜 스와이핑: 넓어진 제스처 영역, 정말 편리할까?</a>
+                            <span class="text-gray-500 dark:text-gray-400 mx-2">—</span>
+                            <span class="text-gray-600 dark:text-gray-300 text-sm" data-i18n="essays.posts.gesture.description">OS 레벨 인터랙션 변화가 사용자 경험에 미치는 영향을 분석한 UX 비평</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- View full archive -->
+                <div class="border-t border-gray-200 dark:border-gray-700 pt-6 mt-8">
+                    <div class="text-center">
+                        <p class="text-sm text-gray-500 dark:text-gray-400 mb-2" data-i18n="essays.archive.description">Selected Writings</p>
+                        <a href="https://velog.io/@ksr20612" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-blue-700 text-sm font-medium inline-flex items-center" data-i18n="essays.archive.link">
+                            <span data-i18n="essays.archive.text">전체 아카이브 보기</span>
+                            <i class="fas fa-external-link-alt ml-2" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="section-divider my-16">
+
         <section id="skills" class="mb-16">
             <h2 class="text-3xl font-bold mb-8">
                 <a href="#skills" class="section-link" aria-label="기술 퍼머링크">
@@ -841,19 +934,19 @@
                         <h4 id="contact-links" class="visually-hidden">연락 채널</h4>
                         <ul class="space-y-4">
                             <li class="flex">
-                                <a href="mailto:ksr20612@gmail.com" class="flex items-center hover:text-primary">
+                                <a href="mailto:ksr20612@gmail.com" class="flex items-center hover:text-blue-700">
                                     <i class="fas fa-envelope text-primary mr-4 text-xl" aria-hidden="true"></i>
                                     <span class="text-gray-700 dark:text-gray-300">ksr20612@gmail.com</span>
                                 </a>
                             </li>
                             <li class="flex">
-                                <a href="tel:01026372779" class="flex items-center hover:text-primary">
+                                <a href="tel:01026372779" class="flex items-center hover:text-blue-700">
                                     <i class="fas fa-phone text-primary mr-4 text-xl" aria-hidden="true"></i>
                                     <span class="text-gray-700 dark:text-gray-300">010-2637-2779</span>
                                 </a>
                             </li>
                             <li class="flex">    
-                                <a href="https://open.kakao.com/o/s1zUXMLf" class="flex items-center hover:text-primary" target="_blank" rel="noopener noreferrer">
+                                <a href="https://open.kakao.com/o/s1zUXMLf" class="flex items-center hover:text-blue-700" target="_blank" rel="noopener noreferrer">
                                     <i class="fas fa-comment-dots text-primary mr-4 text-xl" aria-hidden="true"></i>
                                     <span class="text-gray-700 dark:text-gray-300" data-i18n="contact.kakao">
                                         카카오톡 오픈채팅

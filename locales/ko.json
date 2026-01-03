@@ -8,6 +8,7 @@
     "profile": "프로필",
     "experience": "경력",
     "projects": "프로젝트",
+    "essays": "에세이",
     "skills": "기술",
     "education": "학력",
     "miscellaneous": "기타",
@@ -17,6 +18,7 @@
     "profile": "프로필로 바로가기",
     "experience": "경력으로 바로가기",
     "projects": "프로젝트로 바로가기",
+    "essays": "에세이로 바로가기",
     "skills": "기술로 바로가기",
     "education": "학력으로 바로가기",
     "miscellaneous": "기타로 바로가기",
@@ -119,6 +121,66 @@
       "title": "NLP 기반 대학수학능력시험 문항 생성 서비스",
       "period": "2021.12 - 2022.06",
       "description": "RNN, LSTM 모델을 기반으로 수능 영어 문항 생성 모델을 개발하였습니다. <br/> 전반적인 웹 개발을 담당했습니다."
+    }
+  },
+  "essays": {
+    "title": "에세이",
+    "introduction": "개발과 연구에서 얻은 경험을 접근성·인터랙션·런타임 관점에서 구조적으로 기록하고 있습니다.",
+    "category": {
+      "accessibility": {
+        "title": "Human-Centered & Accessibility",
+        "description": "포용적이고 해석 가능하며 인간적인 소프트웨어 설계 방법을 탐구합니다."
+      },
+      "interaction": {
+        "title": "Interaction & UI Engineering",
+        "description": "인간의 인지를 정밀한 인터랙션과 모션으로 번역합니다."
+      },
+      "system": {
+        "title": "System & Runtime Understanding",
+        "description": "프레임워크 아래의 실행 환경을 이해합니다."
+      }
+    },
+    "posts": {
+      "sonification": {
+        "title": "공감각과 접근성: @uturi/sonification",
+        "description": "시각 중심 UI를 넘어서: 청각 기반 정보 전달을 실험한 접근성 라이브러리 설계 기록",
+        "link": "더 읽기"
+      },
+      "designSystem": {
+        "title": "디자인 시스템 접근성 개선기 (1) · (2)",
+        "description": "WCAG 준수 이상의 실제 사용자 경험을 기준으로 디자인 시스템을 재설계한 사례",
+        "link": "더 읽기"
+      },
+      "disabledButton": {
+        "title": "Disabled Button, 과연 최선일까?",
+        "description": "관습적인 UI 패턴을 인지·행동 관점에서 재검토한 글",
+        "link": "더 읽기"
+      },
+      "momentumScroll": {
+        "title": "속도 기반 모멘텀 스크롤 직접 구현하기",
+        "description": "물리 기반 모델을 적용해 스크롤 인터랙션을 설계·구현한 과정",
+        "link": "더 읽기"
+      },
+      "audioContext": {
+        "title": "JSDOM 환경에서 AudioContext 통합 테스트 구축하기",
+        "description": "테스트 환경 제약 속에서 오디오 인터랙션을 검증하기 위한 구조적 접근",
+        "link": "더 읽기"
+      },
+      "v8gc": {
+        "title": "연말 회고보다 V8 GC 딥다이브",
+        "description": "프론트엔드 개발자의 시선에서 바라본 V8 메모리 관리와 GC 구조, 그리고 리액트의 전략",
+        "link": "더 읽기"
+      },
+      "gesture": {
+        "title": "유니버셜 스와이핑: 넓어진 제스처 영역, 정말 편리할까?",
+        "description": "OS 레벨 인터랙션 변화가 사용자 경험에 미치는 영향을 분석한 UX 비평",
+        "link": "더 읽기"
+      }
+    },
+    "archive": {
+      "description": "Selected Writings",
+      "text": "전체 아카이브 보기",
+      "link": "전체 아카이브 보기"
     }
   },
   "skills": {

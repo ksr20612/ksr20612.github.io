@@ -8,6 +8,7 @@
       "profile": "About",
       "experience": "Work",
       "projects": "Projects",
+      "essays": "Essays",
       "skills": "Skills",
       "education": "Education",
       "miscellaneous": "More",
@@ -17,6 +18,7 @@
       "profile": "Skip to Profile",
       "experience": "Skip to Experience",
       "projects": "Skip to Projects",
+      "essays": "Skip to Essays",
       "skills": "Skip to Skills",
       "education": "Skip to Education",
       "miscellaneous": "Skip to Miscellaneous",
@@ -114,6 +116,66 @@
         "title": "NLP-based College Scholastic Ability Test Question Generation Service",
         "period": "2021.12 - 2022.06",
         "description": "Developed a CSAT English question generation model based on RNN and LSTM models. <br/> Responsible for overall web development and built a Django API server to communicate with the model."
+      }
+    },
+    "essays": {
+      "title": "Essays",
+      "introduction": "I systematically document experiences gained from development and research from perspectives of accessibility, interaction, and runtime.",
+      "category": {
+        "accessibility": {
+          "title": "Human-Centered & Accessibility",
+          "description": "Exploring how software can be designed to be inclusive, interpretable, and humane."
+        },
+        "interaction": {
+          "title": "Interaction & UI Engineering",
+          "description": "Translating human perception into precise interaction and motion."
+        },
+        "system": {
+          "title": "System & Runtime Understanding",
+          "description": "Understanding the execution environment beneath frameworks."
+        }
+      },
+      "posts": {
+        "sonification": {
+          "title": "Synesthesia and Accessibility: @uturi/sonification",
+          "description": "A design record of an accessibility library that experimented with auditory-based information delivery beyond vision-centered UI",
+          "link": "Read more"
+        },
+        "designSystem": {
+          "title": "Design System Accessibility Improvement (1) · (2)",
+          "description": "A case study of redesigning a design system based on actual user experience beyond WCAG compliance",
+          "link": "Read more"
+        },
+        "disabledButton": {
+          "title": "Disabled Button, Is It Really the Best?",
+          "description": "A review of conventional UI patterns from a cognitive and behavioral perspective",
+          "link": "Read more"
+        },
+        "momentumScroll": {
+          "title": "Implementing Velocity-Based Momentum Scroll",
+          "description": "The process of designing and implementing scroll interactions by applying physics-based models",
+          "link": "Read more"
+        },
+        "audioContext": {
+          "title": "Building AudioContext Integration Tests in JSDOM Environment",
+          "description": "A structural approach to validating audio interactions within test environment constraints",
+          "link": "Read more"
+        },
+        "v8gc": {
+          "title": "V8 GC Deep Dive Instead of Year-End Review",
+          "description": "V8 memory management and GC structure, and React's strategy from a frontend developer's perspective",
+          "link": "Read more"
+        },
+        "gesture": {
+          "title": "Universal Swiping: Is the Expanded Gesture Area Really Convenient?",
+          "description": "A UX critique analyzing the impact of OS-level interaction changes on user experience",
+          "link": "Read more"
+        }
+      },
+      "archive": {
+        "description": "Selected Writings",
+        "text": "View full archive",
+        "link": "View full archive"
       }
     },
     "skills": {
