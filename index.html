@@ -157,6 +157,14 @@
         .storybook-icon:hover text {
             fill: #FFE5F0;
         }
+
+        @media print {
+            header,
+            footer,
+            section#contact {
+                display: none !important;
+            }
+        }
     </style>
 </head>
 <body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100 font-sans transition-colors duration-300">
@@ -172,7 +180,7 @@
     </div>
     <header class="bg-white/60 dark:bg-gray-900/60 backdrop-blur-sm border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50 transition-colors duration-300">
         <div class="max-w-5xl mx-auto px-6 py-4">
-            <div class="flex justify-between items-center">
+            <div class="flex justify-between items-center flex-wrap gap-2">
                 <div class="flex gap-2 items-center">
                     <h1 class="text-2xl font-bold gradient-text" data-i18n="profile.name">유동연</h1>
                     <img alt="페이지 방문자 수" src="https://hits.sh/ksr20612.github.io.svg?extraCount=100&color=2563EB&labelColor=777" loading="lazy"/>
@@ -213,6 +221,16 @@
                         >
                             <i class="fas fa-moon text-gray-600 dark:text-gray-300 dark:hidden" aria-hidden="true"></i>
                             <i class="fas fa-sun text-gray-300 hidden dark:block" aria-hidden="true"></i>
+                        </button>
+                        <button 
+                            id="pdf-download" 
+                            class="flex items-center justify-center w-10 h-10 rounded-lg bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 dark:focus:ring-offset-gray-800" 
+                            type="button"
+                            aria-label="PDF로 저장"
+                            title="PDF로 저장"
+                            onclick="window.print()"
+                        >
+                            <i class="fas fa-file-pdf text-gray-600 dark:text-gray-300" aria-hidden="true"></i>
                         </button>
                     </div>
                 </nav>
@@ -957,7 +975,7 @@
                     </div>
                 </div>
                 
-                <div class="flex flex-col gap-4 justify-center bg-gray-50 dark:bg-gray-800 rounded-lg p-6 transition-colors duration-300">
+                <div id="contact-other-pages" class="flex flex-col gap-4 justify-center bg-gray-50 dark:bg-gray-800 rounded-lg p-6 transition-colors duration-300">
                     <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200" data-i18n="contact.otherPages">그밖의 페이지 이어서 보기</h3>
                     <ul class="space-y-4">
                         <li class="flex">
