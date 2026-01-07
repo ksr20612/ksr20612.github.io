@@ -35,8 +35,8 @@
       "paragraph1": "기술을 사람이 감당할 수 있는 경험으로 번역하는 <strong>Human-Centered 프론트엔드 개발자</strong>입니다.",
       "paragraph2": "언어학과 심리학적 관점을 바탕으로 접근성, 디지털 치료, 멀티모달 UI를 설계해 왔습니다.",
       "paragraph3": "<strong class='text-orange-500'>특허 출원</strong>한 <a href='https://yd-icbt.co.kr' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>디지털 치료제(퍼펙트케어)</a>의 단독 개발자이며,<br/> <a href='https://uturi.vercel.app/' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>접근성 라이브러리(@uturi/sonification)</a>의 <strong class='text-orange-500'>메인테이너</strong>로 활동하고 있습니다.",
-      "paragraph4": "현재는 중소벤처기업부 선정 아기 유니콘인 <a href='https://thedotscorp.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>째깍악어</a>에서 프론트엔드 팀을 리딩하며, <br /> <strong>국내 최대 돌봄 플랫폼</strong>의 하이브리드 앱을 운영하고 있습니다.",
-      "paragraph5": "저의 목표는 웹 위에서 누구도 배제되지 않는 <strong>스코럴발트 마을, 호그벡 마을</strong>을 구현하는 것입니다."
+      "paragraph4": "현재는 중기부 선정 아기 유니콘 <a href='https://thedotscorp.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>째깍악어</a>에서 프론트엔드 팀을 리딩하며, <br /> <strong>국내 최대 돌봄 플랫폼</strong>인 [째깍악어] 하이브리드 앱을 운영하고 있습니다.",
+      "paragraph5": "웹 위에서 누구도 배제되지 않는 <strong>스코럴발트 마을, 호그벡 마을</strong>을 구현하는 것이 저의 목표입니다."
     },
     "stats": {
       "experience": "년 개발 경력",
