@@ -1,252 +1,252 @@
 {
-    "meta": {
-      "title": "Ethan Yu | Frontend Developer | Portfolio",
-      "description": "Frontend Developer. Patent-pending digital therapeutic developer and accessibility library maintainer. Operating 800K+ member app",
-      "keywords": "Frontend Developer, Portfolio, Ethan Yu"
+  "meta": {
+    "title": "Ethan Yu | Frontend Developer | Portfolio",
+    "description": "Frontend Developer. Patent-pending digital therapeutic developer and accessibility library maintainer. Operating 800K+ member app",
+    "keywords": "Frontend Developer, Portfolio, Ethan Yu"
+  },
+  "navigation": {
+    "profile": "About",
+    "experience": "Work",
+    "projects": "Projects",
+    "essays": "Essays",
+    "skills": "Skills",
+    "education": "Education",
+    "miscellaneous": "More",
+    "contact": "Contact"
+  },
+  "skipLinks": {
+    "profile": "Skip to Profile",
+    "experience": "Skip to Experience",
+    "projects": "Skip to Projects",
+    "essays": "Skip to Essays",
+    "skills": "Skip to Skills",
+    "education": "Skip to Education",
+    "miscellaneous": "Skip to Miscellaneous",
+    "contact": "Skip to Contact"
+  },
+  "profile": {
+    "name": "Ethan Yu",
+    "title": "Socially-Minded Frontend Developer",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "locationText": "Gangseo-gu, Seoul, South Korea",
+    "introduction": {
+      "paragraph1": "I am a <strong>Human-Centered frontend developer</strong> who translates technology into experiences that people can handle.",
+      "paragraph2": "I have designed accessibility, digital therapeutics, and multimodal UI based on linguistic and psychological perspectives.",
+      "paragraph3": "I am the sole developer of the <strong class='text-orange-500'>patent-pending</strong> <a href='https://yd-icbt.co.kr' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>digital therapeutic(Perfect Care)</a>,<br/> and serve as the <strong class='text-orange-500'>maintainer</strong> of the <a href='https://uturi.vercel.app/' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>accessibility library(@uturi/sonification)</a>.",
+      "paragraph4": "Currently, I lead the frontend team at <a href='https://thedotscorp.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>Tictoccroc</a>, a baby unicorn company selected by the Ministry of SMEs and Startups, <br /> operating a hybrid app for <strong>Korea's largest care platform</strong>.",
+      "paragraph5": "Implementing <strong>Skovald Village and Hogsback Village</strong> on the web where no one is excluded is my goal."
     },
-    "navigation": {
-      "profile": "About",
-      "experience": "Work",
-      "projects": "Projects",
-      "essays": "Essays",
-      "skills": "Skills",
-      "education": "Education",
-      "miscellaneous": "More",
-      "contact": "Contact"
-    },
-    "skipLinks": {
-      "profile": "Skip to Profile",
-      "experience": "Skip to Experience",
-      "projects": "Skip to Projects",
-      "essays": "Skip to Essays",
-      "skills": "Skip to Skills",
-      "education": "Skip to Education",
-      "miscellaneous": "Skip to Miscellaneous",
-      "contact": "Skip to Contact"
-    },
-    "profile": {
-      "name": "Ethan Yu",
-      "title": "Socially-Minded Frontend Developer",
-      "email": "Email",
-      "phone": "Phone",
-      "location": "Location",
-      "locationText": "Gangseo-gu, Seoul, South Korea",
-      "introduction": {
-          "paragraph1": "I am a <strong>Human-Centered frontend developer</strong> who translates technology into experiences that people can handle.",
-          "paragraph2": "I have designed accessibility, digital therapeutics, and multimodal UI based on linguistic and psychological perspectives.",
-          "paragraph3": "I am the sole developer of the <strong class='text-orange-500'>patent-pending</strong> <a href='https://yd-icbt.co.kr' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>digital therapeutic(Perfect Care)</a>,<br/> and serve as the <strong class='text-orange-500'>maintainer</strong> of the <a href='https://uturi.vercel.app/' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>accessibility library(@uturi/sonification)</a>.",
-          "paragraph4": "Currently, I lead the frontend team at <a href='https://thedotscorp.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>Tictoccroc</a>, a baby unicorn company selected by the Ministry of SMEs and Startups, <br /> operating a hybrid app for <strong>Korea's largest care platform</strong>.",
-          "paragraph5": "Implementing <strong>Skovald Village and Hogsback Village</strong> on the web where no one is excluded is my goal."
-        },
-      "stats": {
-        "experience": "Years of Development Experience",
-        "leadership": "Years of Team Leadership",
-        "patents": "Patents and <br/> Open Source Maintenance",
-        "users": "Members"
-      }
-    },
-    "experience": {
-      "title": "Experience",
-      "current": {
-        "position": "Frontend Developer",
-        "company": "Connecting the Dots (Tictoccroc)",
-        "period": "2023.11 - Present",
-        "description": "I developed a hybrid app for childcare matching services called [Tictoccroc].",
-        "achievements": [
-          "Selected as Employee of the Year 2024",
-          "Built <strong>accessibility-enhanced design system</strong> <strong>without any UI toolkit</strong>, improved accessibility of <strong>36+ components</strong> including DatePicker, Autocomplete, contributing to a11y certification <a href='https://main--65f7af68437d3918eba05c9b.chromatic.com/?path=/docs/introduction--docs' target='_blank' rel='noopener noreferrer' aria-label='View accessibility-enhanced design system details'><svg aria-hidden='true' viewBox='0 0 24 24' width='14' height='14' class='inline-block mr-1 storybook-icon'><rect x='3' y='2' width='18' height='20' rx='3' ry='3' fill='#FF4785'></rect><rect x='15' y='2' width='3' height='4' fill='#ffffff'></rect><text x='12' y='16' text-anchor='middle' font-family='Arial, Helvetica, sans-serif' font-size='12' font-weight='700' fill='#ffffff'>S</text></svg></a> <a href='https://velog.io/@ksr20612/%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%A0%91%EA%B7%BC%EC%84%B1-%EA%B0%9C%EC%84%A0%EA%B8%B0-1' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View accessibility-enhanced design system details'><i class='fas fa-external-link-alt mr-1'></i></a>",
-          "Developed Stackflow-based <strong>screen transition plugin</strong> to provide <strong>enhanced user experience</strong> like native apps even in webview environment <a href='https://parent.tictoccroc.com' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View screen transition plugin details'><i class='fas fa-external-link-alt mr-1'></i>Try it yourself</a>",
-          "Built <strong>8</strong> frontend library monorepos to improve <strong>development productivity and reusability</strong>",
-          "Migrated <strong>3</strong> legacy apps (React, PHP, Flutter) to ensure <strong>service stability and development efficiency</strong>",
-          "Built team API server environment and released <strong>2 MVPs</strong>, driving <strong>20%</strong> increase in visitors/members <a href='https://velog.io/@ksr20612/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-Next.js-API-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C%EA%B8%B0' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View team API server development details'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a> <a href='/checkout-the-numbers.png' target='_blank' rel='noopener noreferrer' class='text-blue-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View performance evidence'><i class='fas fa-chart-line mr-1' aria-hidden='true'></i></a>",
-          "Independently developed offline store operation system, saving over <strong>10 million won</strong> in annual fixed costs <a href='https://tabby-henley-bfa.notion.site/24ac19873aee8087b363d114580832ce?source=copy_link' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View offline store operation system development details'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a>"
-        ]
-      },
-      "previous": {
-        "position": "Researcher, Frontend Developer",
-        "company": "Mediazen",
-        "period": "2020.08 - 2023.11",
-        "description": "Worked on the early development of AI-based services leveraging the research institute's voice data collection and analysis platform and in-house STT/TTS models. Later joined the team to develop the AI children's English learning service [RockieTalkie].",
-        "achievements": [
-          "Led <strong>initial team building, development to release</strong> of RockieTalkie based on STT and pronunciation evaluation AI models <a href='https://tabby-henley-bfa.notion.site/RockieTalkie-24ac19873aee806e86d8e3032cc3199a?source=copy_link' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View RockieTalkie details'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a>",
-          "Developed voice recognition-based <strong>barrier-free</strong> kiosk service, successfully introduced to <strong>3 institutions</strong>, creating social value <a href='https://tabby-henley-bfa.notion.site/24ac19873aee8030a377de1d759194dd' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View barrier-free kiosk development details'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a>",
-          "Developed and operated voice collection/analysis platform with <strong>approximately 6,000 DAU</strong>, stably collecting and processing <strong>over 1,000 hours of large-scale data per quarter</strong>",
-          "Developed JS voice processing library to implement voice file editing and tagging functions"
-        ]
-      }
-    },
-    "projects": {
-      "title": "Projects",
-      "uturi": {
-        "title": "@uturi Accessibility Library",
-        "period": "2025.05 - Present",
-        "description": "The @uturi accessibility tool project was inspired by the Korean folktale <strong>'Baby Hero Uturi,'</strong> who overcame disabilities to become a hero.<br /> Currently providing the @uturi/sonification library.",
-        "sonification": {
-          "title": "@uturi/sonification",
-          "description": "Can people with visual impairments understand charts and graphs <strong>at a glance</strong>?",
-          "description2": "@uturi/sonification helps non-visual users understand data changes as quickly as visual users by converting numerical changes into <strong>melody, rhythm, and volume</strong>.",
-          "description3": "Over <strong>1k+ downloads</strong> on NPM, open source release and continuous feature improvements in progress",
-          "features": {
-            "algorithm": "Support for various audio generation algorithms",
-            "customizable": "Customizable audio properties",
-            "framework": "Framework-Agnostic (Multi-framework support: React, Vue, Svelte, Vanilla.js)",
-            "optimization": "Optimized audio generation for large datasets, Multi-threading (Web Worker) support",
-            "typeSafe": "Type-Safe & Zero-Dependencies"
-          }
-        }
-      },
-      "perfectCare": {
-        "title": "Online Obsessive-Compulsive Disorder Treatment [Perfect Care]",
-        "period": "2022.06 - 2023.11",
-        "description": "A web service created to help improve obsessive-compulsive disorder. Planned and developed in collaboration with YD Psychiatry, receiving data from them. After effectiveness verification testing, filed for patent in June 2024."
-      },
-      "icbt": {
-        "title": "Internet-based Cognitive Behavioral Therapy (iCBT) Related Web Services",
-        "period": "2021.08 - 2022.04",
-        "description": "I attempted to address the blind spots in psychological treatment and research through technology. <br /> I planned and developed various services to incorporate technology into the iCBT field I was passionate about. <br /> Some online tests were <strong>actually used in research</strong>.",
-        "services": [
-          "Web-based chatbot for anxiety disorder pre-counseling",
-          "Online web game based on Dot-probe task for clients with social anxiety disorder",
-          "Online emotional stroop test",
-          "Online scrambled sentence test",
-          "Online paper meta-analyzer"
-        ]
-      },
-      "csat": {
-        "title": "NLP-based College Scholastic Ability Test Question Generation Service",
-        "period": "2021.12 - 2022.06",
-        "description": "Developed a CSAT English question generation model based on RNN and LSTM models. <br/> Responsible for overall web development and built a Django API server to communicate with the model."
-      }
-    },
-    "essays": {
-      "title": "Essays",
-      "introduction": "I systematically document experiences gained from development and research from perspectives of accessibility, interaction, and runtime.",
-      "category": {
-        "accessibility": {
-          "title": "Human-Centered & Accessibility",
-          "description": "Exploring how software can be designed to be inclusive, interpretable, and humane."
-        },
-        "interaction": {
-          "title": "Interaction & UI Engineering",
-          "description": "Translating human perception into precise interaction and motion."
-        },
-        "system": {
-          "title": "System & Runtime Understanding",
-          "description": "Understanding the execution environment beneath frameworks."
-        }
-      },
-      "posts": {
-        "sonification": {
-          "title": "Synesthesia and Accessibility: @uturi/sonification",
-          "description": "A design record of an accessibility library that experimented with auditory-based information delivery beyond vision-centered UI",
-          "link": "Read more"
-        },
-        "designSystem": {
-          "title": "Design System Accessibility Improvement (1) · (2)",
-          "description": "A case study of redesigning a design system based on actual user experience beyond WCAG compliance",
-          "link": "Read more"
-        },
-        "disabledButton": {
-          "title": "Disabled Button, Is It Really the Best?",
-          "description": "A review of conventional UI patterns from a cognitive and behavioral perspective",
-          "link": "Read more"
-        },
-        "momentumScroll": {
-          "title": "Implementing Velocity-Based Momentum Scroll",
-          "description": "The process of designing and implementing scroll interactions by applying physics-based models",
-          "link": "Read more"
-        },
-        "audioContext": {
-          "title": "Building AudioContext Integration Tests in JSDOM Environment",
-          "description": "A structural approach to validating audio interactions within test environment constraints",
-          "link": "Read more"
-        },
-        "v8gc": {
-          "title": "V8 GC Deep Dive Instead of Year-End Review",
-          "description": "V8 memory management and GC structure, and React's strategy from a frontend developer's perspective",
-          "link": "Read more"
-        },
-        "gesture": {
-          "title": "Universal Swiping: Is the Expanded Gesture Area Really Convenient?",
-          "description": "A UX critique analyzing the impact of OS-level interaction changes on user experience",
-          "link": "Read more"
-        }
-      },
-      "archive": {
-        "description": "Selected Writings",
-        "text": "View full archive",
-        "link": "View full archive"
-      }
-    },
-    "skills": {
-      "title": "Skills",
-      "webFrontend": "Web Frontend",
-      "etc": "Others"
-    },
-    "education": {
-      "title": "Education",
-      "university": {
-        "name": "Korea University",
-        "major": "English Language and Literature, Psychology",
-        "period": "2014.03 - 2020.08",
-        "description": "Studied natural language processing (voice) in English Literature and user behavior analysis (UX), cognitive psychology, and neuroscience in Psychology. Started development while working as a research student at the voice research institute.",
-        "achievement": "• Graduated with highest honors (GPA 4.25 / 4.5)"
-      }
-    },
-    "miscellaneous": {
-      "title": "Miscellaneous",
-      "certifications": {
-        "title": "Certifications",
-        "gaiq": "GAIQ",
-        "sqld": "SQLD",
-        "surveyAnalyst": "사회조사분석사 2급",
-        "toeic": "TOEIC",
-        "informationProcessing": "정보처리기사"
-      },
-      "awards": {
-        "title": "Awards and Activities",
-        "perfectCarePatent": "Patent filed for [Perfect Care]",
-        "perfectCarePatent.collaboration": "Collaboration with YD Psychiatry",
-        "perfectCarePatent.period": "2024.06",
-        "deepmunhakdo": "Programming Club [Deepmunhakdo]",
-        "deepmunhakdo.description": "NLP-based CSAT English passage and question generation service",
-        "deepmunhakdo.role": "Service development (Java, Spring, Vanilla js)",
-        "deepmunhakdo.period": "2021.12 ~ 2022.06"
-      }
-    },
-    "contact": {
-      "title": "Contact",
-      "greeting": "Curious to learn more?",
-      "message": "If you're interested in new projects or collaboration, feel free to contact me anytime. Let's create amazing things together! 🌈",
-      "kakao": "KakaoTalk Open Chat",
-      "otherPages": "Continue to Other Pages",
-      "blogTech": "Blog: Tech",
-      "blogPsychology": "Blog: Psychology with Tech"
-    },
-    "footer": {
-      "copyright": "© 2025 Ethan Yu. All rights reserved."
-    },
-    "darkMode": {
-      "toggle": "Toggle Dark Mode",
-      "switchToLight": "Switch to Light Mode",
-      "switchToDark": "Switch to Dark Mode"
-    },
-    "links": {
-      "homepage": "Homepage",
-      "appStore": "App Store",
-      "googlePlay": "Google Play Store",
-      "github": "GitHub",
-      "live": "Live",
-      "notes": "Notes",
-      "blog": "Blog",
-      "prototype": "1st Draft",
-      "youtube": "Youtube",
-      "image": "Image"
-    },
-    "language": {
-      "current": "ko",
-      "toggle": "Language Toggle",
-      "switchToEnglish": "Switch to English",
-      "switchToKorean": "Switch to Korean"
+    "stats": {
+      "experience": "Years of Development Experience",
+      "leadership": "Years of Team Leadership",
+      "patents": "Patents and <br/> Open Source Maintenance",
+      "users": "Members"
     }
+  },
+  "experience": {
+    "title": "Experience",
+    "current": {
+      "position": "Frontend Developer",
+      "company": "Connecting the Dots (Tictoccroc)",
+      "period": "2023.11 - Present",
+      "description": "I developed a hybrid app for childcare matching services called [Tictoccroc].",
+      "achievements": [
+        "Selected as Employee of the Year 2024",
+        "Built <strong>accessibility-enhanced design system</strong> <strong>without any UI toolkit</strong>, improved accessibility of <strong>36+ components</strong> including DatePicker, Autocomplete, contributing to a11y certification <a href='https://ui.tictoccroc.com' target='_blank' rel='noopener noreferrer' aria-label='View accessibility-enhanced design system details'><svg aria-hidden='true' viewBox='0 0 24 24' width='14' height='14' class='inline-block mr-1 storybook-icon'><rect x='3' y='2' width='18' height='20' rx='3' ry='3' fill='#FF4785'></rect><rect x='15' y='2' width='3' height='4' fill='#ffffff'></rect><text x='12' y='16' text-anchor='middle' font-family='Arial, Helvetica, sans-serif' font-size='12' font-weight='700' fill='#ffffff'>S</text></svg></a> <a href='https://velog.io/@ksr20612/%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%A0%91%EA%B7%BC%EC%84%B1-%EA%B0%9C%EC%84%A0%EA%B8%B0-1' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View accessibility-enhanced design system details'><i class='fas fa-external-link-alt mr-1'></i></a>",
+        "Developed Stackflow-based <strong>screen transition plugin</strong> to provide <strong>enhanced user experience</strong> like native apps even in webview environment <a href='https://parent.tictoccroc.com' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View screen transition plugin details'><i class='fas fa-external-link-alt mr-1'></i>Try it yourself</a>",
+        "Built <strong>8</strong> frontend library monorepos to improve <strong>development productivity and reusability</strong>",
+        "Migrated <strong>3</strong> legacy apps (React, PHP, Flutter) to ensure <strong>service stability and development efficiency</strong>",
+        "Built team API server environment and released <strong>2 MVPs</strong>, driving <strong>20%</strong> increase in visitors/members <a href='https://velog.io/@ksr20612/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-Next.js-API-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C%EA%B8%B0' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View team API server development details'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a> <a href='/checkout-the-numbers.png' target='_blank' rel='noopener noreferrer' class='text-blue-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View performance evidence'><i class='fas fa-chart-line mr-1' aria-hidden='true'></i></a>",
+        "Independently developed offline store operation system, saving over <strong>10 million won</strong> in annual fixed costs <a href='https://tabby-henley-bfa.notion.site/24ac19873aee8087b363d114580832ce?source=copy_link' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View offline store operation system development details'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a>"
+      ]
+    },
+    "previous": {
+      "position": "Researcher, Frontend Developer",
+      "company": "Mediazen",
+      "period": "2020.08 - 2023.11",
+      "description": "Worked on the early development of AI-based services leveraging the research institute's voice data collection and analysis platform and in-house STT/TTS models. Later joined the team to develop the AI children's English learning service [RockieTalkie].",
+      "achievements": [
+        "Led <strong>initial team building, development to release</strong> of RockieTalkie based on STT and pronunciation evaluation AI models <a href='https://tabby-henley-bfa.notion.site/RockieTalkie-24ac19873aee806e86d8e3032cc3199a?source=copy_link' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View RockieTalkie details'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a>",
+        "Developed voice recognition-based <strong>barrier-free</strong> kiosk service, successfully introduced to <strong>3 institutions</strong>, creating social value <a href='https://tabby-henley-bfa.notion.site/24ac19873aee8030a377de1d759194dd' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View barrier-free kiosk development details'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a>",
+        "Developed and operated voice collection/analysis platform with <strong>approximately 6,000 DAU</strong>, stably collecting and processing <strong>over 1,000 hours of large-scale data per quarter</strong>",
+        "Developed JS voice processing library to implement voice file editing and tagging functions"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "uturi": {
+      "title": "@uturi Accessibility Library",
+      "period": "2025.05 - Present",
+      "description": "The @uturi accessibility tool project was inspired by the Korean folktale <strong>'Baby Hero Uturi,'</strong> who overcame disabilities to become a hero.<br /> Currently providing the @uturi/sonification library.",
+      "sonification": {
+        "title": "@uturi/sonification",
+        "description": "Can people with visual impairments understand charts and graphs <strong>at a glance</strong>?",
+        "description2": "@uturi/sonification helps non-visual users understand data changes as quickly as visual users by converting numerical changes into <strong>melody, rhythm, and volume</strong>.",
+        "description3": "Over <strong>1k+ downloads</strong> on NPM, open source release and continuous feature improvements in progress",
+        "features": {
+          "algorithm": "Support for various audio generation algorithms",
+          "customizable": "Customizable audio properties",
+          "framework": "Framework-Agnostic (Multi-framework support: React, Vue, Svelte, Vanilla.js)",
+          "optimization": "Optimized audio generation for large datasets, Multi-threading (Web Worker) support",
+          "typeSafe": "Type-Safe & Zero-Dependencies"
+        }
+      }
+    },
+    "perfectCare": {
+      "title": "Online Obsessive-Compulsive Disorder Treatment [Perfect Care]",
+      "period": "2022.06 - 2023.11",
+      "description": "A web service created to help improve obsessive-compulsive disorder. Planned and developed in collaboration with YD Psychiatry, receiving data from them. After effectiveness verification testing, filed for patent in June 2024."
+    },
+    "icbt": {
+      "title": "Internet-based Cognitive Behavioral Therapy (iCBT) Related Web Services",
+      "period": "2021.08 - 2022.04",
+      "description": "I attempted to address the blind spots in psychological treatment and research through technology. <br /> I planned and developed various services to incorporate technology into the iCBT field I was passionate about. <br /> Some online tests were <strong>actually used in research</strong>.",
+      "services": [
+        "Web-based chatbot for anxiety disorder pre-counseling",
+        "Online web game based on Dot-probe task for clients with social anxiety disorder",
+        "Online emotional stroop test",
+        "Online scrambled sentence test",
+        "Online paper meta-analyzer"
+      ]
+    },
+    "csat": {
+      "title": "NLP-based College Scholastic Ability Test Question Generation Service",
+      "period": "2021.12 - 2022.06",
+      "description": "Developed a CSAT English question generation model based on RNN and LSTM models. <br/> Responsible for overall web development and built a Django API server to communicate with the model."
+    }
+  },
+  "essays": {
+    "title": "Essays",
+    "introduction": "I systematically document experiences gained from development and research from perspectives of accessibility, interaction, and runtime.",
+    "category": {
+      "accessibility": {
+        "title": "Human-Centered & Accessibility",
+        "description": "Exploring how software can be designed to be inclusive, interpretable, and humane."
+      },
+      "interaction": {
+        "title": "Interaction & UI Engineering",
+        "description": "Translating human perception into precise interaction and motion."
+      },
+      "system": {
+        "title": "System & Runtime Understanding",
+        "description": "Understanding the execution environment beneath frameworks."
+      }
+    },
+    "posts": {
+      "sonification": {
+        "title": "Synesthesia and Accessibility: @uturi/sonification",
+        "description": "A design record of an accessibility library that experimented with auditory-based information delivery beyond vision-centered UI",
+        "link": "Read more"
+      },
+      "designSystem": {
+        "title": "Design System Accessibility Improvement (1) · (2)",
+        "description": "A case study of redesigning a design system based on actual user experience beyond WCAG compliance",
+        "link": "Read more"
+      },
+      "disabledButton": {
+        "title": "Disabled Button, Is It Really the Best?",
+        "description": "A review of conventional UI patterns from a cognitive and behavioral perspective",
+        "link": "Read more"
+      },
+      "momentumScroll": {
+        "title": "Implementing Velocity-Based Momentum Scroll",
+        "description": "The process of designing and implementing scroll interactions by applying physics-based models",
+        "link": "Read more"
+      },
+      "audioContext": {
+        "title": "Building AudioContext Integration Tests in JSDOM Environment",
+        "description": "A structural approach to validating audio interactions within test environment constraints",
+        "link": "Read more"
+      },
+      "v8gc": {
+        "title": "V8 GC Deep Dive Instead of Year-End Review",
+        "description": "V8 memory management and GC structure, and React's strategy from a frontend developer's perspective",
+        "link": "Read more"
+      },
+      "gesture": {
+        "title": "Universal Swiping: Is the Expanded Gesture Area Really Convenient?",
+        "description": "A UX critique analyzing the impact of OS-level interaction changes on user experience",
+        "link": "Read more"
+      }
+    },
+    "archive": {
+      "description": "Selected Writings",
+      "text": "View full archive",
+      "link": "View full archive"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "webFrontend": "Web Frontend",
+    "etc": "Others"
+  },
+  "education": {
+    "title": "Education",
+    "university": {
+      "name": "Korea University",
+      "major": "English Language and Literature, Psychology",
+      "period": "2014.03 - 2020.08",
+      "description": "Studied natural language processing (voice) in English Literature and user behavior analysis (UX), cognitive psychology, and neuroscience in Psychology. Started development while working as a research student at the voice research institute.",
+      "achievement": "• Graduated with highest honors (GPA 4.25 / 4.5)"
+    }
+  },
+  "miscellaneous": {
+    "title": "Miscellaneous",
+    "certifications": {
+      "title": "Certifications",
+      "gaiq": "GAIQ",
+      "sqld": "SQLD",
+      "surveyAnalyst": "사회조사분석사 2급",
+      "toeic": "TOEIC",
+      "informationProcessing": "정보처리기사"
+    },
+    "awards": {
+      "title": "Awards and Activities",
+      "perfectCarePatent": "Patent filed for [Perfect Care]",
+      "perfectCarePatent.collaboration": "Collaboration with YD Psychiatry",
+      "perfectCarePatent.period": "2024.06",
+      "deepmunhakdo": "Programming Club [Deepmunhakdo]",
+      "deepmunhakdo.description": "NLP-based CSAT English passage and question generation service",
+      "deepmunhakdo.role": "Service development (Java, Spring, Vanilla js)",
+      "deepmunhakdo.period": "2021.12 ~ 2022.06"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "greeting": "Curious to learn more?",
+    "message": "If you're interested in new projects or collaboration, feel free to contact me anytime. Let's create amazing things together! 🌈",
+    "kakao": "KakaoTalk Open Chat",
+    "otherPages": "Continue to Other Pages",
+    "blogTech": "Blog: Tech",
+    "blogPsychology": "Blog: Psychology with Tech"
+  },
+  "footer": {
+    "copyright": "© 2025 Ethan Yu. All rights reserved."
+  },
+  "darkMode": {
+    "toggle": "Toggle Dark Mode",
+    "switchToLight": "Switch to Light Mode",
+    "switchToDark": "Switch to Dark Mode"
+  },
+  "links": {
+    "homepage": "Homepage",
+    "appStore": "App Store",
+    "googlePlay": "Google Play Store",
+    "github": "GitHub",
+    "live": "Live",
+    "notes": "Notes",
+    "blog": "Blog",
+    "prototype": "1st Draft",
+    "youtube": "Youtube",
+    "image": "Image"
+  },
+  "language": {
+    "current": "ko",
+    "toggle": "Language Toggle",
+    "switchToEnglish": "Switch to English",
+    "switchToKorean": "Switch to Korean"
   }
+}
