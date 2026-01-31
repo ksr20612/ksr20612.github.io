@@ -69,3 +69,6 @@ storybook-static/
 
 # Vercel
 .vercel
+
+# vscode
+.vscode/

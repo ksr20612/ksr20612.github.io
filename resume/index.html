@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유동연 - 프론트엔드 개발자</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.7;
+        }
+
+        /* 테이블 스타일 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1rem;
+        }
+
+        table th,
+        table td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        table th {
+            font-weight: 600;
+            background-color: #f9fafb;
+        }
+
+        table td:first-child {
+            width: 100px;
+            white-space: nowrap;
+        }
+
+        table td:last-child {
+            width: auto;
+        }
+
+        /* PDF 인쇄 최적화 */
+        @page {
+            size: A4;
+            margin: 1.5cm;
+        }
+
+        @media print {
+            body {
+                background: white !important;
+                padding: 0;
+                margin: 0;
+                font-size: 11pt;
+            }
+
+            .print-container {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                box-shadow: none;
+                background: white !important;
+            }
+
+            /* 배경색 제거 */
+            [class*="bg-"] {
+                background-color: transparent !important;
+                background: none !important;
+            }
+
+            a[href^="mailto:"]:after {
+                content: "";
+            }
+
+            /* 링크 색상 유지 */
+            a {
+                color: #2563eb !important;
+                text-decoration: underline;
+            }
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <div class="w-full px-6 py-10 print-container">
+        <!-- Header -->
+        <header class="border-b border-gray-300 pb-4 mb-6">
+            <div class="flex items-start justify-between gap-4">
+                <div class="flex-1">
+                    <h1 class="text-3xl font-bold text-gray-900 mb-3">유동연</h1>
+                    <div class="space-y-0.5 text-gray-700 text-sm">
+                        <div>연락처: +82 10 2637 2779</div>
+                        <div>이메일: <a href="mailto:ksr20612@gmail.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">ksr20612@gmail.com</a></div>
+                        <div>깃헙: <a href="https://github.com/ksr20612" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">https://github.com/ksr20612</a></div>
+                        <div>에세이: <a href="https://velog.io/@ksr20612" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">https://velog.io/@ksr20612</a></div>
+                        <div>포트폴리오: <a href="https://ksr20612.github.io/" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">https://ksr20612.github.io</a></div>
+                    </div>
+                </div>
+                <img src="me.png" alt="유동연" draggable="false" class="w-24 h-24 object-cover rounded-full flex-shrink-0" />
+            </div>
+        </header>
+
+        <!-- Introduction -->
+        <section class="mb-10">
+            <p class="text-gray-800 text-sm leading-relaxed mb-3">
+                5년 차 개발자로 React와 TypeScript 진영에서 서비스의 설계, 배포, 운영 전반을 담당하고 있습니다. <br/> 
+                현재는 째깍악어에서 <strong>FE팀을 리딩</strong>하며,
+                국내 대표 돌봄 플랫폼 <a href="https://parent.tictoccroc.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline ml-1"><strong>째깍악어</strong></a> 앱과 웹을 담당하고 있습니다.
+            </p>
+            <p class="text-gray-800 text-sm leading-relaxed mb-3">
+                돌봄, 교육, 상담, 복지 등 사람이 중심이 되는 분야에서 기술을 엮고 있습니다. <br/>
+                <strong>a11y</strong>과 <strong>인클루시브 디자인</strong>을 기반으로 <strong>디자인 시스템</strong>과 <strong>UX</strong>를 개선하고 있습니다.<br/>
+                멀티모달을 기반으로 한 접근성 라이브러리 <a href="https://uturi.vercel.app/" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline ml-1"><strong>@uturi/sonification</strong></a>의 <strong>메인테이너</strong>로 활동하고 있습니다. <br/>
+            </p>
+            <p class="text-gray-700 text-sm italic p-3 rounded border border-gray-200 mt-4">
+                <strong>더 자세한 프로젝트는<a href="https://ksr20612.github.io/" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline ml-1">포트폴리오</a>에서 확인하실 수 있습니다.</strong>
+            </p>
+        </section>
+
+        <!-- Experience -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 pb-2 border-b border-gray-300">경력 사항 & 주요 성과</h2>
+            
+            <!-- 커넥팅더닷츠 -->
+            <div class="mb-8">
+                <div class="mb-5">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-1">커넥팅더닷츠(째깍악어)</h3>
+                    <p class="text-gray-600 text-sm">2023.11 - 현재 | 정규직 | 프론트엔드 개발</p>
+                </div>
+
+                <!-- Stackflow 프로젝트 -->
+                <div class="mb-6 pl-4 border-l-2 border-blue-500 py-3 pr-4 project-card">
+                    <h4 class="text-lg font-semibold text-gray-900 mb-3">Stackflow 기반 화면 전환 애니메이션 플러그인 개발 및 활용</h4>
+                    <div class="mb-3">
+                        <p class="font-semibold text-gray-800 mb-2 text-sm">배경 및 전략</p>
+                        <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
+                            <li>하이브리드 앱 환경에서 웹뷰 사용자가 <strong>90% 이상</strong>을 차지하고 있어 웹 기반 UI에서도 네이티브에 준하는 화면 전환 경험이 요구되는 상황</li>
+                            <li>분절적인 화면 전환 경험 대신 사용자 여정에 따라서 자연스럽게 액티비티가 포개지는 화면 전환 효과 구현 결정</li>
+                        </ul>
+                    </div>
+                    <div class="mb-3">
+                        <p class="font-semibold text-gray-800 mb-2 text-sm">작업</p>
+                        <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
+                            <li><strong>Stackflow/core</strong>를 확장한 자체 전환 라이브러리 <strong>@dotss/plugin-screen-renderer</strong> 개발 및 배포</li>
+                            <li><strong>Next.js 13</strong> 환경 제약을 해결하기 위해 커스텀 <strong>SSR</strong> 서버(<strong>Express</strong> 기반) 구성</li>
+                            <li>화면 단위 코드 스플리팅, 엣지 스와이프 제스처 등을 적용해 전환 경험의 일관성과 예측 가능성 개선</li>
+                        </ul>
+                    </div>
+                    <div class="mb-3">
+                        <p class="font-semibold text-gray-800 mb-2 text-sm">결과</p>
+                        <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
+                            <li>전환 로직을 라이브러리 레벨로 추상화해 이후 화면 전환 UX를 일관되게 확장할 수 있는 구조 마련</li>
+                            <li>화면 전환 제스처에 대한 사용자 반응의 비일관성 확인 후 액티비티 역할별 제스처를 달리 적용하는 정책 수립</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 디자인 시스템 -->
+                <div class="mb-6 pl-4 border-l-2 border-blue-500 py-3 pr-4 project-card">
+                    <h4 class="text-lg font-semibold text-gray-900 mb-3">째깍악어 디자인 시스템 구축 및 접근성 개선</h4>
+                    <div class="mb-3">
+                        <p class="font-semibold text-gray-800 mb-2 text-sm">배경 및 전략</p>
+                        <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
+                            <li>서비스 전반의 <strong>UI 일관성</strong>과 <strong>협업 효율</strong>을 확보하기 위해 디자인 시스템 구축</li>
+                            <li>사용자 친화적인 UI/UX를 목표로 접근성 기준을 시스템 차원에서 함께 정립</li>
+                            <li>서비스 마이그레이션 일정에 맞춰 <strong>점진적으로 도입</strong>하며, 실제 사용 빈도가 높은 컴포넌트부터 우선 개발</li>
+                            <li>외부 라이브러리 의존성을 최소화해 장기 운영에 적합한 경량 구조 지향</li>
+                        </ul>
+                    </div>
+                    <div class="mb-3">
+                        <p class="font-semibold text-gray-800 mb-2 text-sm">작업</p>
+                        <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
+                            <li>AutoComplete, ChainPicker 등 주요 컴포넌트를 포함해 <strong>총 36종</strong>의 UI 및 유틸리티 컴포넌트 개발</li>
+                            <li><strong>Vite</strong> 기반 번들링 환경에서 컴포넌트 단위 독립 번들링 구조를 설계해 <strong>트리셰이킹</strong> 효율을 고려한 패키징 구성</li>
+                            <li><strong>GitHub Actions</strong> 기반 Subdirectory 자동 배포 파이프라인 구축</li>
+                            <li>유닛 테스트, 시각적 회귀 테스트, 접근성 검사를 연계해 품질 검증 자동화</li>
+                            <li>DatePicker, AutoComplete 등 핵심 컴포넌트를 <strong>WCAG 2.2 AA</strong> 기준으로 개선</li>
+                        </ul>
+                    </div>
+                    <div class="mb-3">
+                        <p class="font-semibold text-gray-800 mb-2 text-sm">결과</p>
+                        <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
+                            <li>접근성 기준과 인터랙션 패턴을 컴포넌트에 내재화, UX 판단이 <strong>개인이 아닌 시스템</strong>에 의해 유지되도록 구성</li>
+                            <li>번들 크기 minified + gzipped 기준 <strong>76kB</strong> 수준의 경량 구조를 확보(트리셰이킹 적용 시 실제 서비스 번들 크기는 추가로 감소)</li>
+                            <li>VoiceOver, NVDA 최신 버전 기준 컴포넌트 가독성 검증</li>
+                            <li>v0.0.1 → v2.1.3까지 약 <strong>2년 이상</strong> 버전업과 확장을 지속하며 실서비스 환경에서 디자인 시스템을 안정적으로 장기 운영 중</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 하이브리드 앱 마이그레이션 -->
+                <div class="mb-6 pl-4 border-l-2 border-blue-500 py-3 pr-4 project-card">
+                    <h4 class="text-lg font-semibold text-gray-900 mb-3">부모님, 선생님 하이브리드 앱 / 어드민 마이그레이션</h4>
+                    <div class="mb-3">
+                        <p class="font-semibold text-gray-800 mb-2 text-sm">배경 및 전략</p>
+                        <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
+                            <li>기술 스택 노후화(React + Next.js 12 + PHP)로 인한 유지보수 비용 증가 및 확장성 한계 발생</li>
+                            <li>모바일팀 해체 이후 Flutter 기반 선생님 앱을 프론트엔드 팀에서 지속적으로 운영할 수 있는 구조 필요</li>
+                            <li>부모님·어드민 서비스는 서비스 안정성을 고려해 <strong>투 트랙</strong>으로 점진적 마이그레이션 진행, 선생님 앱은 운영 효율을 위해 <strong>일괄 마이그레이션</strong> 전략 선택</li>
+                        </ul>
+                    </div>
+                    <div class="mb-3">
+                        <p class="font-semibold text-gray-800 mb-2 text-sm">작업</p>
+                        <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
+                            <li><strong>결제, 채팅, 이미지·영상 업로드 등</strong> 기존 Flutter 앱에 의존하던 주요 로직을 웹 기반으로 재구현</li>
+                            <li>웹뷰와 네이티브 앱 간 <strong>브릿지 인터페이스</strong>를 정립해 하이브리드 앱 구조 안정화</li>
+                            <li>GitHub Actions 기반 정기적인 Stage 배포 자동화 및 Slack 웹혹을 통한 에러 로깅 환경 구성</li>
+                            <li>개발 환경 도커라이즈를 통해 로컬 개발 및 신규 합류 인원의 온보딩 <strong>DX 개선</strong></li>
+                        </ul>
+                    </div>
+                    <div class="mb-3">
+                        <p class="font-semibold text-gray-800 mb-2 text-sm">결과</p>
+                        <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
+                            <li>구조 정비와 자동화 도입을 통해 운영 이슈 약 <strong>10%</strong> 감소</li>
+                            <li>신규 <strong>MVP 2종</strong>을 빠르게 구현·검증 후 릴리즈해 방문자 수 및 회원가입 수 약 <strong>20%</strong> 증가에 기여</li>
+                            <li>프론트엔드 팀 단독으로 선생님 앱 기능 확장 및 유지보수가 가능한 운영 구조를 확보</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 모노레포 -->
+                <div class="mb-6 pl-4 border-l-2 border-blue-500 py-3 pr-4 project-card">
+                    <h4 class="text-lg font-semibold text-gray-900 mb-3">FE 라이브러리 모노레포 환경 구축 및 운영</h4>
+                    <div class="mb-3">
+                        <p class="font-semibold text-gray-800 mb-2 text-sm">배경 및 전략</p>
+                        <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
+                            <li>디자인 시스템, 화면 전환 플러그인, 공통 유틸리티 등 다수의 FE 패키지를 개별적으로 관리하며 버전 관리 및 배포 복잡성이 지속적으로 증가</li>
+                            <li>패키지 간 의존성을 명확히 하고 배포·릴리즈 과정을 표준화할 필요성 대두</li>
+                        </ul>
+                    </div>
+                    <div class="mb-3">
+                        <p class="font-semibold text-gray-800 mb-2 text-sm">작업</p>
+                        <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
+                            <li>TurboRepo 및 Vite 기반으로 8개 패키지를 단일 모노레포로 통합한 관리 체계 구축</li>
+                            <li><strong>병렬 빌드</strong> 및 <strong>캐시 전략</strong>을 적용해 로컬 개발 및 CI 환경에서의 개발 생산성 개선</li>
+                            <li>Changesets 및 GitHub Actions를 도입해 시맨틱 버전 관리와 npm 배포 자동화 구축</li>
+                            <li>배포 전처리 및 테스트 단계를 포함한 파이프라인을 스크립트 기반으로 정비</li>
+                        </ul>
+                    </div>
+                    <div class="mb-3">
+                        <p class="font-semibold text-gray-800 mb-2 text-sm">결과</p>
+                        <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
+                            <li>패키지 간 변경 이력과 버전 관리가 명확해지며 릴리즈 안정성 확보</li>
+                            <li>반복적인 수작업 배포를 제거하고 라이브러리 운영과 확장을 지속 가능한 구조로 전환</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 미디어젠 -->
+            <div class="mb-8">
+                <div class="mb-5">
+                    <h3 class="text-xl font-semibold text-green-600 mb-1">미디어젠</h3>
+                    <p class="text-gray-600 text-sm">2020.08 - 2023.10 (3년 3개월) | 정규직 | 프론트엔드 개발</p>
+                </div>
+
+                <!-- RockieTalkie -->
+                <div class="mb-6 pl-4 border-l-2 border-green-500 py-3 pr-4 project-card">
+                    <h4 class="text-lg font-semibold text-gray-900 mb-3">RockieTalkie 개발 및 릴리즈</h4>
+                    <div class="mb-3">
+                        <p class="font-semibold text-gray-800 mb-2 text-sm">배경 및 접근</p>
+                        <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
+                            <li>STT 모델을 활용한 영어 학습 서비스로, 음성 입력·분석 과정에서의 성능과 사용성이 핵심 과제</li>
+                            <li>음성 처리와 복잡한 애니메이션 및 렌더링이 동시에 발생하는 환경에서 사용자 경험 저하 없이 안정적인 인터랙션 구조 필요</li>
+                        </ul>
+                    </div>
+                    <div class="mb-3">
+                        <p class="font-semibold text-gray-800 mb-2 text-sm">작업</p>
+                        <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
+                            <li>초기 팀 빌딩과 함께 <strong>칸반</strong> 기반 개발 프로세스 도입</li>
+                            <li>TanStack Query를 도입해 캐싱 전략을 구성하고 API 호출 횟수 감소</li>
+                            <li>음성 녹음 및 변환 로직을 <strong>Web Worker로 분리</strong>해 음성 시각화 과정에서 발생하던 프레임 드롭 문제 개선</li>
+                            <li>Next.js 기반 페이지 렌더링 구조를 정비해 초기 로딩 속도와 코드 유지보수성 개선</li>
+                        </ul>
+                    </div>
+                    <div class="mb-3">
+                        <p class="font-semibold text-gray-800 mb-2 text-sm">결과</p>
+                        <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
+                            <li>음성 입력·시각화 과정에서의 인터랙션 안정성 확보</li>
+                            <li>초기 로딩 속도 약 <strong>40%</strong> 개선</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 키오스크 -->
+                <div class="mb-6 pl-4 border-l-2 border-green-500 py-3 pr-4 project-card">
+                    <h4 class="text-lg font-semibold text-gray-900 mb-3">음성인식 기반 배리어프리 키오스크 웹 솔루션 개발</h4>
+                    <div class="mb-3">
+                        <p class="font-semibold text-gray-800 mb-2 text-sm">배경 및 접근</p>
+                        <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
+                            <li>시각·신체적 제약이 있는 사용자를 포함해 <strong>다양한 사용자군</strong>이 접근 가능한 키오스크 UX 필요</li>
+                            <li>접근성을 기능이 아닌 시스템 차원에서 보장하는 구조 설계 목표</li>
+                        </ul>
+                    </div>
+                    <div class="mb-3">
+                        <p class="font-semibold text-gray-800 mb-2 text-sm">작업</p>
+                        <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
+                            <li><strong>WCAG 2.1 AA</strong> 기준을 준수하는 컴포넌트 설계 및 <strong>axe-core</strong> 기반 접근성 테스트 자동화 구성</li>
+                            <li>실 사용자 피드백과 모니터링을 기반으로 <strong>스크린 리딩</strong> 속도 조절, <strong>큰 글씨 모드</strong>, 휠체어 사용자용 <strong>낮은 화면 모드</strong> 등 UX 개선</li>
+                            <li><strong>RTK(Redux Toolkit)</strong>를 도입해 상태 관리 보일러플레이트 약 <strong>60%</strong> 단순화</li>
+                        </ul>
+                    </div>
+                    <div class="mb-3">
+                        <p class="font-semibold text-gray-800 mb-2 text-sm">결과</p>
+                        <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
+                            <li>공공기관 및 사회복지관에 도입, <strong>3년 이상</strong> 장기 운영</li>
+                            <li><strong>접근성 품질 인증 마크</strong> 획득에 기여</li>
+                            <li>다양한 사용자 환경을 고려한 키오스크 UX 구현</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-bold text-gray-900 mb-5 pb-2 border-b border-gray-300">학력</h2>
+            <div class="pl-4 border-l-2 border-red-500 py-2 pr-4">
+                <h3 class="text-lg font-semibold text-red-600 mb-1">고려대학교</h3>
+                <p class="text-gray-700 mb-1 text-sm">2014.03 - 2020.08 | 졸업 | 영어영문학과, 심리학과</p>
+                <p class="text-gray-600 text-sm">음성학, 인지심리학 (4.25/4.5)</p>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-bold text-gray-900 mb-5 pb-2 border-b border-gray-300">기술스택 & 툴</h2>
+            <div class="text-gray-700 text-sm space-y-2">
+                <p><strong>[Web Frontend]</strong> Typescript, React.js, Next.js, Tanstack Query, Zustand, RTK, Emotion, Tailwindcss, Storybook, Vitest, Playwright, Vite, PNPM</p>
+                <p><strong>[기타]</strong> Nest.js, Express(Node.js), TypeORM, MySQL, Electron, Flutter, Vercel, Docker, AWS(EC2, App Runner, Lamda@edge etc.)</p>
+            </div>
+        </section>
+
+        <!-- Awards & Certifications -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-bold text-gray-900 mb-5 pb-2 border-b border-gray-300">자격증</h2>
+            <table>
+                <tr>
+                    <td class="text-sm text-gray-700">2023.09</td>
+                    <td class="text-sm font-semibold text-gray-900">GAIQ</td>
+                </tr>
+                <tr>
+                    <td class="text-sm text-gray-700">2020.12</td>
+                    <td class="text-sm font-semibold text-gray-900">SQLD</td>
+                </tr>
+                <tr>
+                    <td class="text-sm text-gray-700">2020.09</td>
+                    <td class="text-sm font-semibold text-gray-900">사회조사분석사 2급</td>
+                </tr>
+                <tr>
+                    <td class="text-sm text-gray-700">2020.05</td>
+                    <td class="text-sm font-semibold text-gray-900">TOEIC 990</td>
+                </tr>
+                <tr>
+                    <td class="text-sm text-gray-700">2019.11</td>
+                    <td class="text-sm font-semibold text-gray-900">정보처리기사</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Awards -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-bold text-gray-900 mb-5 pb-2 border-b border-gray-300">수상/기타</h2>
+            <table>
+                <tr>
+                    <td class="text-sm text-gray-700">2024.06</td>
+                    <td class="text-sm font-semibold text-gray-900">인지행동 디지털 치료제 [퍼펙트케어] 개발 및 특허 등록</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+</body>
+</html>
+
