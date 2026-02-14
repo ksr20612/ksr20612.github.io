@@ -105,15 +105,16 @@
             <p class="text-gray-800 text-sm leading-relaxed mb-3">
                 5년 차 개발자로 React와 TypeScript 진영에서 서비스의 설계, 배포, 운영 전반을 담당하고 있습니다. <br/> 
                 현재는 째깍악어에서 <strong>FE팀을 리딩</strong>하며,
-                국내 대표 돌봄 플랫폼 <a href="https://parent.tictoccroc.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline ml-1"><strong>째깍악어</strong></a> 앱과 웹을 담당하고 있습니다.
+                국내 대표 돌봄 플랫폼 <a href="https://parent.tictoccroc.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline ml-1"><strong>째깍악어</strong></a> 하이브리드 앱을 담당하고 있습니다.
             </p>
             <p class="text-gray-800 text-sm leading-relaxed mb-3">
                 <!-- 돌봄, 교육, 상담, 복지 등 사람이 중심이 되는 분야에서 기술을 엮고 있습니다. <br/> -->
                 <strong>a11y</strong>과 <strong>인클루시브 디자인</strong>을 기반으로 <strong>디자인 시스템</strong>과 <strong>UX</strong>를 개선하고 있습니다.<br/>
+                표면적인 철학에 머무르는 것이 아니라 서비스 철학이 녹아든 실효성 있는 시스템을 개발하고 <a href="https://velog.io/@ksr20612" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">기록</a>합니다.<br/>
                 멀티모달을 기반으로 한 접근성 라이브러리 <a href="https://uturi.vercel.app/" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline ml-1"><strong>@uturi/sonification</strong></a>의 <strong>메인테이너</strong>로 활동하고 있습니다. <br/>
             </p>
             <p class="text-gray-700 text-sm italic p-3 rounded border border-gray-200 mt-4">
-                <strong>더 자세한 프로젝트는<a href="https://ksr20612.github.io/" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline ml-1">포트폴리오</a>에서 확인하실 수 있습니다.</strong>
+                <strong>더 자세한 프로젝트와 개발 철학은<a href="https://ksr20612.github.io/" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline ml-1">포트폴리오</a>에서 확인하실 수 있습니다.</strong>
             </p>
         </section>
 
@@ -141,9 +142,10 @@
                     <div class="mb-3">
                         <p class="font-semibold text-gray-800 mb-2 text-sm">작업</p>
                         <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
-                            <li><strong>Stackflow/core</strong>를 확장한 자체 전환 라이브러리 <strong>@dotss/plugin-screen-renderer</strong> 개발 및 배포</li>
-                            <li><strong>Next.js 13</strong> 환경 제약을 해결하기 위해 커스텀 <strong>SSR</strong> 서버(<strong>Express</strong> 기반) 구성</li>
+                            <li><strong>Stackflow/core</strong>를 확장한 자체 전환 라이브러리 <strong>@dotss/plugin-screen-ui</strong> 개발 및 배포</li>
+                            <li><strong>Next.js 13</strong> 환경 제약을 해결하기 위해 스트리밍 기반의 커스텀 <strong>SSR</strong> 서버(<strong>Express</strong> 기반) 구성</li>
                             <li>화면 단위 코드 스플리팅, 엣지 스와이프 제스처 등을 적용해 전환 경험의 일관성과 예측 가능성 개선</li>
+                            <li>보조 기구(키보드) 사용자를 고려하여 포커스 일관성 보완</li>
                         </ul>
                     </div>
                     <div class="mb-3">
@@ -173,8 +175,9 @@
                             <li>AutoComplete, ChainPicker 등 주요 컴포넌트를 포함해 <strong>총 36종</strong>의 UI 및 유틸리티 컴포넌트 개발</li>
                             <li><strong>Vite</strong> 기반 번들링 환경에서 컴포넌트 단위 독립 번들링 구조를 설계해 <strong>트리셰이킹</strong> 효율을 고려한 패키징 구성</li>
                             <li><strong>GitHub Actions</strong> 기반 Subdirectory 자동 배포 파이프라인 구축</li>
-                            <li>유닛 테스트, 시각적 회귀 테스트, 접근성 검사를 연계해 품질 검증 자동화</li>
-                            <li>DatePicker, AutoComplete 등 핵심 컴포넌트를 <strong>WCAG 2.2 AA</strong> 기준으로 개선</li>
+                            <li>유닛 테스트, 시각적 회귀 테스트, 접근성 테스트(axe-core)를 연계해 품질 검증 자동화</li>
+                            <li><strong>WCAG 2.2 AA</strong> 가이드라인을 기반으로 타팀과 협업하여 컴포넌트 단위 접근성 개선 및 가이드라인 생성</li>
+                            <li>MCP 서버 구축하여 DX 개선</li>
                         </ul>
                     </div>
                     <div class="mb-3">
@@ -212,7 +215,7 @@
                         <p class="font-semibold text-gray-800 mb-2 text-sm">결과</p>
                         <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
                             <li>구조 정비와 자동화 도입을 통해 운영 이슈 약 <strong>10%</strong> 감소</li>
-                            <li>신규 <strong>MVP 2종</strong>을 빠르게 구현·검증 후 릴리즈해 방문자 수 및 회원가입 수 약 <strong>20%</strong> 증가에 기여</li>
+                            <li>신규 <strong>MVP 2종</strong>을 기획부터 총괄, 빠르게 구현·검증 후 릴리즈해 방문자 수 및 회원가입 수 약 <strong>20%</strong> 증가에 기여</li>
                             <li>프론트엔드 팀 단독으로 선생님 앱 기능 확장 및 유지보수가 가능한 운영 구조를 확보</li>
                         </ul>
                     </div>
