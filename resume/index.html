@@ -109,9 +109,9 @@
             </p>
             <p class="text-gray-800 text-sm leading-relaxed mb-3">
                 <!-- 돌봄, 교육, 상담, 복지 등 사람이 중심이 되는 분야에서 기술을 엮고 있습니다. <br/> -->
-                <strong>a11y</strong>과 <strong>인클루시브 디자인</strong>을 기반으로 <strong>디자인 시스템</strong>과 <strong>UX</strong>를 개선하고 있습니다.<br/>
+                <strong>a11y</strong>과 <strong>인클루시브 디자인</strong>을 기반으로 <strong>디자인 시스템</strong>과 <strong>UX</strong>를 개선합니다.<br/>
                 표면적인 철학에 머무르는 것이 아니라 서비스 철학이 녹아든 실효성 있는 시스템을 개발하고 <a href="https://velog.io/@ksr20612" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">기록</a>합니다.<br/>
-                멀티모달을 기반으로 한 접근성 라이브러리 <a href="https://uturi.vercel.app/" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline ml-1"><strong>@uturi/sonification</strong></a>의 <strong>메인테이너</strong>로 활동하고 있습니다. <br/>
+                멀티모달(시각 정보의 음성화)을 기반으로 한 접근성 라이브러리 <a href="https://uturi.vercel.app/" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline ml-1"><strong>@uturi/sonification</strong></a>의 <strong>메인테이너</strong>로 활동하고 있습니다. <br/>
             </p>
             <p class="text-gray-700 text-sm italic p-3 rounded border border-gray-200 mt-4">
                 <strong>더 자세한 프로젝트와 개발 철학은<a href="https://ksr20612.github.io/" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline ml-1">포트폴리오</a>에서 확인하실 수 있습니다.</strong>
@@ -153,6 +153,7 @@
                         <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
                             <li>전환 로직을 라이브러리 레벨로 추상화해 이후 화면 전환 UX를 일관되게 확장할 수 있는 구조 마련</li>
                             <li>화면 전환 제스처에 대한 사용자 반응의 비일관성 확인 후 액티비티 역할별 제스처를 달리 적용하는 정책 수립</li>
+                            <li><strong>관련 에세이:</strong> <a href="https://velog.io/@ksr20612/%EB%84%93%EC%96%B4%EC%A7%84-%EC%A0%9C%EC%8A%A4%EC%B2%98-%EC%98%81%EC%97%AD-%EC%A0%95%EB%A7%90-%ED%8E%B8%EB%A6%AC%ED%95%A0%EA%B9%8C-iOS-26%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%8A%A4%EC%99%80%EC%9D%B4%ED%94%84-%EB%B0%A9%EC%8B%9D%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">유니버셜 스와이핑에 대한 고찰</a></li>
                         </ul>
                     </div>
                 </div>
@@ -187,6 +188,10 @@
                             <li>번들 크기 minified + gzipped 기준 <strong>76kB</strong> 수준의 경량 구조를 확보(트리셰이킹 적용 시 실제 서비스 번들 크기는 추가로 감소)</li>
                             <li>VoiceOver, NVDA 최신 버전 기준 컴포넌트 가독성 검증</li>
                             <li>v0.0.1 → v2.1.3까지 약 <strong>2년 이상</strong> 버전업과 확장을 지속하며 실서비스 환경에서 디자인 시스템을 안정적으로 장기 운영 중</li>
+                            <li><strong>관련 링크:</strong> <a href="https://ui.tictoccroc.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">째깍악어 디자인 시스템</a>,
+                            <a href="https://velog.io/@ksr20612/%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%A0%91%EA%B7%BC%EC%84%B1-%EA%B0%9C%EC%84%A0%EA%B8%B0-2" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">접근성 개선기</a>,
+                            <a href="https://velog.io/@ksr20612/%EC%86%8D%EB%8F%84-%EA%B8%B0%EB%B0%98-%EB%AA%A8%EB%A9%98%ED%85%80-%EC%8A%A4%ED%81%AC%EB%A1%A4-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">모멘텀 스크롤 구현</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -207,8 +212,6 @@
                         <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
                             <li><strong>결제, 채팅, 이미지·영상 업로드 등</strong> 기존 Flutter 앱에 의존하던 주요 로직을 웹 기반으로 재구현</li>
                             <li>웹뷰와 네이티브 앱 간 <strong>브릿지 인터페이스</strong>를 정립해 하이브리드 앱 구조 안정화</li>
-                            <li>GitHub Actions 기반 정기적인 Stage 배포 자동화 및 Slack 웹혹을 통한 에러 로깅 환경 구성</li>
-                            <li>개발 환경 도커라이즈를 통해 로컬 개발 및 신규 합류 인원의 온보딩 <strong>DX 개선</strong></li>
                         </ul>
                     </div>
                     <div class="mb-3">
@@ -217,6 +220,8 @@
                             <li>구조 정비와 자동화 도입을 통해 운영 이슈 약 <strong>10%</strong> 감소</li>
                             <li>신규 <strong>MVP 2종</strong>을 기획부터 총괄, 빠르게 구현·검증 후 릴리즈해 방문자 수 및 회원가입 수 약 <strong>20%</strong> 증가에 기여</li>
                             <li>프론트엔드 팀 단독으로 선생님 앱 기능 확장 및 유지보수가 가능한 운영 구조를 확보</li>
+                            <li><strong>관련 에세이:</strong> <a href="https://velog.io/@ksr20612/%EC%97%B0%EB%A7%90-%ED%9A%8C%EA%B3%A0%EB%B3%B4%EB%8B%A4-V8-GC-%EB%94%A5%EB%8B%A4%EC%9D%B4%EB%B8%8C" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">INP 최적화와 V8 GC 분석</a>,
+                                <a href="https://velog.io/@ksr20612/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-Nest.js-API-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C%EA%B8%B02" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">MVP 인프라 설계 기록</a>
                         </ul>
                     </div>
                 </div>
@@ -281,6 +286,7 @@
                         <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
                             <li>음성 입력·시각화 과정에서의 인터랙션 안정성 확보</li>
                             <li>초기 로딩 속도 약 <strong>40%</strong> 개선</li>
+                            <li><strong>관련 에세이:</strong> <a href="https://tabby-henley-bfa.notion.site/RockieTalkie-24ac19873aee806e86d8e3032cc3199a?source=copy_link" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">멀티스레딩 기반 렌더링 최적화</a></li>
                         </ul>
                     </div>
                 </div>
@@ -365,6 +371,10 @@
         <section class="mb-10">
             <h2 class="text-2xl font-bold text-gray-900 mb-5 pb-2 border-b border-gray-300">수상/기타</h2>
             <table>
+                <tr>
+                    <td class="text-sm text-gray-700">2025.05~</td>
+                    <td class="text-sm font-semibold text-gray-900">시각 정보의 음성화 오픈소스 라이브러리 @uturi/sonification 운영</td>
+                </tr>
                 <tr>
                     <td class="text-sm text-gray-700">2024.06</td>
                     <td class="text-sm font-semibold text-gray-900">인지행동 디지털 치료제 [퍼펙트케어] 개발 및 특허 등록</td>
