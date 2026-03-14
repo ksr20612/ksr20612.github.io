@@ -53,10 +53,9 @@
       "period": "2023.11 - 현재",
       "description": "육아 매칭 앱 [째깍악어]의 부모님, 선생님 하이브리드 앱(React-Next.js-와 Flutter)을 개발했습니다.",
       "achievements": [
-        "2024년 최우수 사원 선정",
-        "<strong>별도의 UI 툴킷 없이 접근성 강화 디자인 시스템</strong> 구축, DatePicker, Autocomplete 등 <strong>36종 이상</strong>의 컴포넌트 접근성 개선하여 a11y 인증 기여 <a href='https://ui.tictoccroc.com' target='_blank' rel='noopener noreferrer' aria-label='접근성 강화 디자인 시스템 구축 자세히 보기'><svg aria-hidden='true' viewBox='0 0 24 24' width='14' height='14' class='inline-block mr-1 storybook-icon'><rect x='3' y='2' width='18' height='20' rx='3' ry='3' fill='#FF4785'></rect><rect x='15' y='2' width='3' height='4' fill='#ffffff'></rect><text x='12' y='16' text-anchor='middle' font-family='Arial, Helvetica, sans-serif' font-size='12' font-weight='700' fill='#ffffff'>S</text></svg></a> <a href='https://velog.io/@ksr20612/%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%A0%91%EA%B7%BC%EC%84%B1-%EA%B0%9C%EC%84%A0%EA%B8%B0-1' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='접근성 강화 디자인 시스템 구축 자세히 보기'><i class='fas fa-external-link-alt mr-1'></i></a>",
-        "Stackflow 기반 <strong>화면 전환 플러그인 개발</strong>하여 웹뷰 환경에서도 네이티브 앱과 같은 <strong>향상된 사용자 경험 제공</strong> <a href='https://parent.tictoccroc.com' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='화면 전환 플러그인 자세히 보기'><i class='fas fa-external-link-alt mr-1'></i>직접 체험해보세요</a>",
-        "<strong>8종</strong>의 FE 라이브러리 모노레포를 구축하여 <strong>개발 생산성 및 재사용성 향상</strong>",
+        "<strong>별도 UI 툴킷 없이 디자인 시스템 및 UI 라이브러리</strong> 구축 및 보수, 실서비스 적용 및 a11y 인증 기여 <a href='https://ui.tictoccroc.com' target='_blank' rel='noopener noreferrer' aria-label='접근성 강화 디자인 시스템 구축 자세히 보기'><svg aria-hidden='true' viewBox='0 0 24 24' width='14' height='14' class='inline-block mr-1 storybook-icon'><rect x='3' y='2' width='18' height='20' rx='3' ry='3' fill='#FF4785'></rect><rect x='15' y='2' width='3' height='4' fill='#ffffff'></rect><text x='12' y='16' text-anchor='middle' font-family='Arial, Helvetica, sans-serif' font-size='12' font-weight='700' fill='#ffffff'>S</text></svg></a> <a href='https://ui-component.tictoccroc.com' target='_blank' rel='noopener noreferrer' aria-label='UI 컴포넌트 스토리북 자세히 보기'><svg aria-hidden='true' viewBox='0 0 24 24' width='14' height='14' class='inline-block mr-1 storybook-icon storybook-icon-blue'><rect x='3' y='2' width='18' height='20' rx='3' ry='3' fill='#3B82F6'></rect><rect x='15' y='2' width='3' height='4' fill='#ffffff'></rect><text x='12' y='16' text-anchor='middle' font-family='Arial, Helvetica, sans-serif' font-size='12' font-weight='700' fill='#ffffff'>S</text></svg></a> <a href='https://velog.io/@ksr20612/%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%A0%91%EA%B7%BC%EC%84%B1-%EA%B0%9C%EC%84%A0%EA%B8%B0-1' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='접근성 강화 디자인 시스템 구축 자세히 보기'><i class='fas fa-external-link-alt mr-1'></i></a>",
+        "Stackflow 확장 <strong>화면 전환 플러그인 개발</strong>하여 웹뷰 환경에서도 네이티브 앱과 같은 <strong>향상된 사용자 경험 제공</strong> <a href='https://parent.tictoccroc.com' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='화면 전환 플러그인 자세히 보기'><i class='fas fa-external-link-alt mr-1'></i>직접 체험해보세요</a>",
+        "<strong>8종+</strong>의 FE 라이브러리 모노레포를 구축하여 <strong>개발 생산성 및 재사용성 향상</strong>",
         "<strong>3종</strong>의 레거시 앱(React, PHP, Flutter) 마이그레이션하여 <strong>서비스 안정성 및 개발 효율성 확보</strong>",
         "팀내 API 서버 환경 구축하고 MVP <strong>2건</strong> 릴리즈하여 방문자수/회원가입수 <strong>20%</strong> 견인 <a href='https://velog.io/@ksr20612/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-Next.js-API-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C%EA%B8%B0' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='팀내 API 서버 개발 자세히 보기'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a> <a href='/checkout-the-numbers.png' target='_blank' rel='noopener noreferrer' class='text-blue-400 hover:text-blue-600 underline text-xs ml-1' aria-label='성과 증거 보기'><i class='fas fa-chart-line mr-1' aria-hidden='true'></i></a>",
         "오프라인 매장 운영 시스템(키오스크, 게이트, 사이니지)을 <strong>독자 개발</strong>하여 연간 고정 비용 <strong>1,000만원 이상</strong> 절감 <a href='https://tabby-henley-bfa.notion.site/24ac19873aee8087b363d114580832ce?source=copy_link' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='오프라인 매장(째깍섬) 운영 시스템 개발 자세히 보기'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a>"
@@ -78,14 +77,14 @@
   "projects": {
     "title": "개인 프로젝트",
     "uturi": {
-      "title": "@uturi 접근성 라이브러리",
+      "title": "@uturi, 멀티모달 기반 접근성 라이브러리",
       "period": "2025.05 - 현재",
-      "description": "장애를 극복하고 영웅이 되는 <strong>아기장수 우투리</strong>에서 이름을 딴 접근성 도구 @uturi 입니다.<br /> 현재 @uturi/sonification 라이브러리를 제공하고 있습니다.",
+      "description": "<strong>아기장수 우투리</strong>에서 이름을 딴 접근성 라이브러리 @uturi 입니다.<br /> @uturi/sonification 라이브러리 운영 중입니다.",
       "sonification": {
         "title": "@uturi/sonification",
         "description": "시각 장애인들이 차트나 그래프를 <strong>한 눈에</strong> 이해할 수 있을까요?",
         "description2": "@uturi/sonification은 수치의 변화를 <strong>멜로디, 리듬, 음량으로 변환</strong>하여 비시각 사용자가 시각 사용자만큼 빠르게 수치 변화를 이해할 수 있게끔 도와줍니다.",
-        "description3": "NPM 기준 다운로드 수 <strong>약 1k+</strong>, 오픈소스 공개 및 지속적인 기능 개선 진행 중",
+        "description3": "NPM 기준 다운로드 수 <strong>약 1k+</strong>, 오픈소스 운영 및 지속적인 기능 개선 진행 중",
         "features": {
           "algorithm": "다양한 오디오 생성 알고리즘 지원",
           "customizable": "커스텀 가능한 오디오 속성",
@@ -108,7 +107,7 @@
     "icbt": {
       "title": "인터넷 기반 인지행동 치료(iCBT) 관련 웹 서비스",
       "period": "2021.08 - 2022.04",
-      "description": "심리 치료와 연구의 사각지대를 기술로 풀어내 보았습니다. <br /> 관심있는 iCBT 분야에 기술을 녹여내고자 다양한 서비스들을 기획하고 개발했습니다. <br /> 일부 온라인 테스트는 <strong>실제 연구에서 사용</strong>되기도 했습니다.",
+      "description": "심리 치료와 연구를 기술로 풀어내었습니다. <br /> 모든 온라인 테스트는 무료로 배포하여 <strong>실제 연구에서 사용</strong>되기도 했습니다.",
       "services": [
         "불안장애 사전 상담용 웹 기반 챗봇",
         "사회불안장애 내담자를 위한 Dot-probe task 기반 온라인 웹 게임",
@@ -120,45 +119,41 @@
     "csat": {
       "title": "NLP 기반 대학수학능력시험 문항 생성 서비스",
       "period": "2021.12 - 2022.06",
-      "description": "RNN, LSTM 모델을 기반으로 수능 영어 문항 생성 모델을 개발하였습니다. <br/> 전반적인 웹 개발을 담당했습니다."
+      "description": "RNN, LSTM 모델을 기반으로 수능 영어 문항 생성 모델을 개발하였습니다. <br/> 웹 개발을 담당했습니다."
     }
   },
   "essays": {
     "title": "에세이",
-    "introduction": "개발과 연구에서 얻은 경험을 접근성·인터랙션·런타임 관점에서 구조적으로 기록하고 있습니다.",
+    "introduction": "개발과 연구에서 얻은 경험을 접근성·HCI·엔지니어링 관점에서 기록하고 있습니다.",
     "category": {
       "accessibility": {
-        "title": "Human-Centered & Accessibility",
+        "title": "Human-Centered Accessibility",
         "description": "포용적이고 해석 가능하며 인간적인 소프트웨어 설계 방법을 탐구합니다."
       },
       "interaction": {
-        "title": "Interaction & UI Engineering",
-        "description": "인간의 인지를 정밀한 인터랙션과 모션으로 번역합니다."
-      },
-      "system": {
-        "title": "System & Runtime Understanding",
-        "description": "프레임워크 아래의 실행 환경을 이해합니다."
+        "title": "HCI with Engineering",
+        "description": "인간의 인지와 사고를 정밀한 인터랙션과 모션으로 번역합니다."
       }
     },
     "posts": {
       "sonification": {
         "title": "공감각과 접근성: @uturi/sonification",
-        "description": "시각 중심 UI를 넘어서: 청각 기반 정보 전달을 실험한 접근성 라이브러리 설계 기록",
+        "description": "전통적인 시각 중심 UI를 넘어서: 청각 기반 정보 전달을 실험한 멀티모달 라이브러리 설계",
         "link": "더 읽기"
       },
       "designSystem": {
         "title": "디자인 시스템 접근성 개선기 (1) · (2)",
-        "description": "WCAG 준수 이상의 실제 사용자 경험을 기준으로 디자인 시스템을 재설계한 사례",
+        "description": "WCAG 준수에서 한 걸음 더 나아가 실제 사용자 경험을 기준으로 디자인 시스템을 재설계",
         "link": "더 읽기"
       },
       "disabledButton": {
         "title": "Disabled Button, 과연 최선일까?",
-        "description": "관습적인 UI 패턴을 인지·행동 관점에서 재검토한 글",
+        "description": "관습적인 웹 접근성 표준 사례를 인지·행동 관점에서 재검토",
         "link": "더 읽기"
       },
       "momentumScroll": {
         "title": "속도 기반 모멘텀 스크롤 직접 구현하기",
-        "description": "물리 기반 모델을 적용해 스크롤 인터랙션을 설계·구현한 과정",
+        "description": "물리 기반 모델을 적용해 스크롤 인터랙션을 설계·구현",
         "link": "더 읽기"
       },
       "audioContext": {
@@ -194,7 +189,7 @@
       "name": "고려대학교",
       "major": "영어영문학과, 심리학과",
       "period": "2014.03 - 2020.08",
-      "description": "영문학과에서 자연어 처리(음성)를, 심리학과에서 사용자 행동 분석(UX)과 인지심리학, 뇌과학을 공부했습니다. <br /> 음성 연구소에서 연구생으로 공부하다 개발을 시작했습니다.",
+      "description": "영문학과에서 자연어 처리(음성)를, 심리학과에서 사용자 행동 분석(UX)과 인지심리학을 공부했습니다. <br /> 음성 연구소에서 연구생으로 공부하다 개발을 시작했습니다.",
       "achievement": "• 평점 4.25 / 4.5로 최우등 졸업"
     }
   },
