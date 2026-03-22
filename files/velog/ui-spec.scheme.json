@@ -1,0 +1,151 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://dotss/ui-spec-schema.json",
+    "title": "UI Spec Schema",
+    "description": "UI Spec Standard Schema - transform texts into UI Spec(JSON) format",
+    "type": "object",
+    "definitions": {
+      "UISpec": {
+        "type": "object",
+        "description": "UI Spec Top-level Structure",
+        "properties": {
+          "version": {
+            "type": "string",
+            "description": "UI Spec Version",
+            "default": "1.0.0"
+          },
+          "metadata": {
+            "$ref": "#/definitions/Metadata"
+          },
+          "layout": {
+            "$ref": "#/definitions/ComponentNode"
+          }
+        },
+        "required": ["version", "metadata", "layout"]
+      },
+      "Metadata": {
+        "type": "object",
+        "description": "UI Metadata",
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "UI Title"
+          },
+          "description": {
+            "type": "string",
+            "description": "UI Description"
+          },
+          "screenType": {
+            "type": "string",
+            "description": "UI Type (e.g., 'page', 'modal', 'bottomSheet', 'component')"
+          }
+        },
+        "required": ["title", "screenType"]
+      },
+      "ComponentNode": {
+        "type": "object",
+        "description": "Component Node (Recursively Structured). Available component list and each component's props should be referenced from component://list and component://{ComponentName} resources",
+        "allOf": [
+          { "$ref": "#/definitions/BaseComponentProps" },
+          {
+            "type": "object",
+            "properties": {
+              "component": {
+                "type": "string",
+                "description": "Component name (e.g., 'Flexbox', 'Button'). All possible values should be referenced from component://list resource"
+              },
+              "children": {
+                "oneOf": [
+                  {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/definitions/ComponentNode"
+                    },
+                    "description": "Array of child components (when component has children)"
+                  },
+                  {
+                    "type": "string",
+                    "description": "Text content (for some components)"
+                  }
+                ]
+              }
+            },
+            "required": ["component"],
+            "additionalProperties": true
+          }
+        ]
+      },
+      "BaseComponentProps": {
+        "type": "object",
+        "description": "Component Common Props",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Component ID"
+          },
+          "className": {
+            "type": "string",
+            "description": "Component Class Name"
+          },
+          "inlineCSS": {
+            "$ref": "#/definitions/InlineCSS",
+            "description": "Inline CSS Style, override the default styles"
+          }
+        }
+      },
+      "SpacingValue": {
+        "oneOf": [
+          {
+            "type": "number",
+            "description": "Spacing unit (e.g., 4 = spacing.content(4) = 16px)"
+          },
+          {
+            "type": "string",
+            "description": "CSS value (e.g., '16px', '1rem')"
+          }
+        ]
+      },
+      "ColorValue": {
+        "oneOf": [
+          {
+            "type": "string",
+            "pattern": "^[a-zA-Z]+\\.[0-9]+$",
+            "description": "Theme color (e.g., 'grey.50', 'primary.main')"
+          },
+          {
+            "type": "string",
+            "pattern": "^#[0-9A-Fa-f]{6}$",
+            "description": "HEX color (e.g., '#FFFFFF')"
+          },
+          {
+            "type": "string",
+            "description": "CSS color (e.g., 'rgb(255, 255, 255)', 'transparent')"
+          }
+        ]
+      },
+      "InlineCSS": {
+        "type": "object",
+        "description": "Inline CSS style object (Emotion CSS)",
+        "additionalProperties": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "object",
+              "description": "Nested styles (e.g., '& svg': { ... })"
+            }
+          ]
+        }
+      }
+    },
+    "allOf": [
+      {
+        "$ref": "#/definitions/UISpec"
+      }
+    ]
+}
+  
