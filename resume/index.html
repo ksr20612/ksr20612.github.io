@@ -182,9 +182,9 @@
                             <li>TurboRepo 기반 모노레포를 통해 패키지 간 의존성 파편화 해결 및 배포 자동화(Changesets)</li>
                             <li><strong>Vite</strong> 기반 번들링 환경에서 <strong>트리셰이킹</strong> 효율을 고려한 패키징 구성</li>
                             <li><strong>GitHub Actions</strong> 기반 Subdirectory 자동 배포 파이프라인 구축</li>
-                            <li>유닛 테스트, 시각적 회귀 테스트, 접근성 테스트(axe-core)를 연계해 품질 검증 자동화</li>
+                            <li>유닛 테스트(Vitest), 시각적 회귀 테스트(Chromatic), 접근성 테스트(axe-core)를 연계해 품질 검증 자동화</li>
                             <li><strong>WCAG 2.2 AA</strong> 가이드라인을 기반으로 컴포넌트 단위 접근성 개선 및 가이드라인 생성</li>
-                            <li>MCP 서버 구축하여 개발자 경험 개선</li>
+                            <li>Streamable HTTP 기반 MCP 서버 구축하여 개발자 경험 및 기획~개발 프로세스 개선</li>
                         </ul>
                     </div>
                     <div class="mb-3">
@@ -198,8 +198,9 @@
                                 <strong>관련 링크:</strong> 
                                 <a href="https://ui.tictoccroc.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">커넥팅더닷츠 디자인 시스템 문서</a>,
                                 <a href="https://ui-component.tictoccroc.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">공유 UI 라이브러리 문서</a>,
-                                <a href="https://velog.io/@ksr20612/%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%A0%91%EA%B7%BC%EC%84%B1-%EA%B0%9C%EC%84%A0%EA%B8%B0-2" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">접근성 개선 사례 기록</a>,
-                                <a href="https://velog.io/@ksr20612/%EC%86%8D%EB%8F%84-%EA%B8%B0%EB%B0%98-%EB%AA%A8%EB%A9%98%ED%85%80-%EC%8A%A4%ED%81%AC%EB%A1%A4-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">모멘텀 스크롤 구현</a>
+                                <a href="https://velog.io/@ksr20612/%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%A0%91%EA%B7%BC%EC%84%B1-%EA%B0%9C%EC%84%A0%EA%B8%B0-2" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">접근성 개선 기록</a>,
+                                <a href="https://velog.io/@ksr20612/%EC%86%8D%EB%8F%84-%EA%B8%B0%EB%B0%98-%EB%AA%A8%EB%A9%98%ED%85%80-%EC%8A%A4%ED%81%AC%EB%A1%A4-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">모멘텀 스크롤 구현 기록</a>
+                                <a href="https://velog.io/@ksr20612/%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8B%9C%EC%8A%A4%ED%85%9C-MCP-%EA%B0%9C%EB%B0%9C%EA%B8%B0" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">MCP 서버 개발 기록</a>
                             </li>
                         </ul>
                     </div>
@@ -207,7 +208,7 @@
 
                 <!-- 하이브리드 앱 마이그레이션 -->
                 <div class="mb-6 pl-4 border-l-2 border-blue-500 py-3 pr-4 project-card">
-                    <h4 class="text-lg font-semibold text-gray-900 mb-3">부모님, 선생님 하이브리드 앱 / 어드민 마이그레이션</h4>
+                    <h4 class="text-lg font-semibold text-gray-900 mb-3">부모님, 선생님 하이브리드 앱 / 어드민 리빌드</h4>
                     <div class="mb-3">
                         <p class="font-semibold text-gray-800 mb-2 text-sm">배경 및 전략</p>
                         <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
@@ -220,7 +221,7 @@
                         <p class="font-semibold text-gray-800 mb-2 text-sm">작업</p>
                         <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
                             <li><strong>결제, 채팅, 이미지·영상 업로드 등</strong> 기존 Flutter 앱에 의존하던 주요 로직을 웹 중심으로 재구현</li>
-                            <li>웹 접근성이 고려된 다양한 실사례 구현 및 검증: 무한 스크롤 패턴, 채팅방, 화면 전환 등</li>
+                            <li>모바일 기기에서 웹 접근성이 고려된 다양한 실사례 구현 및 검증: 무한 스크롤 패턴, 채팅방, 스와이핑 기반 화면 전환 등</li>
                             <li>웹뷰와 네이티브 앱 간 <strong>브릿지 인터페이스</strong>를 정립해 하이브리드 앱 구조 안정화</li>
                         </ul>
                     </div>
@@ -235,6 +236,7 @@
                                 <a href="https://velog.io/@ksr20612/%EC%97%B0%EB%A7%90-%ED%9A%8C%EA%B3%A0%EB%B3%B4%EB%8B%A4-V8-GC-%EB%94%A5%EB%8B%A4%EC%9D%B4%EB%B8%8C" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">INP 최적화와 V8 GC 분석 기록</a>,
                                 <a href="https://velog.io/@ksr20612/%EC%A0%91%EA%B7%BC%EC%84%B1-%EC%B8%A1%EB%A9%B4%EC%97%90%EC%84%9C-%EB%B6%84%EC%84%9D%ED%95%9C-%EB%AC%B4%ED%95%9C-%EC%8A%A4%ED%81%AC%EB%A1%A4%EA%B3%BC-%EA%B7%B8-%EB%8C%80%EC%95%88" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">접근성을 고려한 무한 스크롤 패턴 구축</a>,
                                 <a href="https://velog.io/@ksr20612/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-Nest.js-API-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C%EA%B8%B02" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">MVP 인프라 설계 기록</a>
+                                <a href="https://tabby-henley-bfa.notion.site/24ac19873aee8087b363d114580832ce?pvs=74" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">오프라인 매장의 키오스크, 게이트, 사이니지 시스템 개발 기록</a>
                             </li>
                         </ul>
                     </div>
@@ -271,7 +273,10 @@
                         <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
                             <li>음성 입력·시각화 과정에서의 인터랙션 안정성 확보</li>
                             <li>초기 로딩 속도 약 <strong>40%</strong> 개선</li>
-                            <li><strong>관련 에세이:</strong> <a href="https://tabby-henley-bfa.notion.site/RockieTalkie-24ac19873aee806e86d8e3032cc3199a?source=copy_link" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">멀티스레딩 기반 렌더링 최적화</a></li>
+                            <li>
+                                <strong>관련 에세이:</strong>
+                                <a href="https://tabby-henley-bfa.notion.site/RockieTalkie-24ac19873aee806e86d8e3032cc3199a?source=copy_link" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">멀티스레딩 기반 렌더링 최적화</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -297,7 +302,7 @@
                     <div class="mb-3">
                         <p class="font-semibold text-gray-800 mb-2 text-sm">결과</p>
                         <ul class="list-disc list-outside text-gray-700 space-y-1.5 text-sm ml-5">
-                            <li>공공기관 및 사회복지관에 도입, <strong>3년 이상</strong> 장기 운영</li>
+                            <li>공공기관(성동구) 및 사회복지관에 도입, <strong>3년 이상</strong> 장기 운영</li>
                             <li><strong>접근성 품질 인증 마크</strong> 획득</li>
                             <li>다양한 사용자 환경을 고려한 키오스크 UX 구현</li>
                             <li>
@@ -316,7 +321,7 @@
             <div class="pl-4 border-l-2 border-red-500 py-2 pr-4">
                 <h3 class="text-lg font-semibold text-red-600 mb-1">고려대학교</h3>
                 <p class="text-gray-700 mb-1 text-sm">2014.03 - 2020.08 | 졸업 | 영어영문학과, 심리학과</p>
-                <p class="text-gray-600 text-sm">음성학, 인지심리학 (4.25/4.5)</p>
+                <p class="text-gray-600 text-sm">음성학, 인지심리학(UX) (4.25/4.5)</p>
             </div>
         </section>
 
@@ -363,6 +368,9 @@
                 <tr>
                     <td class="text-sm text-gray-700">2025.05~</td>
                     <td class="text-sm font-semibold text-gray-900">시각 정보의 음성화 오픈소스 라이브러리 @uturi/sonification 운영</td>
+                    <td class="text-sm text-gray-700">
+                        <a href="https://velog.io/@ksr20612/%EA%B3%B5%EA%B0%90%EA%B0%81%EA%B3%BC-%EC%A0%91%EA%B7%BC%EC%84%B1-uturisonification%EC%9D%84-%EB%B2%A0%ED%83%80-%EB%A6%B4%EB%A6%AC%EC%A6%88%ED%95%98%EB%A9%B0" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">라이브러리 개발 기록</a>
+                    </td>
                 </tr>
                 <tr>
                     <td class="text-sm text-gray-700">2024.06</td>
