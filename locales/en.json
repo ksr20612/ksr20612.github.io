@@ -26,16 +26,16 @@
   },
   "profile": {
     "name": "Ethan Yu",
-    "title": "Socially-Minded Frontend Developer",
+    "title": "Social-minded Developer",
     "email": "Email",
     "phone": "Phone",
     "location": "Location",
     "locationText": "Gangseo-gu, Seoul, South Korea",
     "introduction": {
-      "paragraph1": "I am a <strong>Human-Centered frontend developer</strong> who translates technology into experiences that people can handle.",
+      "paragraph1": "I am a <strong>Human-Centered Engineer</strong> who translates technology into experiences that people can handle.",
       "paragraph2": "I have designed accessibility, digital therapeutics, and multimodal UI based on linguistic and psychological perspectives.",
       "paragraph3": "I am the sole developer of the <strong class='text-orange-500'>patent-pending</strong> <a href='https://yd-icbt.co.kr' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>digital therapeutic(Perfect Care)</a>,<br/> and serve as the <strong class='text-orange-500'>maintainer</strong> of the <a href='https://uturi.vercel.app/' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>accessibility library(@uturi/sonification)</a>.",
-      "paragraph4": "Currently, I lead the frontend team at <a href='https://thedotscorp.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>Tictoccroc</a>, a baby unicorn company selected by the Ministry of SMEs and Startups, <br /> operating a hybrid app for <strong>Korea's largest care platform</strong>.",
+      "paragraph4": "Currently, I lead the frontend team at baby unicorn <a href='https://thedotscorp.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>Tictoccroc</a>, <br /> operating the hybrid app for <strong>Korea's largest care platform</strong> [Tictoccroc].",
       "paragraph5": "Implementing <strong>Skovald Village and Hogsback Village</strong> on the web where no one is excluded is my goal."
     },
     "stats": {
@@ -51,15 +51,14 @@
       "position": "Frontend Developer",
       "company": "Connecting the Dots (Tictoccroc)",
       "period": "2023.11 - Present",
-      "description": "I developed a hybrid app for childcare matching services called [Tictoccroc].",
+      "description": "I developed the parent and teacher hybrid app (React, Next.js, and Flutter) for the childcare matching app [Tictoccroc]. <a href='https://apps.apple.com/kw/app/%EC%A7%B8%EA%B9%8D%EC%95%85%EC%96%B4/id1189495776?l=ko' target='_blank' rel='noopener noreferrer' class='hover:text-blue-600 underline'><i class='fab fa-apple mr-1' aria-hidden='true'></i><span class='visually-hidden'>App Store</span></a> <a href='https://play.google.com/store/apps/details?id=com.tictoccroc.teacher&hl=ko&pli=1' target='_blank' rel='noopener noreferrer' class='hover:text-blue-600 underline'><i class='fab fa-google-play mr-1' aria-hidden='true'></i><span class='visually-hidden'>Google Play</span></a>",
       "achievements": [
-        "Selected as Employee of the Year 2024",
-        "Built and maintained <strong>design system and UI library</strong> <strong>without any UI toolkit</strong>, applied to production and contributed to a11y certification <a href='https://ui.tictoccroc.com' target='_blank' rel='noopener noreferrer' aria-label='View accessibility-enhanced design system details'><svg aria-hidden='true' viewBox='0 0 24 24' width='14' height='14' class='inline-block mr-1 storybook-icon'><rect x='3' y='2' width='18' height='20' rx='3' ry='3' fill='#FF4785'></rect><rect x='15' y='2' width='3' height='4' fill='#ffffff'></rect><text x='12' y='16' text-anchor='middle' font-family='Arial, Helvetica, sans-serif' font-size='12' font-weight='700' fill='#ffffff'>S</text></svg></a> <a href='https://ui-component.tictoccroc.com' target='_blank' rel='noopener noreferrer' aria-label='View UI component Storybook details'><svg aria-hidden='true' viewBox='0 0 24 24' width='14' height='14' class='inline-block mr-1 storybook-icon storybook-icon-blue'><rect x='3' y='2' width='18' height='20' rx='3' ry='3' fill='#3B82F6'></rect><rect x='15' y='2' width='3' height='4' fill='#ffffff'></rect><text x='12' y='16' text-anchor='middle' font-family='Arial, Helvetica, sans-serif' font-size='12' font-weight='700' fill='#ffffff'>S</text></svg></a> <a href='https://velog.io/@ksr20612/%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%A0%91%EA%B7%BC%EC%84%B1-%EA%B0%9C%EC%84%A0%EA%B8%B0-1' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View accessibility-enhanced design system details'><i class='fas fa-external-link-alt mr-1'></i></a>",
-        "Developed Stackflow extension <strong>screen transition plugin</strong> to provide <strong>enhanced user experience</strong> like native apps even in webview environment <a href='https://parent.tictoccroc.com' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View screen transition plugin details'><i class='fas fa-external-link-alt mr-1'></i>Try it yourself</a>",
-        "Built <strong>8+</strong> frontend library monorepos to improve <strong>development productivity and reusability</strong>",
-        "Migrated <strong>3</strong> legacy apps (React, PHP, Flutter) to ensure <strong>service stability and development efficiency</strong>",
-        "Built team API server environment and released <strong>2 MVPs</strong>, driving <strong>20%</strong> increase in visitors/members <a href='https://velog.io/@ksr20612/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-Next.js-API-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C%EA%B8%B0' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View team API server development details'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a> <a href='/checkout-the-numbers.png' target='_blank' rel='noopener noreferrer' class='text-blue-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View performance evidence'><i class='fas fa-chart-line mr-1' aria-hidden='true'></i></a>",
-        "Independently developed offline store operation system, saving over <strong>10 million won</strong> in annual fixed costs <a href='https://tabby-henley-bfa.notion.site/24ac19873aee8087b363d114580832ce?source=copy_link' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View offline store operation system development details'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a>"
+        "Built and maintained a <strong>design system and UI library without a separate UI toolkit</strong>, applied it in production, and contributed to a11y certification <a href='https://ui.tictoccroc.com' target='_blank' rel='noopener noreferrer' aria-label='View accessibility-enhanced design system details'><svg aria-hidden='true' viewBox='0 0 24 24' width='14' height='14' class='inline-block mr-1 storybook-icon'><rect x='3' y='2' width='18' height='20' rx='3' ry='3' fill='#FF4785'></rect><rect x='15' y='2' width='3' height='4' fill='#ffffff'></rect><text x='12' y='16' text-anchor='middle' font-family='Arial, Helvetica, sans-serif' font-size='12' font-weight='700' fill='#ffffff'>S</text></svg></a> <a href='https://ui-component.tictoccroc.com' target='_blank' rel='noopener noreferrer' aria-label='View UI component Storybook details'><svg aria-hidden='true' viewBox='0 0 24 24' width='14' height='14' class='inline-block mr-1 storybook-icon storybook-icon-blue'><rect x='3' y='2' width='18' height='20' rx='3' ry='3' fill='#3B82F6'></rect><rect x='15' y='2' width='3' height='4' fill='#ffffff'></rect><text x='12' y='16' text-anchor='middle' font-family='Arial, Helvetica, sans-serif' font-size='12' font-weight='700' fill='#ffffff'>S</text></svg></a> <a href='https://velog.io/@ksr20612/%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%A0%91%EA%B7%BC%EC%84%B1-%EA%B0%9C%EC%84%A0%EA%B8%B0-1' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View accessibility-enhanced design system details'><i class='fas fa-external-link-alt mr-1'></i></a>",
+        "Developed a Stackflow extension <strong>screen transition plugin</strong> so that even in a webview users get a <strong>native-like, enhanced experience</strong> <a href='https://parent.tictoccroc.com' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View screen transition plugin details'><i class='fas fa-external-link-alt mr-1'></i>Try it yourself</a>",
+        "Built <strong>8+</strong> FE library monorepos to improve <strong>developer productivity and reuse</strong>",
+        "Migrated <strong>3</strong> legacy apps (React, PHP, Flutter) to improve <strong>service stability and development efficiency</strong>",
+        "Set up an in-house API server environment and shipped <strong>2</strong> MVPs, driving a <strong>20%</strong> lift in visitors and sign-ups <a href='https://velog.io/@ksr20612/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-Next.js-API-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C%EA%B8%B0' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View team API server development details'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a> <a href='/checkout-the-numbers.png' target='_blank' rel='noopener noreferrer' class='text-blue-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View performance evidence'><i class='fas fa-chart-line mr-1' aria-hidden='true'></i></a>",
+        "<strong>Independently developed</strong> the offline store operating system (kiosks, gates, signage), cutting annual fixed costs by over <strong>10 million KRW</strong> <a href='https://tabby-henley-bfa.notion.site/24ac19873aee8087b363d114580832ce?source=copy_link' target='_blank' rel='noopener noreferrer' class='text-grey-400 hover:text-blue-600 underline text-xs ml-1' aria-label='View offline store operation system development details'><i class='fas fa-external-link-alt mr-1' aria-hidden='true'></i></a>"
       ]
     },
     "previous": {
@@ -80,7 +79,7 @@
     "uturi": {
       "title": "@uturi, Multimodal Accessibility Library",
       "period": "2025.05 - Present",
-      "description": "Accessibility library @uturi named after <strong>Baby Hero Uturi</strong>.<br /> Operating the @uturi/sonification library.",
+      "description": "Accessibility library @uturi named after <strong>Baby Hero Uturi</strong>.<br /> Actively maintaining the @uturi/sonification library",
       "sonification": {
         "title": "@uturi/sonification",
         "description": "Can people with visual impairments understand charts and graphs <strong>at a glance</strong>?",
@@ -98,7 +97,7 @@
     "perfectCare": {
       "title": "Online Obsessive-Compulsive Disorder Treatment [Perfect Care]",
       "period": "2022.06 - 2023.11",
-      "description": "A web service created to help improve obsessive-compulsive disorder. Planned and developed in collaboration with YD Psychiatry, receiving data from them. After effectiveness verification testing, filed for patent in June 2024."
+      "description": "A web service created to help improve obsessive-compulsive disorder. <br /> Planned and developed with data provided by YD Psychiatry. <br /> After <strong>effectiveness verification</strong>, filed a patent in <strong>June 2024</strong>."
     },
     "icbt": {
       "title": "Internet-based Cognitive Behavioral Therapy (iCBT) Related Web Services",
@@ -123,11 +122,11 @@
     "introduction": "I document experiences from development and research from perspectives of accessibility, HCI, and engineering.",
     "category": {
       "accessibility": {
-        "title": "Human-Centered & Accessibility",
+        "title": "Human-Centered Accessibility",
         "description": "Exploring how software can be designed to be inclusive, interpretable, and humane."
       },
       "interaction": {
-        "title": "Interaction & UI Engineering",
+        "title": "HCI with Engineering",
         "description": "Translating human perception and thinking into precise interaction and motion."
       },
       "system": {
