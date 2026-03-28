@@ -322,6 +322,7 @@ import { Button, Dialog, DialogAction, DialogContent, DialogText } from '@dotss/
 
 ### 커스텀 스타일링 (실제 프로덕트 예시)
 
+{% raw %}
 ```tsx
 import Button from '@dotss/ui/Button';
 import Icon from '@dotss/ui/Icon';
@@ -348,6 +349,7 @@ function CustomButton() {
   );
 }
 ```
+{% endraw %}
 
 ### 비활성화 상태와 조건부 활성화
 
@@ -405,6 +407,8 @@ function CustomButton() {
 
 ### ❌ 피해야 할 사용법
 
+
+{% raw %}
 ```tsx
 // 1. tag prop에 button, a 외의 값 사용 금지
 <Button tag="div">❌ 잘못된 사용</Button>
@@ -436,3 +440,4 @@ function CustomButton() {
 // ✅ 올바른 방법
 <IconButton name="CloseLine" aria-label="닫기" />
 ```
+{% endraw %}
