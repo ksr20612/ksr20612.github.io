@@ -169,6 +169,11 @@
         "title": "Universal Swiping: Is the Expanded Gesture Area Really Convenient?",
         "description": "A UX critique analyzing the impact of OS-level interaction changes on user experience",
         "link": "Read more"
+      },
+      "aux": {
+        "title": "AUX: A Sharper, Chillier UX",
+        "description": "AUX (UX for Agents): proposing the idea and building an MCP server",
+        "link": "Read more"
       }
     },
     "archive": {

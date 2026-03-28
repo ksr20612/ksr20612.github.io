@@ -170,6 +170,11 @@
         "title": "유니버셜 스와이핑: 넓어진 제스처 영역, 정말 편리할까?",
         "description": "OS 레벨 인터랙션 변화가 사용자 경험에 미치는 영향을 분석한 UX 비평",
         "link": "더 읽기"
+      },
+      "aux": {
+        "title": "AUX: 더 극단적이고 서늘한 UX",
+        "description": "AUX, UX For Agent 개념 제안 / MCP 서버 구축기",
+        "link": "더 읽기"
       }
     },
     "archive": {
