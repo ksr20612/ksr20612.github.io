@@ -32,9 +32,8 @@
     "location": "Location",
     "locationText": "Gangseo-gu, Seoul, South Korea",
     "introduction": {
-      "paragraph1": "I am a <strong>Human-Centered Engineer</strong> who translates technology into experiences that people can handle.",
-      "paragraph2": "I have designed accessibility, digital therapeutics, and multimodal UI based on linguistic and psychological perspectives.",
-      "paragraph3": "I am the sole developer of the <strong class='text-orange-500'>patent-pending</strong> <a href='https://yd-icbt.co.kr' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>digital therapeutic(Perfect Care)</a>,<br/> and serve as the <strong class='text-orange-500'>maintainer</strong> of the <a href='https://uturi.vercel.app/' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>accessibility library(@uturi/sonification)</a>.",
+      "paragraph1": "I focus on designing interaction and accessibility as a system.",
+      "paragraph3": "I am the sole developer of the <strong class='text-orange-500'>patent-pending</strong> <a href='https://yd-icbt.co.kr' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>digital therapeutic (Perfect Care)</a>,<br/> and serve as the <strong class='text-orange-500'>maintainer</strong> for work including the <a href='https://uturi.vercel.app/' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>multimodal library @uturi/sonification</a>.",
       "paragraph4": "Currently, I lead the frontend team at baby unicorn <a href='https://thedotscorp.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>Tictoccroc</a>, <br /> operating the hybrid app for <strong>Korea's largest care platform</strong> [Tictoccroc].",
       "paragraph5": "Implementing <strong>Skovald Village and Hogsback Village</strong> on the web where no one is excluded is my goal."
     },
@@ -76,14 +75,25 @@
   },
   "projects": {
     "title": "Projects",
+    "snapshotBridge": {
+      "title": "react-snapshot-bridge",
+      "period": "2026.04 - Present",
+      "description": "Offers a SnapshotBeforeUpdate component so you can use the class lifecycle getSnapshotBeforeUpdate from function components with minimal friction.",
+      "highlight": {
+        "title": "Snapshot lifecycle in function trees",
+        "lead": "Function components still have no official hook that corresponds to getSnapshotBeforeUpdate, one of the class component lifecycle methods. <br/>",
+        "lead2": "With React-snapshot-bridge, you can use the getSnapshotBeforeUpdate lifecycle naturally from function components."
+      },
+      "stack": ["React", "TypeScript", "Vitest"]
+    },
     "uturi": {
       "title": "@uturi, Multimodal Accessibility Library",
       "period": "2025.05 - Present",
-      "description": "Accessibility library @uturi named after <strong>Baby Hero Uturi</strong>.<br /> Actively maintaining the @uturi/sonification library",
+      "description": "A multimodality-focused library @uturi named after <strong>Baby Hero Uturi</strong>.<br /> It includes @uturi/sonification, which sonifies data for clearer perception.",
       "sonification": {
         "title": "@uturi/sonification",
         "description": "Can people with visual impairments understand charts and graphs <strong>at a glance</strong>?",
-        "description2": "@uturi/sonification helps non-visual users understand data changes as quickly as visual users by converting numerical changes into <strong>melody, rhythm, and volume</strong>.",
+        "description2": "@uturi/sonification supports non-visual users in understanding data changes as quickly as visual users by converting numerical changes into <strong>melody, rhythm, and volume</strong>.",
         "description3": "Over <strong>1k+ downloads</strong> on NPM, open source operation and continuous feature improvements in progress",
         "features": {
           "algorithm": "Support for various audio generation algorithms",
@@ -122,7 +132,7 @@
     "introduction": "I document experiences from development and research from perspectives of accessibility, HCI, and engineering.",
     "category": {
       "accessibility": {
-        "title": "Human-Centered Accessibility",
+        "title": "Accessibility",
         "description": "Exploring how software can be designed to be inclusive, interpretable, and humane."
       },
       "interaction": {
@@ -145,9 +155,9 @@
         "description": "One step beyond WCAG compliance: redesigning a design system based on actual user experience",
         "link": "Read more"
       },
-      "disabledButton": {
-        "title": "Disabled Button, Is It Really the Best?",
-        "description": "Re-examining conventional web accessibility standards from a cognitive and behavioral perspective",
+      "infinitescroll": {
+        "title": "Infinite Scroll Through an Accessibility Lens—and Alternatives",
+        "description": "Re-examining conventional UI implementations from cognitive and behavioral perspectives, with alternative approaches",
         "link": "Read more"
       },
       "momentumScroll": {
@@ -209,7 +219,7 @@
     },
     "awards": {
       "title": "Awards and Activities",
-      "perfectCarePatent": "Patent filed for [Perfect Care]",
+      "perfectCarePatent": "[Perfect Care] patent registered (KR)",
       "perfectCarePatent.collaboration": "Collaboration with YD Psychiatry",
       "perfectCarePatent.period": "2024.06",
       "deepmunhakdo": "Programming Club [Deepmunhakdo]",
@@ -240,7 +250,9 @@
     "appStore": "App Store",
     "googlePlay": "Google Play Store",
     "github": "GitHub",
+    "docs": "Docs",
     "live": "Live",
+    "liveDemo": "Live demo",
     "notes": "Notes",
     "blog": "Blog",
     "prototype": "1st Draft",
