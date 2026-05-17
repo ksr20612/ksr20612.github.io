@@ -151,6 +151,11 @@
         "description": "전통적인 시각 중심 UI를 넘어서: 청각 기반 정보 전달을 실험한 멀티모달 라이브러리 설계",
         "link": "더 읽기"
       },
+      "sonificationInterview": {
+        "title": "@uturi/sonification의 사용성 인터뷰",
+        "description": "BVI 사용자를 모시고 진행한 사용성 인터뷰 후기",
+        "link": "더 읽기"
+      },
       "designSystem": {
         "title": "디자인 시스템 접근성 개선기 (1) · (2)",
         "description": "WCAG 준수에서 한 걸음 더 나아가 실제 사용자 경험을 기준으로 디자인 시스템을 재설계",
@@ -181,9 +186,14 @@
         "description": "OS 레벨 인터랙션 변화가 사용자 경험에 미치는 영향을 분석한 UX 비평",
         "link": "더 읽기"
       },
-      "aux": {
-        "title": "AUX: 더 극단적이고 서늘한 UX",
-        "description": "AUX, UX For Agent 개념 제안 / MCP 서버 구축기",
+      "preload": {
+        "title": "데이터 기반의 프리로드 최적화 전략: 사용자 여정 분석을 통해 모바일 성능 개선하기",
+        "description": "Amplitude Journey 차트 분석을 통한 프리로드 최적화 전략",
+        "link": "더 읽기"
+      },
+      "mcp": {
+        "title": "MCP에서 해석을 제한하는 방법",
+        "description": "디자인 시스템 MCP 서버에서 리소스·도구 설계로 에이전트 해석 범위를 제한한 경험",
         "link": "더 읽기"
       }
     },

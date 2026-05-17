@@ -150,6 +150,11 @@
         "description": "Beyond traditional vision-centered UI: designing a multimodal library that experiments with auditory-based information delivery",
         "link": "Read more"
       },
+      "sonificationInterview": {
+        "title": "Usability Interview for @uturi/sonification",
+        "description": "A retrospective on usability interviews conducted with blind and visually impaired (BVI) users",
+        "link": "Read more"
+      },
       "designSystem": {
         "title": "Design System Accessibility Improvement (1) · (2)",
         "description": "One step beyond WCAG compliance: redesigning a design system based on actual user experience",
@@ -180,9 +185,14 @@
         "description": "A UX critique analyzing the impact of OS-level interaction changes on user experience",
         "link": "Read more"
       },
-      "aux": {
-        "title": "AUX: A Sharper, Chillier UX",
-        "description": "AUX (UX for Agents): proposing the idea and building an MCP server",
+      "preload": {
+        "title": "Data-Driven Preload Optimization: Improving Mobile Performance Through User Journey Analysis",
+        "description": "A preload optimization strategy informed by Amplitude Journey chart analysis",
+        "link": "Read more"
+      },
+      "mcp": {
+        "title": "How to Constrain Interpretation in MCP",
+        "description": "Limiting agent interpretation through Resource and Tool design in a design system MCP server",
         "link": "Read more"
       }
     },
