@@ -34,7 +34,7 @@
     "introduction": {
       "paragraph1": "I focus on designing interaction and accessibility as a system.",
       "paragraph3": "I am the sole developer of the <strong class='text-orange-500'>patent-pending</strong> <a href='https://yd-icbt.co.kr' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>digital therapeutic (Perfect Care)</a>,<br/> and serve as the <strong class='text-orange-500'>maintainer</strong> for work including the <a href='https://uturi.vercel.app/' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>multimodal library @uturi/sonification</a>.",
-      "paragraph4": "Currently, I lead the frontend team at baby unicorn <a href='https://thedotscorp.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>Tictoccroc</a>, <br /> operating the hybrid app for <strong>Korea's largest care platform</strong> [Tictoccroc].",
+      "paragraph4": "Currently, I lead the frontend team at baby unicorn <a href='https://thedotscorp.com' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-blue-600 underline'>Tictoccroc</a>, <br /> operating the <strong>Korea's largest care reservation/matching platform</strong> [Tictoccroc] hybrid app.",
       "paragraph5": "Implementing <strong>Skovald Village and Hogsback Village</strong> on the web where no one is excluded is my goal."
     },
     "stats": {
