@@ -231,6 +231,9 @@
     },
     "awards": {
       "title": "수상 및 활동",
+      "uxMentoring": "UX/UI 대학생 멘토링 및 수상",
+      "uxMentoring.organization": "건국대학교",
+      "uxMentoring.period": "2026.06 ~ 2026.09",
       "perfectCarePatent": "[퍼펙트케어] 특허 등록",
       "perfectCarePatent.collaboration": "YD정신건강의학과 협업",
       "perfectCarePatent.period": "2024.06",

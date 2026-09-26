@@ -230,6 +230,9 @@
     },
     "awards": {
       "title": "Awards and Activities",
+      "uxMentoring": "UX/UI mentoring for university students and an award",
+      "uxMentoring.organization": "Konkuk University",
+      "uxMentoring.period": "2026.06 ~ 2026.09",
       "perfectCarePatent": "[Perfect Care] patent registered (KR)",
       "perfectCarePatent.collaboration": "Collaboration with YD Psychiatry",
       "perfectCarePatent.period": "2024.06",
